@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/2.3.2/getting-started.html -->
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta charset="utf-8"/>
+    <title>opendnp3</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <!-- Le styles -->
+    <link href="./bootstrap/bootstrap.css" rel="stylesheet"/>
+    <link href="./bootstrap/bootstrap-responsive.css" rel="stylesheet"/>
+    <link href="./bootstrap/docs.css" rel="stylesheet"/>
+    <link href="./bootstrap/prettify.css" rel="stylesheet"/>    
+
+
+    <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style>
+    <style>
+      #adzerk_by {display:none}
+
+      /* horizdark */
+      .carbonad {background-color:#393939;border:2px solid #E8E8E8;height:118px;line-height:1.2;width:305px;}
+      .carbonad-img {border: none; display: inline; float: left; height: 100px; margin: 9px; width: 130px;}
+      .carbonad-text {color:#8A8A8A;display:inline-block;font-family:Verdana;font-size:11px;font-weight:normal;height:60px;margin-left:9px;width:142px;padding-top:13px;}
+      .carbonad-text a {color:#FFFFFF; text-decoration: none; font-weight: bold;}
+      .carbonad-tag {color:#6A6A6A;float:left;font-family:Verdana;font-size:11px;font-weight:normal;margin-left:10px;margin-top:13px;text-align: center;}
+      .carbonad-tag a {color: #6A6A6A;text-decoration: none;font-weight: bold;}
+    </style>
+
+    <style>
+
+      textarea {
+            width: 500px;
+      }
+
+      li {
+      margin: 10px;
+      }
+
+      .mybutton {
+      min-width: 100px;
+      }
+
+        blockquote {          
+          border-left: 10px solid #ccc;
+          margin: 1.5em 10px;
+          padding: 0.5em 20px;                              
+          min-height: 150px;          
+        }       
+    </style>
+
+  </head>
+
+  <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">
+
+    <!-- Navbar
+    ================================================== -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li>
+                <a href="http://www.automatak.com">
+                  <img src="images/automatak_letter_logo_white.png"/>
+                </a>
+              </li>
+              <li>
+                <a href="http://www.github.com/automatak/dnp3">
+                  <i class="icon-white icon-folder-open"></i> Repository
+                </a>
+              </li>
+              <li>
+                <a href="http://groups.google.com/group/automatak-dnp3">
+                  <i class="icon-white icon-user"></i> Mailing List
+                </a>
+              </li>
+              <li>
+                  <a href="#documentation">
+                      <i class="icon-white icon-book"></i>Documentation
+                  </a>
+              </li>
+              <li>
+                <a href="#support">
+                  <i class="icon-white icon-tag"></i> Support
+                </a>
+              </li>
+              <li>
+                <a href="https://scan.coverity.com/projects/1039">
+                  <img alt="Coverity Scan Build Status"
+                       src="https://scan.coverity.com/projects/1039/badge.svg"/>
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Subhead
+================================================== -->
+    <header class="jumbotron subhead" id="overview">
+      <div class="container">
+        <img src="./images/opendnp3.png"/>
+      </div>
+
+    </header>
+
+
+    <div class="container">
+
+      <!-- Docs nav
+    ================================================== -->
+      <div class="row-fluid">
+
+          <div class="span9">
+              <!-- Welcome
+        ================================================== -->
+              <section id="welcome">
+                  <div class="page-header">
+                      <h1>
+                          Welcome
+                      </h1>
+                  </div>
+                  <div class="row-fluid">
+                      <div class="span6">
+                          <p class="lead">
+                              Opendnp3 is the de facto reference implementation of IEEE-1815 (DNP3) provided under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License</a>.
+                          </p>
+                      </div>
+                      <div class="span6">
+                          <a href="#decoder" class="btn btn-danger"><i class="icon-white icon-align-left"></i> New: DNP3 Decoder!</a>
+                      </div>
+                  </div>
+              </section>
+              <!-- Endorsements
+        ================================================== -->
+              <section id="endorsements">
+                  <div class="row-fluid">
+                      <div class="span9">
+                          <blockquote>
+                              <p class="lead blockquote" id="user-quote"></p>
+                              <a href="#" class="btn btn-primary" onclick="swapQuote()"><i class="icon-white icon-user"></i> Next Story </a>
+                          </blockquote>
+
+                      </div>
+                  </div>
+              </section>
+              <!-- Features
+        ================================================== -->
+              <section id="features">
+                  <div class="page-header">
+                      <h1>Features</h1>
+                  </div>
+                  <div class="row-fluid">
+                      <ul class="lead">
+                          <li>Apache licensed (no cost)</li>
+                          <li>Conformance tested using most recent test revisions</li>
+                          <li>
+                              Optimized to run on resource constrained embedded systems
+                          </li>
+                          <li>
+                              Non-blocking, event-driven architecture that scales to OS limits
+                          </li>
+                          <li>Multi-core support for large frontends and device simulations</li>
+                          <li>Simple, consistent programming model that lowers time to market</li>
+                      </ul>
+                  </div>
+              </section>
+              <section id="quality">
+                  <div class="page-header">
+                      <h1>Quality</h1>
+                  </div>
+                  <div class="row-fluid">
+                      <ul class="lead">
+                          <li>Proven solution with many production deployments</li>
+                          <li>Unit test coverage in excess of 90%</li>
+                          <li>
+                              Industry leading <a href="http://www.automatak.com/robus">security and robustness</a>
+                          </li>
+                          <li>Type-safe API that is both safe and easy to use</li>
+                      </ul>
+                  </div>
+              </section>
+
+              <section id="documentation">
+                  <div class="page-header">
+                      <h1>Documentation</h1>
+                  </div>
+                  <div class="row-fluid">
+                      <ul class="lead">
+                          <li><a href="./docs/guide/current">Guide</a> - Explains building and design (C++ and .NET)</li>
+                          <li><a href="./docs/cpp/current">C++</a> - Doxygen generated reference</li>
+                      </ul>
+                  </div>
+              </section>
+
+              <section id="decoder">
+                  <div class="page-header">
+                      <h1>Decoder</h1>
+                  </div>
+                  <div class="row-fluid">
+                      <div class="span9">
+                          <form method="post" target="_blank" action="https://www.automatak.com/cgi-bin/cgi-decoder">
+                              <textarea name="hex" cols="100" rows="4">
+05 64 14 F3 01 00 00 04 0A 3B
+C0 C3 01 3C 02 06 3C 03 06 3C 04 06 3C 01 06 9A 12
+                              </textarea>
+                              <p>                                  
+                              <p><input type="radio" name="mode" value="link" checked />  Input is a LPDU</p>
+                              <p><input type="radio" name="mode" value="transport" /> Input is a TPDU</p>
+                              <p><input type="radio" name="mode" value="app" /> Input is an ASDU</p>
+                              </p>
+                              <p>
+                                  <input class="btn btn-danger" type="submit" value="Decode" />
+                              </p>
+                          </form>
+                      </div>
+                  </div>
+              </section>
+
+                      <section id="support">
+                          <div class="page-header">
+                              <h1>Commercial Support</h1>
+                          </div>
+                          <div class="row-fluid">
+                              <p class="lead">
+                                  Need help? <a href="http://www.automatak.com">Automatak</a> can provide commercial support.
+                              </p>
+                              <ul class="lead">
+                                  <li>Hourly-based support</li>
+                                  <li>Contract software engineering services to integrate opendnp3 into your products</li>
+                                  <li>On-site dnp3 consultation and training</li>
+                                  <li>Security and conformance testing on opendnp3 or 3rd party products</li>
+                              </ul>
+                          </div>
+                      </section>
+
+                  </div>
+          </div>
+
+    </div>
+
+
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-38232316-7', 'automatak.com');
+      ga('send', 'pageview');
+
+    </script>
+
+    <script>
+
+        var i = -1;
+
+        var arr = [
+            'We have recently started using opendnp3 to replace the previous library that we used in our DNP3 master driver. We are very impressed with the functionality, usability and performance of the library.',
+            'I\'d really like to use opendnp3 instead if possible, not only because it doesn\'t cost $15k each for the master/outstation components, but because it\'s so much nicer to use!',
+            'I\'m quite impressed with how robust this library is in dealing with such a horribly implemented device. It looks like I\'m going to have to have a long talk with the people that manufacture the box.',
+            'From our initial prototypes our impressions are very positive; the code is well structured, easy to read and the system looks like it will scale much better.',
+            'We have found the Automatak C++ opendnp3 implementation invaluable in our DNP3 master and outstation simulations focused on cybersecurity. A single easy-to-use client can simulate either master or outstation and multiple peers can use the same compiled program to support end-to-end testing.',
+        ];
+
+        function swapQuote(quote) {
+            ++i;
+            if (i >= arr.length) {
+                i = 0;
+            }
+            document.getElementById('user-quote').innerHTML = arr[i];
+        };
+       
+        swapQuote(arr[0]);
+             
+    </script>
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <p>Copyright 2013 - 2019, Automatak LLC</p>
+      </div>
+    </footer>
+
+
+    <!-- Analytics
+    ================================================== -->
+
+
+
+  </body>
+</html>
