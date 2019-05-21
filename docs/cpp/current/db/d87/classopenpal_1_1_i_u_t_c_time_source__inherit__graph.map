@@ -1,0 +1,6 @@
+<map id="openpal::IUTCTimeSource" name="openpal::IUTCTimeSource">
+<area shape="rect" id="node2" href="$d5/dd1/classasiopal_1_1_u_t_c_time_source.html" title="Interface that defines a method to get UTC timestamps. " alt="" coords="5,167,175,274"/>
+<area shape="rect" id="node3" href="$d5/d64/classopendnp3_1_1_i_master_application.html" title="Interface for all master application callback info except for measurement values. ..." alt="" coords="199,131,421,311"/>
+<area shape="rect" id="node5" href="$de/d16/classopenpal_1_1_fixed_u_t_c_time_source.html" title="Mock usable for testing. " alt="" coords="445,175,650,267"/>
+<area shape="rect" id="node4" href="$d0/d2c/classasiodnp3_1_1_default_master_application.html" title="{asiodnp3::DefaultMasterApplication\n||+ DefaultMasterApplication()\l+ AssignClassDuringStartup()\l+ ConfigureAssignClassRequest()\l+ Now()\l+ OnReceiveIIN()\l+ OnStateChange()\l+ OnTaskComplete()\l+ OnTaskStart()\l+ Create()\l}" alt="" coords="196,359,424,553"/>
+</map>

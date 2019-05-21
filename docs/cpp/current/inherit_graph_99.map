@@ -1,0 +1,10 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$d9/d73/classopendnp3_1_1_i_link_listener.html" title="Various optional callbacks that can be received for the link layer. " alt="" coords="14,43,174,70"/>
+<area shape="rect" id="node2" href="$d5/d64/classopendnp3_1_1_i_master_application.html" title="Interface for all master application callback info except for measurement values. ..." alt="" coords="241,70,435,97"/>
+<area shape="rect" id="node4" href="$d8/d3c/classopendnp3_1_1_i_outstation_application.html" title="Interface for all outstation application callback info except for control requests. " alt="" coords="231,15,445,42"/>
+<area shape="rect" id="node3" href="$d0/d2c/classasiodnp3_1_1_default_master_application.html" title="asiodnp3::DefaultMasterApplication" alt="" coords="493,71,721,98"/>
+<area shape="rect" id="node5" href="$d1/dea/classopendnp3_1_1_default_outstation_application.html" title="A singleton with default setting useful for examples. " alt="" coords="513,5,701,47"/>
+<area shape="rect" id="node6" href="$d4/d6b/classopenpal_1_1_i_u_t_c_time_source.html" title="Interface that defines a method to get UTC timestamps. " alt="" coords="5,121,183,147"/>
+<area shape="rect" id="node7" href="$d5/dd1/classasiopal_1_1_u_t_c_time_source.html" title="Interface that defines a method to get UTC timestamps. " alt="" coords="253,121,423,147"/>
+<area shape="rect" id="node8" href="$de/d16/classopenpal_1_1_fixed_u_t_c_time_source.html" title="Mock usable for testing. " alt="" coords="235,171,441,198"/>
+</map>

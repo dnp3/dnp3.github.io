@@ -1,0 +1,33 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$dc/d83/classasiodnp3_1_1_i_channel_listener.html" title="Callback interface for receiving information about a running channel. " alt="" coords="267,13,447,39"/>
+<area shape="rect" id="node2" href="$dd/dcb/classasiodnp3_1_1_printing_channel_listener.html" title="Callback interface for receiving information about a running channel. " alt="" coords="505,5,679,47"/>
+<area shape="rect" id="node3" href="$d5/dae/classasiopal_1_1_i_open_delay_strategy.html" title="A strategy interface for controlling how connection are retried. " alt="" coords="263,78,452,105"/>
+<area shape="rect" id="node4" href="$da/dbd/classasiopal_1_1_exponential_backoff_strategy.html" title="Implements IOpenDelayStrategy using exponential&#45;backoff. " alt="" coords="500,71,684,112"/>
+<area shape="rect" id="node5" href="$d9/d7e/structasiopal_1_1_i_resource.html" title="Anything that can be shutdown. " alt="" coords="45,643,175,670"/>
+<area shape="rect" id="node6" href="$dd/d06/classasiodnp3_1_1_i_channel.html" title="Represents a communication channel upon which masters and outstations can be bound. " alt="" coords="290,694,425,721"/>
+<area shape="rect" id="node7" href="$d1/d61/classasiodnp3_1_1_i_stack.html" title="Base class for masters or outstations. " alt="" coords="297,643,417,670"/>
+<area shape="rect" id="node10" href="$d2/d1d/classasiopal_1_1_i_listener.html" title="Represents a running TCP or TLS listener that can be shutdown so that no new connections are accepted..." alt="" coords="297,542,418,569"/>
+<area shape="rect" id="node8" href="$d8/d64/classasiodnp3_1_1_i_master.html" title="Interface that represents a running master session. " alt="" coords="529,694,655,721"/>
+<area shape="rect" id="node9" href="$d5/df9/classasiodnp3_1_1_i_outstation.html" title="Interface representing a running outstation. " alt="" coords="519,643,665,670"/>
+<area shape="rect" id="node11" href="$d6/db6/classasiopal_1_1_t_c_p_server.html" title="Binds and listens on an IPv4 TCP port. " alt="" coords="524,542,660,569"/>
+<area shape="rect" id="node12" href="$dd/d97/classasiodnp3_1_1_master_t_c_p_server.html" title="Binds and listens on an IPv4 TCP port. " alt="" coords="732,542,919,569"/>
+<area shape="rect" id="node13" href="$d8/dc1/classopendnp3_1_1_i_command_processor.html" title="Interface used to dispatch SELECT / OPERATE / DIRECT OPERATE from application code to a master..." alt="" coords="5,745,215,771"/>
+<area shape="rect" id="node14" href="$d7/d0c/classasiodnp3_1_1_i_master_operations.html" title="All the operations that the user can perform on a running master. " alt="" coords="263,745,452,771"/>
+<area shape="rect" id="node15" href="$df/dbd/classasiodnp3_1_1_i_master_session.html" title="Interface that represents an emphemeral master session. " alt="" coords="505,745,679,771"/>
+<area shape="rect" id="node16" href="$db/d2c/classopenpal_1_1_i_log_handler.html" title="Callback interface for log messages. " alt="" coords="285,339,430,366"/>
+<area shape="rect" id="node17" href="$d1/d7b/classasiodnp3_1_1_console_logger.html" title="LogHandler that prints all log messages to the console. " alt="" coords="507,339,677,366"/>
+<area shape="rect" id="node18" href="$db/d32/classopenpal_1_1_i_monotonic_time_source.html" title="openpal::IMonotonicTimeSource" alt="" coords="5,491,215,518"/>
+<area shape="rect" id="node19" href="$d2/d38/classopenpal_1_1_i_executor.html" title="Interface for posting events to a queue. " alt="" coords="292,491,423,518"/>
+<area shape="rect" id="node20" href="$d1/d1c/classasiopal_1_1_executor.html" title="Implementation of openpal::IExecutor backed by asio::strand. " alt="" coords="531,491,653,518"/>
+<area shape="rect" id="node21" href="$d1/df0/classopenpal_1_1_i_timer.html" title="Timer are used to defer events for a later time on an executor. " alt="" coords="301,593,413,619"/>
+<area shape="rect" id="node22" href="$d0/da2/classasiopal_1_1_timer.html" title="Implementation of openpal::ITimer backed by asio::basic_waitable_timer&lt;steady_clock&gt; ..." alt="" coords="540,593,644,619"/>
+<area shape="rect" id="node23" href="$df/df1/classopenpal_1_1_uncopyable.html" title="Inherited classes will not have default copy/assignment. " alt="" coords="285,289,429,315"/>
+<area shape="rect" id="node24" href="$db/dd7/classasiodnp3_1_1_x509_info.html" title="Select information from a preverified x509 certificate that user can can inspect an optionally reject..." alt="" coords="525,289,659,315"/>
+<area shape="rect" id="node25" href="$d8/d16/classasiopal_1_1_i_async_channel.html" title="asiopal::IAsyncChannel" alt="" coords="512,441,672,467"/>
+<area shape="rect" id="node28" href="$d4/d6a/classasiopal_1_1_t_c_p_client.html" title="asiopal::TCPClient" alt="" coords="526,390,658,417"/>
+<area shape="rect" id="node29" href="$d3/d9a/classopendnp3_1_1_transaction.html" title="Uses RAII to safely perform a transaction. " alt="" coords="515,137,669,163"/>
+<area shape="rect" id="node30" href="$d6/dfa/classopenpal_1_1_log_entry.html" title="An event recorded by the logging framework. " alt="" coords="529,187,655,214"/>
+<area shape="rect" id="node31" href="$d5/dfe/classopenpal_1_1_timer_ref.html" title="A management class to make dealing with timer pointers safer a little safer. " alt="" coords="527,238,657,265"/>
+<area shape="rect" id="node26" href="$df/d99/classasiopal_1_1_serial_channel.html" title="asiopal::SerialChannel" alt="" coords="749,466,901,493"/>
+<area shape="rect" id="node27" href="$db/dba/classasiopal_1_1_socket_channel.html" title="asiopal::SocketChannel" alt="" coords="745,415,905,442"/>
+</map>

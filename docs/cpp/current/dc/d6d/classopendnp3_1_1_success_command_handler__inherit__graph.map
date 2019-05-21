@@ -1,0 +1,5 @@
+<map id="opendnp3::SuccessCommandHandler" name="opendnp3::SuccessCommandHandler">
+<area shape="rect" id="node2" href="$da/d39/classopendnp3_1_1_simple_command_handler.html" title="Mock ICommandHandler used for examples and demos. " alt="" coords="5,432,236,891"/>
+<area shape="rect" id="node3" href="$d7/d3e/classopendnp3_1_1_i_command_handler.html" title="Interface used to dispatch SELECT / OPERATE / DIRECT OPERATE (Binary/Analog output) from the outstati..." alt="" coords="23,160,218,384"/>
+<area shape="rect" id="node4" href="$d0/d64/classopendnp3_1_1_i_transactable.html" title="Something that can be performed atomically or needing Start()/End() signals. " alt="" coords="38,5,203,112"/>
+</map>

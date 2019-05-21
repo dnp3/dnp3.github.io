@@ -1,0 +1,4 @@
+<map id="opendnp3::ICommandTaskResult" name="opendnp3::ICommandTaskResult">
+<area shape="rect" id="node2" href="$d3/dc3/classopendnp3_1_1_i_collection.html" title="{opendnp3::ICollection\l\&lt; CommandPointResult \&gt;\n||+ Count()\l+ Foreach()\l+ ForeachItem()\l+ ReadOnlyValue()\l}" alt="" coords="27,189,201,325"/>
+<area shape="rect" id="node3" href="$d3/dc3/classopendnp3_1_1_i_collection.html" title="An interface representing an abstract immutable collection of things of type T. " alt="" coords="24,5,204,127"/>
+</map>

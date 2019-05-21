@@ -1,0 +1,7 @@
+<map id="asiopal::TCPClient::Create" name="asiopal::TCPClient::Create">
+<area shape="rect" id="node2" href="$d4/d6a/classasiopal_1_1_t_c_p_client_a2c06c9e7d47da28bb5c67b8043cdafed.html#a2c06c9e7d47da28bb5c67b8043cdafed" title="asiopal::TCPClient\l::BeginConnect" alt="" coords="198,5,330,47"/>
+<area shape="rect" id="node3" href="$d4/d6a/classasiopal_1_1_t_c_p_client_a0348687e12169cf4682df3c2c9cf9d94.html#a0348687e12169cf4682df3c2c9cf9d94" title="asiopal::TCPClient\l::Cancel" alt="" coords="198,71,330,112"/>
+<area shape="rect" id="node4" href="$d4/d6a/classasiopal_1_1_t_c_p_client_ad1beae2c6df1e51ddf6a09596e47b859.html#ad1beae2c6df1e51ddf6a09596e47b859" title="asiopal::TCPClient\l::HandleResolveResult" alt="" coords="185,136,343,177"/>
+<area shape="rect" id="node5" href="$d4/d6a/classasiopal_1_1_t_c_p_client_ac7bda20d4a0a1e7fbf2e6ba4b3599d42.html#ac7bda20d4a0a1e7fbf2e6ba4b3599d42" title="asiopal::TCPClient\l::PostConnectError" alt="" coords="197,201,331,243"/>
+<area shape="rect" id="node6" href="$d4/d6a/classasiopal_1_1_t_c_p_client_a69822a8f8ecda92f7044071239117854.html#a69822a8f8ecda92f7044071239117854" title="asiopal::TCPClient\l::TCPClient" alt="" coords="198,267,330,308"/>
+</map>

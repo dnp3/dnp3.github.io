@@ -1,0 +1,10 @@
+<map id="cpp/libs/include/opendnp3/app/Flags.h" name="cpp/libs/include/opendnp3/app/Flags.h">
+<area shape="rect" id="node2" href="$df/da6/_quality_masks_8h.html" title="opendnp3/app/QualityMasks.h" alt="" coords="679,95,877,121"/>
+<area shape="rect" id="node3" href="$dc/d7e/_binary_quality_8h.html" title="opendnp3/gen/BinaryQuality.h" alt="" coords="5,177,201,203"/>
+<area shape="rect" id="node5" href="$da/dd9/_double_bit_binary_quality_8h.html" title="opendnp3/gen/DoubleBitBinary\lQuality.h" alt="" coords="225,169,427,211"/>
+<area shape="rect" id="node6" href="$d3/da9/_counter_quality_8h.html" title="opendnp3/gen/CounterQuality.h" alt="" coords="451,177,657,203"/>
+<area shape="rect" id="node7" href="$d2/df4/_frozen_counter_quality_8h.html" title="opendnp3/gen/FrozenCounter\lQuality.h" alt="" coords="681,169,875,211"/>
+<area shape="rect" id="node8" href="$d4/d90/_analog_quality_8h.html" title="opendnp3/gen/AnalogQuality.h" alt="" coords="899,177,1097,203"/>
+<area shape="rect" id="node9" href="$d5/d43/_analog_output_status_quality_8h.html" title="opendnp3/gen/AnalogOutput\lStatusQuality.h" alt="" coords="1122,169,1309,211"/>
+<area shape="rect" id="node10" href="$dd/dbd/_binary_output_status_quality_8h.html" title="opendnp3/gen/BinaryOutput\lStatusQuality.h" alt="" coords="1333,169,1516,211"/>
+</map>

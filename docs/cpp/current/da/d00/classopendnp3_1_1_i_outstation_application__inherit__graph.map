@@ -1,0 +1,4 @@
+<map id="opendnp3::IOutstationApplication" name="opendnp3::IOutstationApplication">
+<area shape="rect" id="node3" href="$d1/dea/classopendnp3_1_1_default_outstation_application.html" title="A singleton with default setting useful for examples. " alt="" coords="11,461,219,568"/>
+<area shape="rect" id="node2" href="$d9/d73/classopendnp3_1_1_i_link_listener.html" title="Various optional callbacks that can be received for the link layer. " alt="" coords="31,5,200,127"/>
+</map>

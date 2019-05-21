@@ -1,0 +1,8 @@
+<map id="asiodnp3::IListenCallbacks::~IListenCallbacks" name="asiodnp3::IListenCallbacks::~IListenCallbacks">
+<area shape="rect" id="node2" href="$d8/dca/classasiodnp3_1_1_i_listen_callbacks_aa3d6cf95ade9e174368799f1d1b8e2b2.html#aa3d6cf95ade9e174368799f1d1b8e2b2" title="Ask user code if the following preverified certificate should be accepted. " alt="" coords="232,5,411,47"/>
+<area shape="rect" id="node3" href="$d8/dca/classasiodnp3_1_1_i_listen_callbacks_af5a38475d152fb73164b769f2b05374b.html#af5a38475d152fb73164b769f2b05374b" title="Ask user code if the following connection should be accepted. " alt="" coords="232,71,411,112"/>
+<area shape="rect" id="node4" href="$d8/dca/classasiodnp3_1_1_i_listen_callbacks_a86d6387ad7cf182f11b39e464338a0d4.html#a86d6387ad7cf182f11b39e464338a0d4" title="return the amount of time the session should wait for the first frame " alt="" coords="232,136,411,177"/>
+<area shape="rect" id="node5" href="$d8/dca/classasiodnp3_1_1_i_listen_callbacks_a230dd8b4760ed62b3c7d427451d00dc7.html#a230dd8b4760ed62b3c7d427451d00dc7" title="Called when a certificate fails verification. " alt="" coords="232,201,411,243"/>
+<area shape="rect" id="node6" href="$d8/dca/classasiodnp3_1_1_i_listen_callbacks_aa31a12a26c746a0bfc24a75621f07474.html#aa31a12a26c746a0bfc24a75621f07474" title="Called when a socket closes. " alt="" coords="232,267,411,308"/>
+<area shape="rect" id="node7" href="$d8/dca/classasiodnp3_1_1_i_listen_callbacks_a7dd3733eb5204296c683d1549e405ba3.html#a7dd3733eb5204296c683d1549e405ba3" title="Called when the first link&#45;layer frame is received for a session. " alt="" coords="232,332,411,373"/>
+</map>

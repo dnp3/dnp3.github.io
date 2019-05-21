@@ -1,0 +1,5 @@
+<map id="opendnp3::IMasterApplication" name="opendnp3::IMasterApplication">
+<area shape="rect" id="node4" href="$d0/d2c/classasiodnp3_1_1_default_master_application.html" title="{asiodnp3::DefaultMasterApplication\n||+ DefaultMasterApplication()\l+ AssignClassDuringStartup()\l+ ConfigureAssignClassRequest()\l+ Now()\l+ OnReceiveIIN()\l+ OnStateChange()\l+ OnTaskComplete()\l+ OnTaskStart()\l+ Create()\l}" alt="" coords="75,403,303,597"/>
+<area shape="rect" id="node2" href="$d9/d73/classopendnp3_1_1_i_link_listener.html" title="Various optional callbacks that can be received for the link layer. " alt="" coords="5,5,175,127"/>
+<area shape="rect" id="node3" href="$d4/d6b/classopenpal_1_1_i_u_t_c_time_source.html" title="Interface that defines a method to get UTC timestamps. " alt="" coords="199,27,376,105"/>
+</map>

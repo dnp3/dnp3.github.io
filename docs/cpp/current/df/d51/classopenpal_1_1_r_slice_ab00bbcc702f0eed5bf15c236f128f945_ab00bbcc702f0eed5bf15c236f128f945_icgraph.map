@@ -1,0 +1,7 @@
+<map id="openpal::RSlice::Advance" name="openpal::RSlice::Advance">
+<area shape="rect" id="node2" href="$d0/dd1/classopenpal_1_1_ring_buffer_ae9b325faeee050bd6dc2659f2b16cc11.html#ae9b325faeee050bd6dc2659f2b16cc11" title="openpal::RingBuffer\l::PutMany" alt="" coords="255,5,393,47"/>
+<area shape="rect" id="node3" href="$df/d62/classopenpal_1_1_u_int8_simple_a95faf8febcb1ad5e3bb5b56d0a472a14.html#a95faf8febcb1ad5e3bb5b56d0a472a14" title="openpal::UInt8Simple\l::ReadBuffer" alt="" coords="251,71,397,112"/>
+<area shape="rect" id="node4" href="$d3/d0f/classopenpal_1_1_u_int48_l_e_a4fc49c3f51253dbd672b565d5e642ab9.html#a4fc49c3f51253dbd672b565d5e642ab9" title="openpal::UInt48LE::\lReadBuffer" alt="" coords="255,136,393,177"/>
+<area shape="rect" id="node5" href="$d5/d32/classopenpal_1_1_bit16_l_e_afca9d912771eea51fbfae6eb9b691dcf.html#afca9d912771eea51fbfae6eb9b691dcf" title="openpal::Bit16LE::ReadBuffer" alt="" coords="227,202,421,229"/>
+<area shape="rect" id="node6" href="$dc/d5e/classopenpal_1_1_bit32_l_e_ae8d3d80e67fa1730b9c45acfd809a7a8.html#ae8d3d80e67fa1730b9c45acfd809a7a8" title="openpal::Bit32LE::ReadBuffer" alt="" coords="227,253,421,279"/>
+</map>

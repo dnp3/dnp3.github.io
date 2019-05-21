@@ -1,0 +1,4 @@
+<map id="asiopal::IOpenDelayStrategy::GetNextDelay" name="asiopal::IOpenDelayStrategy::GetNextDelay">
+<area shape="rect" id="node2" href="$d8/d50/classasiopal_1_1_channel_retry_af1cd7a4fe3d89612b7602416f54e3203.html#af1cd7a4fe3d89612b7602416f54e3203" title="asiopal::ChannelRetry\l::NextDelay" alt="" coords="262,5,413,47"/>
+<area shape="rect" id="node3" href="$d5/dae/classasiopal_1_1_i_open_delay_strategy_a76883cd7af764adccb7aed22b2203710.html#a76883cd7af764adccb7aed22b2203710" title="asiopal::IOpenDelayStrategy\l::~IOpenDelayStrategy" alt="" coords="243,71,432,112"/>
+</map>

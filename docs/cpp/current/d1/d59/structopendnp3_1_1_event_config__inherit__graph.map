@@ -1,0 +1,23 @@
+<map id="opendnp3::EventConfig&lt; Info &gt;" name="opendnp3::EventConfig&lt; Info &gt;">
+<area shape="rect" id="node4" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; Info \&gt;\n|+ deadband\l|}" alt="" coords="555,450,737,542"/>
+<area shape="rect" id="node13" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; BinaryInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="7,443,165,549"/>
+<area shape="rect" id="node15" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; FrozenCounterInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="189,443,348,549"/>
+<area shape="rect" id="node16" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; CounterInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="372,443,531,549"/>
+<area shape="rect" id="node17" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; AnalogInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="971,443,1129,549"/>
+<area shape="rect" id="node18" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; DoubleBitBinaryInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="1154,443,1317,549"/>
+<area shape="rect" id="node20" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; AnalogOutputStatusInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="761,443,947,549"/>
+<area shape="rect" id="node21" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; BinaryOutputStatusInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="1345,443,1528,549"/>
+<area shape="rect" id="node2" href="$dc/de4/structopendnp3_1_1_static_config.html" title="{opendnp3::StaticConfig\l\&lt; Info \&gt;\n|+ svariation\l|}" alt="" coords="607,132,765,224"/>
+<area shape="rect" id="node3" href="$df/d65/structopendnp3_1_1_index_config.html" title="{opendnp3::IndexConfig\n|+ vIndex\l|}" alt="" coords="608,5,764,83"/>
+<area shape="rect" id="node5" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; FrozenCounterInfo \&gt;\n|+ deadband\l|}" alt="" coords="204,612,387,704"/>
+<area shape="rect" id="node7" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; CounterInfo \&gt;\n|+ deadband\l|}" alt="" coords="429,612,612,704"/>
+<area shape="rect" id="node9" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; AnalogInfo \&gt;\n|+ deadband\l|}" alt="" coords="913,612,1096,704"/>
+<area shape="rect" id="node11" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; AnalogOutputStatusInfo \&gt;\n|+ deadband\l|}" alt="" coords="659,612,844,704"/>
+<area shape="rect" id="node6" href="$d8/d57/classopendnp3_1_1_frozen_counter_config.html" title="{opendnp3::FrozenCounterConfig\n||}" alt="" coords="190,753,401,831"/>
+<area shape="rect" id="node8" href="$da/da4/classopendnp3_1_1_counter_config.html" title="{opendnp3::CounterConfig\n||}" alt="" coords="435,753,606,831"/>
+<area shape="rect" id="node10" href="$d5/d1e/classopendnp3_1_1_analog_config.html" title="{opendnp3::AnalogConfig\n||}" alt="" coords="923,753,1087,831"/>
+<area shape="rect" id="node12" href="$da/da3/classopendnp3_1_1_a_o_status_config.html" title="{opendnp3::AOStatusConfig\n||}" alt="" coords="661,753,842,831"/>
+<area shape="rect" id="node14" href="$d2/d2f/classopendnp3_1_1_binary_config.html" title="{opendnp3::BinaryConfig\n||}" alt="" coords="5,619,167,697"/>
+<area shape="rect" id="node19" href="$d4/d8d/classopendnp3_1_1_double_bit_binary_config.html" title="{opendnp3::DoubleBitBinary\lConfig\n||}" alt="" coords="1143,612,1323,704"/>
+<area shape="rect" id="node22" href="$db/d10/classopendnp3_1_1_b_o_status_config.html" title="{opendnp3::BOStatusConfig\n||}" alt="" coords="1347,619,1529,697"/>
+</map>

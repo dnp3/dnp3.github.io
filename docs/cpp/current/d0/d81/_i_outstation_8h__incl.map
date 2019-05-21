@@ -1,0 +1,25 @@
+<map id="cpp/libs/include/asiodnp3/IOutstation.h" name="cpp/libs/include/asiodnp3/IOutstation.h">
+<area shape="rect" id="node2" href="$de/d13/_i_stack_8h.html" title="asiodnp3/IStack.h" alt="" coords="1324,95,1451,121"/>
+<area shape="rect" id="node7" href="$d7/dda/_updates_8h.html" title="asiodnp3/Updates.h" alt="" coords="1563,95,1702,121"/>
+<area shape="rect" id="node28" href="$d5/da7/_log_filters_8h.html" title="openpal/logging/LogFilters.h" alt="" coords="1873,95,2057,121"/>
+<area shape="rect" id="node3" href="$d5/d5b/_stack_statistics_8h.html" title="opendnp3/StackStatistics.h" alt="" coords="5,437,188,464"/>
+<area shape="rect" id="node5" href="$df/d65/_i_resource_manager_8h.html" title="asiopal/IResourceManager.h" alt="" coords="1293,177,1481,203"/>
+<area shape="rect" id="node10" href="$d8/d3b/_i_update_handler_8h.html" title="opendnp3/outstation\l/IUpdateHandler.h" alt="" coords="1743,169,1882,211"/>
+<area shape="rect" id="node11" href="$dd/d61/_measurement_types_8h.html" title="opendnp3/app/Measurement\lTypes.h" alt="" coords="1514,259,1701,300"/>
+<area shape="rect" id="node26" href="$d1/ded/_event_mode_8h.html" title="opendnp3/gen/EventMode.h" alt="" coords="1794,355,1978,382"/>
+<area shape="rect" id="node27" href="$d9/d76/_flags_type_8h.html" title="opendnp3/gen/FlagsType.h" alt="" coords="1850,266,2029,293"/>
+<area shape="rect" id="node12" href="$d2/dc3/_base_measurement_types_8h.html" title="opendnp3/app/BaseMeasurement\lTypes.h" alt="" coords="770,348,986,389"/>
+<area shape="rect" id="node24" href="$d5/d88/_double_bit_8h.html" title="opendnp3/gen/DoubleBit.h" alt="" coords="1577,519,1752,546"/>
+<area shape="rect" id="node25" href="$d9/d3d/_interval_units_8h.html" title="opendnp3/gen/IntervalUnits.h" alt="" coords="1578,355,1770,382"/>
+<area shape="rect" id="node13" href="$dd/de2/_d_n_p_time_8h.html" title="opendnp3/app/DNPTime.h" alt="" coords="559,437,735,464"/>
+<area shape="rect" id="node15" href="$dd/ded/_flags_8h.html" title="opendnp3/app/Flags.h" alt="" coords="897,437,1048,464"/>
+<area shape="rect" id="node14" href="$d9/d2d/_u_int48_type_8h.html" title="openpal/serialization\l/UInt48Type.h" alt="" coords="441,512,581,553"/>
+<area shape="rect" id="node16" href="$df/da6/_quality_masks_8h.html" title="opendnp3/app/QualityMasks.h" alt="" coords="876,519,1075,546"/>
+<area shape="rect" id="node17" href="$dc/d7e/_binary_quality_8h.html" title="opendnp3/gen/BinaryQuality.h" alt="" coords="315,609,511,635"/>
+<area shape="rect" id="node18" href="$da/dd9/_double_bit_binary_quality_8h.html" title="opendnp3/gen/DoubleBitBinary\lQuality.h" alt="" coords="535,601,736,643"/>
+<area shape="rect" id="node19" href="$d3/da9/_counter_quality_8h.html" title="opendnp3/gen/CounterQuality.h" alt="" coords="761,609,966,635"/>
+<area shape="rect" id="node20" href="$d2/df4/_frozen_counter_quality_8h.html" title="opendnp3/gen/FrozenCounter\lQuality.h" alt="" coords="991,601,1184,643"/>
+<area shape="rect" id="node21" href="$d4/d90/_analog_quality_8h.html" title="opendnp3/gen/AnalogQuality.h" alt="" coords="1208,609,1407,635"/>
+<area shape="rect" id="node22" href="$d5/d43/_analog_output_status_quality_8h.html" title="opendnp3/gen/AnalogOutput\lStatusQuality.h" alt="" coords="1431,601,1618,643"/>
+<area shape="rect" id="node23" href="$dd/dbd/_binary_output_status_quality_8h.html" title="opendnp3/gen/BinaryOutput\lStatusQuality.h" alt="" coords="1643,601,1825,643"/>
+</map>

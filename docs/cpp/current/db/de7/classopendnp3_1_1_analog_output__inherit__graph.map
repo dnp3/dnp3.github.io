@@ -1,0 +1,10 @@
+<map id="opendnp3::AnalogOutput&lt; T &gt;" name="opendnp3::AnalogOutput&lt; T &gt;">
+<area shape="rect" id="node2" href="$de/d0e/classopendnp3_1_1_analog_output.html" title="{opendnp3::AnalogOutput\l\&lt; int16_t \&gt;\n|+ status\l+ value\l|+ AnalogOutput()\l+ AnalogOutput()\l+ AnalogOutput()\l+ ValuesEqual()\l}" alt="" coords="43,204,208,355"/>
+<area shape="rect" id="node4" href="$de/d0e/classopendnp3_1_1_analog_output.html" title="{opendnp3::AnalogOutput\l\&lt; double \&gt;\n|+ status\l+ value\l|+ AnalogOutput()\l+ AnalogOutput()\l+ AnalogOutput()\l+ ValuesEqual()\l}" alt="" coords="265,204,431,355"/>
+<area shape="rect" id="node6" href="$de/d0e/classopendnp3_1_1_analog_output.html" title="{opendnp3::AnalogOutput\l\&lt; float \&gt;\n|+ status\l+ value\l|+ AnalogOutput()\l+ AnalogOutput()\l+ AnalogOutput()\l+ ValuesEqual()\l}" alt="" coords="467,204,632,355"/>
+<area shape="rect" id="node8" href="$de/d0e/classopendnp3_1_1_analog_output.html" title="{opendnp3::AnalogOutput\l\&lt; int32_t \&gt;\n|+ status\l+ value\l|+ AnalogOutput()\l+ AnalogOutput()\l+ AnalogOutput()\l+ ValuesEqual()\l}" alt="" coords="687,204,852,355"/>
+<area shape="rect" id="node3" href="$d0/d43/classopendnp3_1_1_analog_output_int16.html" title="16&#45;bit signed integer analog output. " alt="" coords="5,404,200,525"/>
+<area shape="rect" id="node5" href="$db/de6/classopendnp3_1_1_analog_output_double64.html" title="Double precision analog output. " alt="" coords="225,404,445,525"/>
+<area shape="rect" id="node7" href="$d2/d1b/classopendnp3_1_1_analog_output_float32.html" title="Single precision analog output. " alt="" coords="469,404,677,525"/>
+<area shape="rect" id="node9" href="$de/d53/classopendnp3_1_1_analog_output_int32.html" title="32&#45;bit signed integer analog output. " alt="" coords="701,404,896,525"/>
+</map>

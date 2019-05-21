@@ -1,0 +1,5 @@
+<map id="asiodnp3::IMasterOperations" name="asiodnp3::IMasterOperations">
+<area shape="rect" id="node3" href="$d8/d64/classasiodnp3_1_1_i_master.html" title="Interface that represents a running master session. " alt="" coords="5,491,132,568"/>
+<area shape="rect" id="node4" href="$df/dbd/classasiodnp3_1_1_i_master_session.html" title="Interface that represents an emphemeral master session. " alt="" coords="157,476,330,583"/>
+<area shape="rect" id="node2" href="$d8/dc1/classopendnp3_1_1_i_command_processor.html" title="Interface used to dispatch SELECT / OPERATE / DIRECT OPERATE from application code to a master..." alt="" coords="51,5,260,127"/>
+</map>

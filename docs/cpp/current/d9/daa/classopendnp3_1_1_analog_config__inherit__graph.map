@@ -1,0 +1,9 @@
+<map id="opendnp3::AnalogConfig" name="opendnp3::AnalogConfig">
+<area shape="rect" id="node2" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; AnalogInfo \&gt;\n|+ deadband\l|}" alt="" coords="52,625,235,717"/>
+<area shape="rect" id="node3" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; AnalogInfo \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="5,456,164,563"/>
+<area shape="rect" id="node4" href="$dc/de4/structopendnp3_1_1_static_config.html" title="{opendnp3::StaticConfig\l\&lt; AnalogInfo \&gt;\n|+ svariation\l|}" alt="" coords="5,294,164,386"/>
+<area shape="rect" id="node5" href="$df/d65/structopendnp3_1_1_index_config.html" title="{opendnp3::IndexConfig\n|+ vIndex\l|}" alt="" coords="44,5,200,83"/>
+<area shape="rect" id="node6" href="$dc/de4/structopendnp3_1_1_static_config.html" title="{opendnp3::StaticConfig\l\&lt; Info \&gt;\n|+ svariation\l|}" alt="" coords="123,132,281,224"/>
+<area shape="rect" id="node7" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="{opendnp3::EventConfig\l\&lt; Info \&gt;\n|+ clazz\l+ evariation\l|}" alt="" coords="188,287,347,393"/>
+<area shape="rect" id="node8" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="{opendnp3::DeadbandConfig\l\&lt; Info \&gt;\n|+ deadband\l|}" alt="" coords="188,463,371,555"/>
+</map>

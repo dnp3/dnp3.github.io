@@ -1,0 +1,12 @@
+<map id="cpp/libs/include/openpal/logging/ILogHandler.h" name="cpp/libs/include/openpal/logging/ILogHandler.h">
+<area shape="rect" id="node2" href="$d6/dec/_logger_8h.html" title="cpp/libs/include/openpal\l/logging/Logger.h" alt="" coords="191,95,353,136"/>
+<area shape="rect" id="node10" href="$d4/dec/_console_logger_8h.html" title="cpp/libs/include/asiodnp3\l/ConsoleLogger.h" alt="" coords="377,95,545,136"/>
+<area shape="rect" id="node11" href="$da/d78/_d_n_p3_manager_8h.html" title="cpp/libs/include/asiodnp3\l/DNP3Manager.h" alt="" coords="569,95,737,136"/>
+<area shape="rect" id="node3" href="$d7/d67/_string_formatting_8h.html" title="cpp/libs/include/openpal\l/logging/StringFormatting.h" alt="" coords="5,184,184,225"/>
+<area shape="rect" id="node5" href="$dd/db9/_logging_connection_condition_8h.html" title="cpp/libs/include/asiopal\l/LoggingConnectionCondition.h" alt="" coords="59,363,261,404"/>
+<area shape="rect" id="node7" href="$d9/d50/_master_t_c_p_server_8h.html" title="cpp/libs/include/asiodnp3\l/MasterTCPServer.h" alt="" coords="281,273,449,315"/>
+<area shape="rect" id="node8" href="$d4/d12/_t_c_p_server_8h.html" title="cpp/libs/include/asiopal\l/TCPServer.h" alt="" coords="309,184,467,225"/>
+<area shape="rect" id="node9" href="$dc/d0b/_thread_pool_8h.html" title="cpp/libs/include/asiopal\l/ThreadPool.h" alt="" coords="491,184,648,225"/>
+<area shape="rect" id="node4" href="$d7/dcd/_log_macros_8h.html" title="cpp/libs/include/openpal\l/logging/LogMacros.h" alt="" coords="18,273,179,315"/>
+<area shape="rect" id="node6" href="$d1/dc1/_t_c_p_client_8h.html" title="cpp/libs/include/asiopal\l/TCPClient.h" alt="" coords="81,452,239,493"/>
+</map>

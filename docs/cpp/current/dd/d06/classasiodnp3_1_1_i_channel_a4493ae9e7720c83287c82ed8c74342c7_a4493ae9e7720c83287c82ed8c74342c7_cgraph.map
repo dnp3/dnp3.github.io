@@ -1,0 +1,7 @@
+<map id="asiodnp3::IChannel::~IChannel" name="asiodnp3::IChannel::~IChannel">
+<area shape="rect" id="node2" href="$dd/d06/classasiodnp3_1_1_i_channel_aa1ce6e11a28b2bbc8743a67905dee751.html#aa1ce6e11a28b2bbc8743a67905dee751" title="Add a master to the channel. " alt="" coords="188,5,323,47"/>
+<area shape="rect" id="node3" href="$dd/d06/classasiodnp3_1_1_i_channel_a53bcfcdf29f3974661726a8c6bb74d5f.html#a53bcfcdf29f3974661726a8c6bb74d5f" title="Add an outstation to the channel. " alt="" coords="188,71,323,112"/>
+<area shape="rect" id="node4" href="$dd/d06/classasiodnp3_1_1_i_channel_a5c3540da32baba5643b162378bf437cb.html#a5c3540da32baba5643b162378bf437cb" title="asiodnp3::IChannel\l::GetLogFilters" alt="" coords="188,136,323,177"/>
+<area shape="rect" id="node5" href="$dd/d06/classasiodnp3_1_1_i_channel_a6446142c5b5c781cffcfbe7d2d61b989.html#a6446142c5b5c781cffcfbe7d2d61b989" title="Synchronously read the channel statistics. " alt="" coords="188,201,323,243"/>
+<area shape="rect" id="node6" href="$dd/d06/classasiodnp3_1_1_i_channel_afd6716716ff142ddf7e7b09fabba4122.html#afd6716716ff142ddf7e7b09fabba4122" title="asiodnp3::IChannel\l::SetLogFilters" alt="" coords="188,267,323,308"/>
+</map>

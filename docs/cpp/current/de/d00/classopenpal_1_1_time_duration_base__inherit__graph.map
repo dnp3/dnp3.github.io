@@ -1,0 +1,4 @@
+<map id="openpal::TimeDurationBase&lt; T &gt;" name="openpal::TimeDurationBase&lt; T &gt;">
+<area shape="rect" id="node2" href="$d0/d51/classopenpal_1_1_time_duration_base.html" title="{openpal::TimeDurationBase\l\&lt; int64_t \&gt;\n|+ milliseconds\l|+ TimeDurationBase()\l+ GetMilliseconds()\l+ IsNegative()\l+ operator int64_t()\l# TimeDurationBase()\l}" alt="" coords="21,204,204,355"/>
+<area shape="rect" id="node3" href="$d2/d8b/classopenpal_1_1_time_duration.html" title="Strong typing for millisecond based time durations. " alt="" coords="36,404,189,643"/>
+</map>

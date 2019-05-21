@@ -1,0 +1,5 @@
+<map id="opendnp3::ICommandProcessor" name="opendnp3::ICommandProcessor">
+<area shape="rect" id="node2" href="$d7/d0c/classasiodnp3_1_1_i_master_operations.html" title="All the operations that the user can perform on a running master. " alt="" coords="61,175,250,428"/>
+<area shape="rect" id="node3" href="$d8/d64/classasiodnp3_1_1_i_master.html" title="Interface that represents a running master session. " alt="" coords="5,491,132,568"/>
+<area shape="rect" id="node4" href="$df/dbd/classasiodnp3_1_1_i_master_session.html" title="Interface that represents an emphemeral master session. " alt="" coords="157,476,330,583"/>
+</map>

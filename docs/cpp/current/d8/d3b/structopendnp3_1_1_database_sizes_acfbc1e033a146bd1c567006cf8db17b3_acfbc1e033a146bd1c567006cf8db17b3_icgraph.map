@@ -1,0 +1,12 @@
+<map id="opendnp3::DatabaseSizes::DatabaseSizes" name="opendnp3::DatabaseSizes::DatabaseSizes">
+<area shape="rect" id="node2" href="$d8/d3b/structopendnp3_1_1_database_sizes_a26437b0f88ab2d105961e82d31a3c711.html#a26437b0f88ab2d105961e82d31a3c711" title="opendnp3::DatabaseSizes\l::AllTypes" alt="" coords="228,5,403,47"/>
+<area shape="rect" id="node3" href="$d8/d3b/structopendnp3_1_1_database_sizes_a24e6faf535fa7fb8e37da361e40e8a71.html#a24e6faf535fa7fb8e37da361e40e8a71" title="opendnp3::DatabaseSizes\l::AnalogOnly" alt="" coords="228,71,403,112"/>
+<area shape="rect" id="node4" href="$d8/d3b/structopendnp3_1_1_database_sizes_ac6dffa883af0a4b6109576bc88b22280.html#ac6dffa883af0a4b6109576bc88b22280" title="opendnp3::DatabaseSizes\l::AnalogOutputStatusOnly" alt="" coords="228,136,403,177"/>
+<area shape="rect" id="node5" href="$d8/d3b/structopendnp3_1_1_database_sizes_ab45fd21c4abcd2292a8e8bcffe2668fb.html#ab45fd21c4abcd2292a8e8bcffe2668fb" title="opendnp3::DatabaseSizes\l::BinaryOnly" alt="" coords="228,201,403,243"/>
+<area shape="rect" id="node6" href="$d8/d3b/structopendnp3_1_1_database_sizes_af332e025ee69f8a368e6b0e413cff557.html#af332e025ee69f8a368e6b0e413cff557" title="opendnp3::DatabaseSizes\l::BinaryOutputStatusOnly" alt="" coords="228,267,403,308"/>
+<area shape="rect" id="node7" href="$d8/d3b/structopendnp3_1_1_database_sizes_af777bbafffadb71603afe9558aab99e6.html#af777bbafffadb71603afe9558aab99e6" title="opendnp3::DatabaseSizes\l::CounterOnly" alt="" coords="228,332,403,373"/>
+<area shape="rect" id="node8" href="$d8/d3b/structopendnp3_1_1_database_sizes_a774db51c638e3e0a7fe7acabd7e6bb0b.html#a774db51c638e3e0a7fe7acabd7e6bb0b" title="opendnp3::DatabaseSizes\l::DoubleBinaryOnly" alt="" coords="228,397,403,439"/>
+<area shape="rect" id="node9" href="$d8/d3b/structopendnp3_1_1_database_sizes_a9688a48eca55c367522ea30cf0208eb1.html#a9688a48eca55c367522ea30cf0208eb1" title="opendnp3::DatabaseSizes\l::Empty" alt="" coords="228,463,403,504"/>
+<area shape="rect" id="node10" href="$d8/d3b/structopendnp3_1_1_database_sizes_a8c84da3c4a7ec2290a1c407fb9f3bf41.html#a8c84da3c4a7ec2290a1c407fb9f3bf41" title="opendnp3::DatabaseSizes\l::FrozenCounterOnly" alt="" coords="228,528,403,569"/>
+<area shape="rect" id="node11" href="$d8/d3b/structopendnp3_1_1_database_sizes_af76044ace24821f521a351f70dda2b95.html#af76044ace24821f521a351f70dda2b95" title="opendnp3::DatabaseSizes\l::TimeAndIntervalOnly" alt="" coords="228,593,403,635"/>
+</map>

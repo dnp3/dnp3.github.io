@@ -1,0 +1,11 @@
+<map id="cpp/libs/include/opendnp3/gen/MasterTaskType.h" name="cpp/libs/include/opendnp3/gen/MasterTaskType.h">
+<area shape="rect" id="node2" href="$d3/db5/_i_master_application_8h.html" title="cpp/libs/include/opendnp3\l/master/IMasterApplication.h" alt="" coords="201,184,390,225"/>
+<area shape="rect" id="node10" href="$d2/df9/_task_info_8h.html" title="cpp/libs/include/opendnp3\l/master/TaskInfo.h" alt="" coords="272,95,444,136"/>
+<area shape="rect" id="node3" href="$db/da1/_default_master_application_8h.html" title="cpp/libs/include/asiodnp3\l/DefaultMasterApplication.h" alt="" coords="5,363,188,404"/>
+<area shape="rect" id="node5" href="$de/d86/_i_channel_8h.html" title="cpp/libs/include/asiodnp3\l/IChannel.h" alt="" coords="403,273,571,315"/>
+<area shape="rect" id="node7" href="$d0/dd4/_i_session_acceptor_8h.html" title="cpp/libs/include/asiodnp3\l/ISessionAcceptor.h" alt="" coords="211,273,379,315"/>
+<area shape="rect" id="node4" href="$d6/dc8/_default_listen_callbacks_8h.html" title="cpp/libs/include/asiodnp3\l/DefaultListenCallbacks.h" alt="" coords="13,452,185,493"/>
+<area shape="rect" id="node6" href="$da/d78/_d_n_p3_manager_8h.html" title="cpp/libs/include/asiodnp3\l/DNP3Manager.h" alt="" coords="403,452,571,493"/>
+<area shape="rect" id="node8" href="$d0/db9/_i_listen_callbacks_8h.html" title="cpp/libs/include/asiodnp3\l/IListenCallbacks.h" alt="" coords="213,363,381,404"/>
+<area shape="rect" id="node9" href="$d9/d50/_master_t_c_p_server_8h.html" title="cpp/libs/include/asiodnp3\l/MasterTCPServer.h" alt="" coords="211,452,379,493"/>
+</map>

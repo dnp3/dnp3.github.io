@@ -1,0 +1,11 @@
+<map id="cpp/libs/include/asiopal/IResourceManager.h" name="cpp/libs/include/asiopal/IResourceManager.h">
+<area shape="rect" id="node2" href="$de/d86/_i_channel_8h.html" title="cpp/libs/include/asiodnp3\l/IChannel.h" alt="" coords="103,273,271,315"/>
+<area shape="rect" id="node4" href="$de/d13/_i_stack_8h.html" title="cpp/libs/include/asiodnp3\l/IStack.h" alt="" coords="202,95,370,136"/>
+<area shape="rect" id="node7" href="$d5/d33/_i_listener_8h.html" title="cpp/libs/include/asiopal\l/IListener.h" alt="" coords="394,95,551,136"/>
+<area shape="rect" id="node10" href="$d1/d46/_resource_manager_8h.html" title="cpp/libs/include/asiopal\l/ResourceManager.h" alt="" coords="600,95,758,136"/>
+<area shape="rect" id="node3" href="$da/d78/_d_n_p3_manager_8h.html" title="cpp/libs/include/asiodnp3\l/DNP3Manager.h" alt="" coords="259,363,427,404"/>
+<area shape="rect" id="node5" href="$d7/d59/_i_master_8h.html" title="cpp/libs/include/asiodnp3\l/IMaster.h" alt="" coords="24,184,192,225"/>
+<area shape="rect" id="node6" href="$d7/dc5/_i_outstation_8h.html" title="cpp/libs/include/asiodnp3\l/IOutstation.h" alt="" coords="216,184,384,225"/>
+<area shape="rect" id="node8" href="$d9/d50/_master_t_c_p_server_8h.html" title="cpp/libs/include/asiodnp3\l/MasterTCPServer.h" alt="" coords="504,273,672,315"/>
+<area shape="rect" id="node9" href="$d4/d12/_t_c_p_server_8h.html" title="cpp/libs/include/asiopal\l/TCPServer.h" alt="" coords="510,184,667,225"/>
+</map>

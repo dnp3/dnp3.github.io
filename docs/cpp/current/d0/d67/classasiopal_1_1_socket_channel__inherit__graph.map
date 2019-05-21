@@ -1,0 +1,4 @@
+<map id="asiopal::SocketChannel" name="asiopal::SocketChannel">
+<area shape="rect" id="node2" href="$d8/d16/classasiopal_1_1_i_async_channel.html" title="{asiopal::IAsyncChannel\n|+ executor\l&#45; callbacks\l&#45; is_shutting_down\l&#45; reading\l&#45; writing\l|+ IAsyncChannel()\l+ ~IAsyncChannel()\l+ BeginRead()\l+ BeginWrite()\l+ CanRead()\l+ CanWrite()\l+ SetCallbacks()\l+ Shutdown()\l# OnReadCallback()\l# OnWriteCallback()\l&#45; BeginReadImpl()\l&#45; BeginWriteImpl()\l&#45; CheckForShutdown()\l&#45; ShutdownImpl()\l}" alt="" coords="121,175,281,501"/>
+<area shape="rect" id="node4" href="$df/df1/classopenpal_1_1_uncopyable.html" title="Inherited classes will not have default copy/assignment. " alt="" coords="226,5,370,127"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="cpp/libs/include/asiopal/IAsyncChannel.h" name="cpp/libs/include/asiopal/IAsyncChannel.h">
+<area shape="rect" id="node2" href="$d2/d83/_w_slice_8h.html" title="openpal/container/WSlice.h" alt="" coords="5,95,187,121"/>
+<area shape="rect" id="node5" href="$db/d20/_r_slice_8h.html" title="openpal/container/RSlice.h" alt="" coords="211,95,389,121"/>
+<area shape="rect" id="node6" href="$df/df8/_uncopyable_8h.html" title="openpal/util/Uncopyable.h" alt="" coords="403,169,575,196"/>
+<area shape="rect" id="node7" href="$d9/d0a/_executor_8h.html" title="asiopal/Executor.h" alt="" coords="631,95,761,121"/>
+<area shape="rect" id="node19" href="$d4/d43/_i_channel_callbacks_8h.html" title="asiopal/IChannelCallbacks.h" alt="" coords="786,95,974,121"/>
+<area shape="rect" id="node3" href="$dc/d3f/_has_size_8h.html" title="HasSize.h" alt="" coords="168,169,251,196"/>
+<area shape="rect" id="node8" href="$de/db7/_i_executor_8h.html" title="openpal/executor/IExecutor.h" alt="" coords="600,169,792,196"/>
+<area shape="rect" id="node14" href="$d0/db2/_i_o_8h.html" title="asiopal/IO.h" alt="" coords="817,169,909,196"/>
+<area shape="rect" id="node16" href="$de/dd0/_steady_clock_8h.html" title="asiopal/SteadyClock.h" alt="" coords="933,169,1086,196"/>
+<area shape="rect" id="node9" href="$da/dc0/_i_timer_8h.html" title="ITimer.h" alt="" coords="441,244,511,271"/>
+<area shape="rect" id="node11" href="$d7/d1c/_time_duration_8h.html" title="TimeDuration.h" alt="" coords="421,393,531,420"/>
+<area shape="rect" id="node12" href="$d3/d3c/_i_monotonic_time_source_8h.html" title="IMonotonicTimeSource.h" alt="" coords="535,244,702,271"/>
+<area shape="rect" id="node10" href="$dc/d5b/_monotonic_timestamp_8h.html" title="MonotonicTimestamp.h" alt="" coords="397,319,555,345"/>
+</map>

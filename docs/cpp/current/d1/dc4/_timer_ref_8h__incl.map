@@ -1,0 +1,8 @@
+<map id="cpp/libs/include/openpal/executor/TimerRef.h" name="cpp/libs/include/openpal/executor/TimerRef.h">
+<area shape="rect" id="node2" href="$da/dc0/_i_timer_8h.html" title="openpal/executor/ITimer.h" alt="" coords="5,169,179,196"/>
+<area shape="rect" id="node6" href="$de/db7/_i_executor_8h.html" title="openpal/executor/IExecutor.h" alt="" coords="191,95,383,121"/>
+<area shape="rect" id="node9" href="$df/df8/_uncopyable_8h.html" title="openpal/util/Uncopyable.h" alt="" coords="407,95,579,121"/>
+<area shape="rect" id="node3" href="$dc/d5b/_monotonic_timestamp_8h.html" title="MonotonicTimestamp.h" alt="" coords="207,244,366,271"/>
+<area shape="rect" id="node5" href="$d7/d1c/_time_duration_8h.html" title="TimeDuration.h" alt="" coords="325,319,435,345"/>
+<area shape="rect" id="node7" href="$d3/d3c/_i_monotonic_time_source_8h.html" title="IMonotonicTimeSource.h" alt="" coords="203,169,370,196"/>
+</map>

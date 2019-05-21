@@ -1,0 +1,12 @@
+<map id="cpp/libs/include/opendnp3/gen/StaticTypeBitmask.h" name="cpp/libs/include/opendnp3/gen/StaticTypeBitmask.h">
+<area shape="rect" id="node2" href="$d0/d78/_measurement_info_8h.html" title="cpp/libs/include/opendnp3\l/app/MeasurementInfo.h" alt="" coords="213,95,385,136"/>
+<area shape="rect" id="node9" href="$df/d52/_static_type_bitfield_8h.html" title="cpp/libs/include/opendnp3\l/outstation/StaticTypeBitfield.h" alt="" coords="420,95,621,136"/>
+<area shape="rect" id="node3" href="$d2/d13/_measurement_config_8h.html" title="cpp/libs/include/opendnp3\l/outstation/MeasurementConfig.h" alt="" coords="187,184,401,225"/>
+<area shape="rect" id="node4" href="$d9/d1a/_measurement_type_specs_8h.html" title="cpp/libs/include/opendnp3\l/app/MeasurementTypeSpecs.h" alt="" coords="5,273,212,315"/>
+<area shape="rect" id="node5" href="$df/d5f/_database_config_8h.html" title="cpp/libs/include/asiodnp3\l/DatabaseConfig.h" alt="" coords="237,273,405,315"/>
+<area shape="rect" id="node6" href="$d2/d1d/_outstation_stack_config_8h.html" title="cpp/libs/include/asiodnp3\l/OutstationStackConfig.h" alt="" coords="339,363,508,404"/>
+<area shape="rect" id="node7" href="$de/d86/_i_channel_8h.html" title="cpp/libs/include/asiodnp3\l/IChannel.h" alt="" coords="339,452,507,493"/>
+<area shape="rect" id="node8" href="$da/d78/_d_n_p3_manager_8h.html" title="cpp/libs/include/asiodnp3\l/DNP3Manager.h" alt="" coords="339,541,507,583"/>
+<area shape="rect" id="node10" href="$d0/df3/_outstation_params_8h.html" title="cpp/libs/include/opendnp3\l/outstation/OutstationParams.h" alt="" coords="426,184,629,225"/>
+<area shape="rect" id="node11" href="$da/db0/_outstation_config_8h.html" title="cpp/libs/include/opendnp3\l/outstation/OutstationConfig.h" alt="" coords="429,273,625,315"/>
+</map>

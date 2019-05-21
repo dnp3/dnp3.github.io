@@ -1,0 +1,4 @@
+<map id="opendnp3::ICollection&lt; T &gt;" name="opendnp3::ICollection&lt; T &gt;">
+<area shape="rect" id="node2" href="$d3/dc3/classopendnp3_1_1_i_collection.html" title="{opendnp3::ICollection\l\&lt; CommandPointResult \&gt;\n||+ Count()\l+ Foreach()\l+ ForeachItem()\l+ ReadOnlyValue()\l}" alt="" coords="27,189,201,325"/>
+<area shape="rect" id="node3" href="$d5/d9a/classopendnp3_1_1_i_command_task_result.html" title="Abstract result type returned via callback to a command operation. " alt="" coords="5,375,223,452"/>
+</map>

@@ -1,0 +1,19 @@
+<map id="cpp/libs/include/opendnp3/master/ICommandProcessor.h" name="cpp/libs/include/opendnp3/master/ICommandProcessor.h">
+<area shape="rect" id="node2" href="$d1/d60/_command_set_8h.html" title="opendnp3/master/CommandSet.h" alt="" coords="231,169,448,196"/>
+<area shape="rect" id="node12" href="$da/dcd/_command_callback_t_8h.html" title="opendnp3/master/CommandCallbackT.h" alt="" coords="1043,95,1299,121"/>
+<area shape="rect" id="node20" href="$dd/dfa/_task_config_8h.html" title="opendnp3/master/TaskConfig.h" alt="" coords="1355,95,1559,121"/>
+<area shape="rect" id="node3" href="$d3/d27/_i_command_collection_8h.html" title="opendnp3/master/ICommand\lCollection.h" alt="" coords="193,333,384,375"/>
+<area shape="rect" id="node5" href="$df/dfe/_control_relay_output_block_8h.html" title="opendnp3/app/ControlRelay\lOutputBlock.h" alt="" coords="412,244,595,285"/>
+<area shape="rect" id="node8" href="$da/dc4/_analog_output_8h.html" title="opendnp3/app/AnalogOutput.h" alt="" coords="619,251,817,278"/>
+<area shape="rect" id="node9" href="$d2/dfc/_indexed_8h.html" title="opendnp3/app/Indexed.h" alt="" coords="5,341,169,367"/>
+<area shape="rect" id="node6" href="$dc/d36/_command_status_8h.html" title="opendnp3/gen/CommandStatus.h" alt="" coords="623,341,839,367"/>
+<area shape="rect" id="node7" href="$d3/dd5/_control_code_8h.html" title="opendnp3/gen/ControlCode.h" alt="" coords="408,341,599,367"/>
+<area shape="rect" id="node13" href="$d0/d2e/_i_command_task_result_8h.html" title="ICommandTaskResult.h" alt="" coords="1059,169,1223,196"/>
+<area shape="rect" id="node14" href="$d8/d4b/_command_point_result_8h.html" title="opendnp3/master/CommandPoint\lResult.h" alt="" coords="841,244,1057,285"/>
+<area shape="rect" id="node16" href="$d0/dad/_task_completion_8h.html" title="opendnp3/gen/TaskCompletion.h" alt="" coords="1254,251,1467,278"/>
+<area shape="rect" id="node17" href="$d8/d63/_i_collection_8h.html" title="opendnp3/app/parsing\l/ICollection.h" alt="" coords="1081,244,1230,285"/>
+<area shape="rect" id="node15" href="$db/d11/_command_point_state_8h.html" title="opendnp3/gen/CommandPoint\lState.h" alt="" coords="863,333,1061,375"/>
+<area shape="rect" id="node21" href="$df/d78/_task_id_8h.html" title="TaskId.h" alt="" coords="1543,169,1616,196"/>
+<area shape="rect" id="node22" href="$d2/d39/_i_task_callback_8h.html" title="ITaskCallback.h" alt="" coords="1350,169,1467,196"/>
+<area shape="rect" id="node23" href="$d7/d1c/_time_duration_8h.html" title="openpal/executor/TimeDuration.h" alt="" coords="1364,341,1579,367"/>
+</map>

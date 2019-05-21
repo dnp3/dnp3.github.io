@@ -1,0 +1,6 @@
+<map id="asiopal::SocketChannel::Create" name="asiopal::SocketChannel::Create">
+<area shape="rect" id="node2" href="$db/dba/classasiopal_1_1_socket_channel_a782cd49dd4e1d8b0d7f562b402ac8da7.html#a782cd49dd4e1d8b0d7f562b402ac8da7" title="asiopal::SocketChannel\l::BeginReadImpl" alt="" coords="213,5,373,47"/>
+<area shape="rect" id="node3" href="$db/dba/classasiopal_1_1_socket_channel_a5f5d9b4a006d12069772e24aa9e3b650.html#a5f5d9b4a006d12069772e24aa9e3b650" title="asiopal::SocketChannel\l::BeginWriteImpl" alt="" coords="213,71,373,112"/>
+<area shape="rect" id="node4" href="$db/dba/classasiopal_1_1_socket_channel_ab0477791148e3ad252c0fd34ef181ed6.html#ab0477791148e3ad252c0fd34ef181ed6" title="asiopal::SocketChannel\l::ShutdownImpl" alt="" coords="213,136,373,177"/>
+<area shape="rect" id="node5" href="$db/dba/classasiopal_1_1_socket_channel_a49af53c9ac41281b959b2ad96e870ef3.html#a49af53c9ac41281b959b2ad96e870ef3" title="asiopal::SocketChannel\l::SocketChannel" alt="" coords="213,201,373,243"/>
+</map>

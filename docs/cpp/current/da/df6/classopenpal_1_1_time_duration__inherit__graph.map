@@ -1,0 +1,4 @@
+<map id="openpal::TimeDuration" name="openpal::TimeDuration">
+<area shape="rect" id="node2" href="$d0/d51/classopenpal_1_1_time_duration_base.html" title="{openpal::TimeDurationBase\l\&lt; int64_t \&gt;\n|+ milliseconds\l|+ TimeDurationBase()\l+ GetMilliseconds()\l+ IsNegative()\l+ operator int64_t()\l# TimeDurationBase()\l}" alt="" coords="21,204,204,355"/>
+<area shape="rect" id="node3" href="$d0/d51/classopenpal_1_1_time_duration_base.html" title="{openpal::TimeDurationBase\&lt; T \&gt;\n|+ milliseconds\l|+ TimeDurationBase()\l+ GetMilliseconds()\l+ IsNegative()\l+ operator T()\l# TimeDurationBase()\l}" alt="" coords="5,5,220,141"/>
+</map>

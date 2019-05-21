@@ -1,0 +1,8 @@
+<map id="openpal::Buffer" name="openpal::Buffer">
+<area shape="rect" id="node7" href="$d6/d0e/classopenpal_1_1_secure_buffer.html" title="{openpal::SecureBuffer\n||+ SecureBuffer()\l+ SecureBuffer()\l+ SecureBuffer()\l+ ~SecureBuffer()\l}" alt="" coords="51,1372,202,1493"/>
+<area shape="rect" id="node2" href="$d7/d3a/classopenpal_1_1_array.html" title="{openpal::Array\&lt; uint8\l_t, uint32_t \&gt;\n|# buffer\l|+ Array()\l+ Array()\l+ Array()\l+ ~Array()\l+ Contains()\l+ foreach()\l+ foreach()\l+ foreachIndex()\l+ foreachIndex()\l+ operator[]()\l+ operator[]()\l+ ToView()\l&#45; operator=()\l}" alt="" coords="53,811,200,1079"/>
+<area shape="rect" id="node3" href="$d4/d44/classopenpal_1_1_has_size.html" title="{openpal::HasSize\&lt; uint32_t \&gt;\n|# size\l|+ HasSize()\l+ IsEmpty()\l+ IsNotEmpty()\l+ Size()\l}" alt="" coords="5,335,200,456"/>
+<area shape="rect" id="node4" href="$d4/d44/classopenpal_1_1_has_size.html" title="{openpal::HasSize\&lt; SizeType \&gt;\n|# size\l|+ HasSize()\l+ IsEmpty()\l+ IsNotEmpty()\l+ Size()\l}" alt="" coords="61,5,265,127"/>
+<area shape="rect" id="node6" href="$d4/d44/classopenpal_1_1_has_size.html" title="{openpal::HasSize\&lt; IndexType \&gt;\n|# size\l|+ HasSize()\l+ IsEmpty()\l+ IsNotEmpty()\l+ Size()\l}" alt="" coords="139,189,349,311"/>
+<area shape="rect" id="node5" href="$d7/d3a/classopenpal_1_1_array.html" title="Template type for a dynamically allocated array. " alt="" coords="149,480,333,748"/>
+</map>

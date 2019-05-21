@@ -1,0 +1,6 @@
+<map id="opendnp3::measurements::IsEvent" name="opendnp3::measurements::IsEvent">
+<area shape="rect" id="node2" href="$d6/dc5/structopendnp3_1_1_simple_event_cell_a158839f479cab455aee144baf1d1de10.html#a158839f479cab455aee144baf1d1de10" title="opendnp3::SimpleEventCell\l::IsEvent" alt="" coords="235,5,418,47"/>
+<area shape="rect" id="node3" href="$dc/d61/structopendnp3_1_1_deadband_event_cell_af32c1a9fbb41e2d51aaeb37866ec96f6.html#af32c1a9fbb41e2d51aaeb37866ec96f6" title="opendnp3::DeadbandEventCell\l::IsEvent" alt="" coords="225,71,428,112"/>
+<area shape="rect" id="node4" href="$df/d8c/structopendnp3_1_1_analog_spec_a8afca2d7ff9c78a9219cc7c295f1b655.html#a8afca2d7ff9c78a9219cc7c295f1b655" title="opendnp3::AnalogSpec\l::IsEvent" alt="" coords="249,136,405,177"/>
+<area shape="rect" id="node5" href="$d1/d6b/structopendnp3_1_1_analog_output_status_spec_a911ec8b6104e83a5ee705c7b9c9cf67f.html#a911ec8b6104e83a5ee705c7b9c9cf67f" title="opendnp3::AnalogOutputStatus\lSpec::IsEvent" alt="" coords="225,201,428,243"/>
+</map>

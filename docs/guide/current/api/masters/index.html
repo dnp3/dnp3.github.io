@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        
+
+	<title>Masters - opendnp3 2.2.0</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">opendnp3 2.2.0</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../features/features/">Features</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Build <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../build/requirements/">Requirements</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/libraries/">Libraries</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/cmake/">CMake</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/linux/">Linux</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/windows/">Windows</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/java/">Java</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../architecture/">Architecture</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../logging/">Logging</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../channels/">Channels</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../tls/">TLS Support</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../linklayer/">Link-Layer</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Masters</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../outstations/">Outstations</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../troubleshooting/troubleshooting/">Troubleshooting</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../contributing/tasks/">Common Tasks</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../linklayer/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../outstations/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/automatak/dnp3">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#creating-a-master">Creating a master</a></li>
+        
+    
+        <li class="main "><a href="#isoehandler">ISOEHandler</a></li>
+        
+    
+        <li class="main "><a href="#imasterapplication">IMasterApplication</a></li>
+        
+    
+        <li class="main "><a href="#masterstackconfig">MasterStackConfig</a></li>
+        
+    
+        <li class="main "><a href="#masterparams">MasterParams</a></li>
+        
+    
+        <li class="main "><a href="#imaster">IMaster</a></li>
+        
+    
+        <li class="main "><a href="#icommandprocessor">ICommandProcessor</a></li>
+        
+    
+        <li class="main "><a href="#cleaning-up">Cleaning Up</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h3 id="creating-a-master">Creating a master</h3>
+<p>A master in opendnp3 is a component that communicates with a single outstation via a communication channel. You may see this term used in other places to refer to a
+collection of such components communicating with multiple outstations. When more than one master is bound to a single communication channel, it is called a
+<em>multi-drop configuration</em>.  This refers to the way in which an RS-485 serial network is chained from device to device. Opendnp3 will let you add multiple
+masters / outstations to any communication channel, regardless of he underlying transport. You could even bind a master to a TCP server and reverse the
+normal connection direction.</p>
+<p>To add a master to a communication channel you call the <em>AddMaster(...)</em> method on the channel interface:</p>
+<pre><code class="c++">// Contains static configuration for the master, and transport/link layers
+MasterStackConfig stackConfig;
+
+// you can optionally override these defaults like setting the application layer response timeout
+// or change behaviors on the master
+stackConfig.master.responseTimeout = TimeDuration::Seconds(2);
+stackConfig.master.disableUnsolOnStartup = true;
+
+// ... or you can override the default link layer settings
+stackConfig.link.LocalAddr = 1;
+stackConfig.link.RemoteAddr = 10;
+
+auto master = channel-&gt;AddMaster(
+  &quot;master&quot;,                                       // alias for logging
+  PrintingSOEHandler::Create(),                   // ISOEHandler (interface)
+  asiodnp3::DefaultMasterApplication::Create(),   // IMasterApplication (interface)
+  stackConfig                                     // static stack configuration
+);
+
+// enable the master - you can also Disable() it or Shutdown() permanently
+master-&gt;Enable();
+
+</code></pre>
+
+<h3 id="isoehandler">ISOEHandler</h3>
+<p>Note the 2nd parameter in the call to <em>AddMaster(...)</em>. This is the user-defined interface used to receive measurement data
+that the master has received from the outstation. SOE stands for <em>Sequence of Events</em>. SOE is a common term in SCADA circles
+that is synonymous with "the order in which things happened".</p>
+<pre><code class="c++">class ISOEHandler : public ITransactable
+{
+public:
+
+    virtual void Process(const HeaderInfo&amp; info, const ICollection&lt;Indexed&lt;Binary&gt;&gt;&amp; values) = 0;
+
+    // more Process methods for types like Analog, Counter, etc ....
+}
+</code></pre>
+
+<p>An ISOEHandler is just an interface with an overloaded <em>Process</em> method for every measurement type in DNP3. It also inherits
+<em>Start()</em> and <em>End()</em> methods from ITransactable. This allows you tell when the master begins and ends parsing a received
+ASDU that contains measurement data. You'll see this Start/End pattern with other interfaces in opendnp3.</p>
+<p>The <em>PrintingSOEHandler</em> in the snippet where we added the master is just a singleton that prints measurement values to the console.
+You'll definitely want to write your own implementation so that you can write to file, database, or display on your application in some
+fashion. The PrintingSOEHandler just extracts the measurement values from the ICollection like the following:</p>
+<pre><code>void Process(const HeaderInfo&amp; info, const ICollection&lt;Indexed&lt;Binary&gt;&gt;&amp; values)
+{
+    auto print = [](const Indexed&lt;Binary&gt;&amp; pair) {
+        std::cout &lt;&lt; &quot;[&quot; &lt;&lt; pair.index &lt;&lt; &quot;] : &quot; &lt;&lt; pair.value &lt;&lt; std::endl;
+    };
+    values.ForeachItem(print);
+}
+</code></pre>
+
+<p>There's also a wealth of information in the <em>HeaderInfo</em> object including:</p>
+<ul>
+<li>The specific group/variation associated with this ASDU header</li>
+<li>The QualifierCode associated with this header</li>
+<li>An enumeration describing the validity of the time-stamp for convenience to the programmer.</li>
+<li>The index of the header within the ASDU</li>
+</ul>
+<p><strong>Remember that the callbacks for the ISOEHandler methods come from the thread-pool.</strong> Depending on the number of sessions, you may not
+want to block the stack in these callbacks. You might consider allocating some kind of object that is passed to a worker thread
+to actually write the data to disk/database.</p>
+<h3 id="imasterapplication">IMasterApplication</h3>
+<p>The 3rd parameter in the call to <em>AddMaster(...)</em> is a user-defined interface called <em>IMasterApplication</em>. It contains
+inherits from two sub-interfaces <em>ILinkListener</em> and <em>IUTCTimeSource</em> as well as adding a number of methods that are
+master specific.</p>
+<p>You can see all the methods you can override in the code documentation, but the most important ones are:</p>
+<ul>
+<li>
+<p><em>void IOnReceiveIIN(const IINField&amp; iin)</em> - Notifies you whenever an ASDU is received containing an internal indication field
+ (IIN field). This allow you to log and react to specific error bits returned by the device.</p>
+</li>
+<li>
+<p><em>void OnTaskComplete(const TaskInfo&amp; info)</em> - Tell you about tasks that are built into the master succeeding/failing. This callback
+is usually used to assess the "health" of the session.</p>
+</li>
+</ul>
+<p>The ILinkListener interface is also used on IOutstationApplication and is described in its own section.</p>
+<h3 id="masterstackconfig">MasterStackConfig</h3>
+<p>The final parameter passed into <em>AddMaster(...)</em> is configuration struct that consists of link-layer configuration
+information and static configuration that defines that masters behavior. The link-layer config is also used for outstations,
+and is described in its own section.</p>
+<h3 id="masterparams">MasterParams</h3>
+<p>Each of the dozen or so fields in this struct control certain automated behaviors within the master. Refer to the code documentation
+for complete descriptions. This struct controls behaviors like:</p>
+<ul>
+<li>The default response timeout</li>
+<li>Whether to perform unsolicited disable/enable on start-up</li>
+<li>Whether to perform automatic time synchronization if requested</li>
+<li>The maximum Tx/Rx ASDU size which always default to 2K as per the DNP3 specification</li>
+</ul>
+<h3 id="imaster">IMaster</h3>
+<p>When you added a master to the channel, the channel returned an <em>IMaster</em> interface. This interface provides all access to a number of operations
+on the master. Refer to the code documentation for specifics. Some examples are:</p>
+<ul>
+<li>Add periodic scans to the master like exception (Class 1/2/3) and integrity scans (Class 1/2/3/0)</li>
+<li>Scanning for specific ranges or event counts</li>
+<li>The <em>ICommandProcessor</em> sub-interface allow you to do <em>SelectBeforeOperate</em> and <em>DirectOperate</em> requests w/ CROBs and Analog Outputs</li>
+</ul>
+<h3 id="icommandprocessor">ICommandProcessor</h3>
+<p>This is a sub-interface that allows you to perform <em>select-before-operate</em> and <em>direct-operate</em> commands.</p>
+<pre><code class="c++">class ICommandProcessor
+{
+public:
+    virtual void SelectAndOperate(...params...) = 0;
+    virtual void DirectOperate(...params...) = 0;
+};
+</code></pre>
+
+<p>Opendnp3 supports multiple commands per request on both the master and the outstation, however, for convenience there are overloaded
+methods to issue a single command of each type . You can use these overloads or build a <em>CommandSet</em>, which is a collection of headers.</p>
+<pre><code class="c++">CommandSet commands;
+</code></pre>
+
+<p>The easiest way to define headers is to use initializer_lists, but you can also create a specific header type
+and then add entries in a loop.</p>
+<pre><code class="c++">// CROB to be sent to two indices
+ControlRelayOutputBlock crob(ControlCode::LATCH_ON);
+
+// Use initializer list to create a header in a single call - Send LATCH_ON to indices 0 and 1
+commands.Add&lt;ControlRelayOutputBlock&gt;({ WithIndex(crob, 0), WithIndex(crob, 1) });
+
+/// Add two analog outputs to the set using the header method.
+/// Note that the 'header' is captured as a reference.
+auto&amp; header = commands.StartHeader&lt;AnalogOutputInt16&gt;();
+header.Add(AnalogOutputInt16(7), 3);
+header.Add(AnalogOutputInt16(9), 4);
+</code></pre>
+
+<p>You pass the command set into the master using one of the ICommandProcessor methods.</p>
+<pre><code class="c++">pMaster-&gt;SelectAndOperate(std::move(commands), callback);
+</code></pre>
+
+<p>But what is the <strong>callback</strong>? It's just a lambda expression or std::function that accepts <em>ICommandTaskResult</em>
+as its single argument.</p>
+<pre><code>auto callback = [](const ICommandTaskResult&amp; result) -&gt; void
+{           
+    std::cout &lt;&lt; &quot;Summary: &quot; &lt;&lt; TaskCompletionToString(result.summary) &lt;&lt; std::endl;
+    auto print = [](const CommandPointResult&amp; res)
+    {
+        std::cout
+            &lt;&lt; &quot;Header: &quot; &lt;&lt; res.headerIndex
+            &lt;&lt; &quot; Index: &quot; &lt;&lt; res.index
+            &lt;&lt; &quot; State: &quot; &lt;&lt; CommandPointStateToString(res.state)
+            &lt;&lt; &quot; Status: &quot; &lt;&lt; CommandStatusToString(res.status);
+    };
+    result.ForeachItem(print);
+};
+</code></pre>
+
+<p>The example above prints the summary value for the task, and information about the success or failure of each of the commands you specified in the CommandSet. Since we sent 4 individual command values, the handler would print something the following on a fully successful response:</p>
+<pre><code class="sh">Summary: SUCCESS
+Header: 0 Index: 0 State: SUCCESS Status: SUCCESS
+Header: 0 Index: 1 State: SUCCESS Status: SUCCESS
+Header: 1 Index: 3 State: SUCCESS Status: SUCCESS
+Header: 1 Index: 4 State: SUCCESS Status: SUCCESS
+</code></pre>
+
+<p><strong>Imporant:</strong> Even if the summary <em>TaskCompletion</em> value is SUCCESS, this doesn't mean that every command you sent was successful. It just means that the master got back some response that was parsed successfully. You must check the result for each command you sent individually. DNP3 allows for truncated responses if the outstation doesn't understand everything you sent. A possible response might be:</p>
+<pre><code class="sh">Summary: SUCCESS
+Header: 0 Index: 0 State: SUCCESS Status: SUCCESS
+Header: 0 Index: 1 State: SUCCESS Status: SUCCESS
+Header: 1 Index: 3 State: SUCCESS Status: NOT_SUPPORTED
+Header: 1 Index: 4 State: INIT Status: UNDEFINED
+</code></pre>
+
+<p>Note that you <strong>always</strong> get an entry for every command you specified, even if there's no response at all because the connection is down.</p>
+<pre><code class="sh">Summary: FAILURE_NO_COMMS
+Header: 0 Index: 0 State: INIT Status: UNDEFINED
+Header: 0 Index: 1 State: INIT Status: UNDEFINED
+Header: 1 Index: 3 State: INIT Status: UNDEFINED
+Header: 1 Index: 4 State: INIT Status: UNDEFINED
+</code></pre>
+
+<p>Refer to the Doxygen docs for detailed information about each enum type:</p>
+<ul>
+<li>TaskCompletion - The summary value for the task</li>
+<li>CommandPointState - The various result states for each command point.</li>
+<li>CommandStatus - The command status enumeration defined in the spec. Only valid for some states.</li>
+</ul>
+<h3 id="cleaning-up">Cleaning Up</h3>
+<p>Calls to Shutdown() are idempotent. The master will be permanently deleted once all references to the shared_ptr<IMaster> have been dropped.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <center>Copyright Automatak LLC 2015</center>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

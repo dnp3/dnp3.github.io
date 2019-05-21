@@ -1,0 +1,4 @@
+<map id="asiopal::ResourceManager::Create" name="asiopal::ResourceManager::Create">
+<area shape="rect" id="node2" href="$d4/d23/classasiopal_1_1_resource_manager_a92a9a1ea9fc085441f9651bc88fac961.html#a92a9a1ea9fc085441f9651bc88fac961" title="notify the handler that the resource is shutting down, and it doesn&#39;t have to track it anymore ..." alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$d4/d23/classasiopal_1_1_resource_manager_a30dadbe0639df0de85d0775afa1d28f0.html#a30dadbe0639df0de85d0775afa1d28f0" title="asiopal::ResourceManager\l::Shutdown" alt="" coords="231,71,408,112"/>
+</map>

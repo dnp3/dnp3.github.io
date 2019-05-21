@@ -1,0 +1,24 @@
+<map id="cpp/libs/include/opendnp3/gen/DoubleBit.h" name="cpp/libs/include/opendnp3/gen/DoubleBit.h">
+<area shape="rect" id="node2" href="$dd/d61/_measurement_types_8h.html" title="cpp/libs/include/opendnp3\l/app/MeasurementTypes.h" alt="" coords="627,95,804,136"/>
+<area shape="rect" id="node3" href="$d0/d78/_measurement_info_8h.html" title="cpp/libs/include/opendnp3\l/app/MeasurementInfo.h" alt="" coords="459,184,631,225"/>
+<area shape="rect" id="node10" href="$d7/dd9/_i_s_o_e_handler_8h.html" title="cpp/libs/include/opendnp3\l/master/ISOEHandler.h" alt="" coords="5,363,177,404"/>
+<area shape="rect" id="node16" href="$da/da0/_i_outstation_application_8h.html" title="cpp/libs/include/opendnp3\l/outstation/IOutstationApplication.h" alt="" coords="1003,184,1230,225"/>
+<area shape="rect" id="node17" href="$d8/d3b/_i_update_handler_8h.html" title="cpp/libs/include/opendnp3\l/outstation/IUpdateHandler.h" alt="" coords="765,184,954,225"/>
+<area shape="rect" id="node21" href="$d9/db1/_i_master_operations_8h.html" title="cpp/libs/include/asiodnp3\l/IMasterOperations.h" alt="" coords="631,273,799,315"/>
+<area shape="rect" id="node4" href="$d2/d13/_measurement_config_8h.html" title="cpp/libs/include/opendnp3\l/outstation/MeasurementConfig.h" alt="" coords="392,273,607,315"/>
+<area shape="rect" id="node5" href="$d9/d1a/_measurement_type_specs_8h.html" title="cpp/libs/include/opendnp3\l/app/MeasurementTypeSpecs.h" alt="" coords="201,363,408,404"/>
+<area shape="rect" id="node6" href="$df/d5f/_database_config_8h.html" title="cpp/libs/include/asiodnp3\l/DatabaseConfig.h" alt="" coords="433,363,601,404"/>
+<area shape="rect" id="node7" href="$d2/d1d/_outstation_stack_config_8h.html" title="cpp/libs/include/asiodnp3\l/OutstationStackConfig.h" alt="" coords="421,452,591,493"/>
+<area shape="rect" id="node8" href="$de/d86/_i_channel_8h.html" title="cpp/libs/include/asiodnp3\l/IChannel.h" alt="" coords="518,541,686,583"/>
+<area shape="rect" id="node9" href="$da/d78/_d_n_p3_manager_8h.html" title="cpp/libs/include/asiodnp3\l/DNP3Manager.h" alt="" coords="465,631,633,672"/>
+<area shape="rect" id="node11" href="$d0/dd4/_i_session_acceptor_8h.html" title="cpp/libs/include/asiodnp3\l/ISessionAcceptor.h" alt="" coords="221,452,389,493"/>
+<area shape="rect" id="node15" href="$d3/d7d/_printing_s_o_e_handler_8h.html" title="cpp/libs/include/asiodnp3\l/PrintingSOEHandler.h" alt="" coords="19,541,187,583"/>
+<area shape="rect" id="node12" href="$d0/db9/_i_listen_callbacks_8h.html" title="cpp/libs/include/asiodnp3\l/IListenCallbacks.h" alt="" coords="221,541,389,583"/>
+<area shape="rect" id="node13" href="$d6/dc8/_default_listen_callbacks_8h.html" title="cpp/libs/include/asiodnp3\l/DefaultListenCallbacks.h" alt="" coords="21,631,193,672"/>
+<area shape="rect" id="node14" href="$d9/d50/_master_t_c_p_server_8h.html" title="cpp/libs/include/asiodnp3\l/MasterTCPServer.h" alt="" coords="221,631,389,672"/>
+<area shape="rect" id="node18" href="$d7/dda/_updates_8h.html" title="cpp/libs/include/asiodnp3\l/Updates.h" alt="" coords="823,273,991,315"/>
+<area shape="rect" id="node19" href="$d7/dc5/_i_outstation_8h.html" title="cpp/libs/include/asiodnp3\l/IOutstation.h" alt="" coords="807,452,975,493"/>
+<area shape="rect" id="node20" href="$d2/d15/_update_builder_8h.html" title="cpp/libs/include/asiodnp3\l/UpdateBuilder.h" alt="" coords="918,363,1086,404"/>
+<area shape="rect" id="node22" href="$d7/d59/_i_master_8h.html" title="cpp/libs/include/asiodnp3\l/IMaster.h" alt="" coords="615,452,783,493"/>
+<area shape="rect" id="node23" href="$dd/de5/_i_master_session_8h.html" title="cpp/libs/include/asiodnp3\l/IMasterSession.h" alt="" coords="625,363,793,404"/>
+</map>

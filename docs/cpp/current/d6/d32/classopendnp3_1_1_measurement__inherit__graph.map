@@ -1,0 +1,14 @@
+<map id="opendnp3::Measurement" name="opendnp3::Measurement">
+<area shape="rect" id="node2" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="Common subclass to analogs and counters. " alt="" coords="531,176,765,297"/>
+<area shape="rect" id="node3" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="{opendnp3::TypedMeasurement\l\&lt; uint32_t \&gt;\n|+ value\l|# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l}" alt="" coords="450,360,651,496"/>
+<area shape="rect" id="node6" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="{opendnp3::TypedMeasurement\l\&lt; double \&gt;\n|+ value\l|# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l}" alt="" coords="205,360,406,496"/>
+<area shape="rect" id="node9" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="{opendnp3::TypedMeasurement\l\&lt; DoubleBit \&gt;\n|+ value\l|# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l}" alt="" coords="922,360,1123,496"/>
+<area shape="rect" id="node11" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="{opendnp3::TypedMeasurement\l\&lt; bool \&gt;\n|+ value\l|# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l}" alt="" coords="697,360,898,496"/>
+<area shape="rect" id="node4" href="$de/d83/classopendnp3_1_1_counter.html" title="Counters are used for describing generally increasing values (non&#45;negative!). " alt="" coords="579,582,711,703"/>
+<area shape="rect" id="node5" href="$d3/d55/classopendnp3_1_1_frozen_counter.html" title="Frozen counters are used to report the value of a counter point captured at the instant when the coun..." alt="" coords="383,582,555,703"/>
+<area shape="rect" id="node7" href="$dc/dd8/classopendnp3_1_1_analog.html" title="Analogs are used for variable data points that usually reflect a real world value. " alt="" coords="233,582,359,703"/>
+<area shape="rect" id="node8" href="$d9/dbc/classopendnp3_1_1_analog_output_status.html" title="Describes the last set value of the set&#45;point. " alt="" coords="5,582,208,703"/>
+<area shape="rect" id="node10" href="$d8/d6a/classopendnp3_1_1_double_bit_binary.html" title="The Double&#45;bit Binary data type has two stable states, on and off, and an in transit state..." alt="" coords="1107,545,1287,740"/>
+<area shape="rect" id="node12" href="$db/dcf/classopendnp3_1_1_binary.html" title="The Binary data type is for describing on&#45;off (boolean) type values. " alt="" coords="736,567,859,718"/>
+<area shape="rect" id="node13" href="$d0/d60/classopendnp3_1_1_binary_output_status.html" title="BinaryOutputStatus is used for describing the current state of a control. " alt="" coords="883,567,1083,718"/>
+</map>

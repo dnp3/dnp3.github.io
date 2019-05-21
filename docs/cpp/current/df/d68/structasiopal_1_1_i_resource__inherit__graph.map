@@ -1,0 +1,9 @@
+<map id="asiopal::IResource" name="asiopal::IResource">
+<area shape="rect" id="node2" href="$dd/d06/classasiodnp3_1_1_i_channel.html" title="Represents a communication channel upon which masters and outstations can be bound. " alt="" coords="5,145,140,296"/>
+<area shape="rect" id="node3" href="$d1/d61/classasiodnp3_1_1_i_stack.html" title="Base class for masters or outstations. " alt="" coords="165,160,317,281"/>
+<area shape="rect" id="node6" href="$d2/d1d/classasiopal_1_1_i_listener.html" title="Represents a running TCP or TLS listener that can be shutdown so that no new connections are accepted..." alt="" coords="347,182,468,259"/>
+<area shape="rect" id="node4" href="$d8/d64/classasiodnp3_1_1_i_master.html" title="Interface that represents a running master session. " alt="" coords="16,425,143,502"/>
+<area shape="rect" id="node5" href="$d5/df9/classasiodnp3_1_1_i_outstation.html" title="Interface representing a running outstation. " alt="" coords="167,403,314,524"/>
+<area shape="rect" id="node7" href="$d6/db6/classasiopal_1_1_t_c_p_server.html" title="Binds and listens on an IPv4 TCP port. " alt="" coords="339,344,487,583"/>
+<area shape="rect" id="node8" href="$dd/d97/classasiodnp3_1_1_master_t_c_p_server.html" title="Binds and listens on an IPv4 TCP port. " alt="" coords="319,631,506,781"/>
+</map>

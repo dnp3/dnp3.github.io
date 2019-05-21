@@ -1,0 +1,4 @@
+<map id="opendnp3::DefaultOutstationApplication" name="opendnp3::DefaultOutstationApplication">
+<area shape="rect" id="node2" href="$d8/d3c/classopendnp3_1_1_i_outstation_application.html" title="Interface for all outstation application callback info except for control requests. " alt="" coords="5,175,225,413"/>
+<area shape="rect" id="node3" href="$d9/d73/classopendnp3_1_1_i_link_listener.html" title="Various optional callbacks that can be received for the link layer. " alt="" coords="31,5,200,127"/>
+</map>

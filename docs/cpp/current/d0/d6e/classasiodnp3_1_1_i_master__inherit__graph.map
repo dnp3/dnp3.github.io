@@ -1,0 +1,6 @@
+<map id="asiodnp3::IMaster" name="asiodnp3::IMaster">
+<area shape="rect" id="node2" href="$d7/d0c/classasiodnp3_1_1_i_master_operations.html" title="All the operations that the user can perform on a running master. " alt="" coords="15,175,205,428"/>
+<area shape="rect" id="node3" href="$d8/dc1/classopendnp3_1_1_i_command_processor.html" title="Interface used to dispatch SELECT / OPERATE / DIRECT OPERATE from application code to a master..." alt="" coords="5,5,215,127"/>
+<area shape="rect" id="node4" href="$d1/d61/classasiodnp3_1_1_i_stack.html" title="Base class for masters or outstations. " alt="" coords="229,241,381,362"/>
+<area shape="rect" id="node5" href="$d9/d7e/structasiopal_1_1_i_resource.html" title="Anything that can be shutdown. " alt="" coords="239,20,370,112"/>
+</map>

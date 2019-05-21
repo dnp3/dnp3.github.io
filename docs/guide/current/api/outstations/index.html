@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        
+
+	<title>Outstations - opendnp3 2.2.0</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">opendnp3 2.2.0</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../features/features/">Features</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Build <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../build/requirements/">Requirements</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/libraries/">Libraries</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/cmake/">CMake</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/linux/">Linux</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/windows/">Windows</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../build/java/">Java</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../architecture/">Architecture</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../logging/">Logging</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../channels/">Channels</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../tls/">TLS Support</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../linklayer/">Link-Layer</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../masters/">Masters</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Outstations</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../troubleshooting/troubleshooting/">Troubleshooting</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../contributing/tasks/">Common Tasks</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../masters/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../../troubleshooting/troubleshooting/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/automatak/dnp3">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#creating-an-outstation">Creating an outstation</a></li>
+        
+    
+        <li class="main "><a href="#updatebuilder">UpdateBuilder</a></li>
+        
+    
+        <li class="main "><a href="#icommandhandler">ICommandHandler</a></li>
+        
+    
+        <li class="main "><a href="#commandstatus">CommandStatus</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h3 id="creating-an-outstation">Creating an outstation</h3>
+<p>An outstation in opendnp3 is a component that communicates with a single master via a communication channel. It makes measurements of the physical world and then
+sends them to a master upon request (solicited) or on its own accord (unsolicited). Occasionally a master requests that it do something by sending it a control.
+Just like a master, an outstation can be attached to any communication channel that opendnp3 supports.</p>
+<p>To add an outstation to a communication channel you call the <em>AddOutstation</em> method on the channel interface:</p>
+<pre><code class="c++">OutstationStackConfig stackConfig;
+
+// You must specify the shape of your database and the size of the event buffers
+stackConfig.dbTemplate = DatabaseTemplate::AllTypes(10);
+stackConfig.outstation.eventBufferConfig = EventBufferConfig::AllTypes(10);
+
+// you can override an default outstation parameters here
+stackConfig.outstation.params.allowUnsolicited = true;
+
+// You can override the default link layer settings here
+// in this example we've changed the default link layer addressing
+stackConfig.link.LocalAddr = 10;
+stackConfig.link.RemoteAddr = 1;
+
+auto outstation = channel-&gt;AddOutstation(
+  &quot;outstation&quot;,                             // alias for logging
+  SuccessCommandHandler::Create(),          // ICommandHandler (interface)
+  DefaultOutstationApplication::Create(),   // IOutstationApplication (interface)
+  stackConfig                               // static stack configuration
+);
+
+outstation-&gt;Enable();
+</code></pre>
+
+<h3 id="updatebuilder">UpdateBuilder</h3>
+<p>When a new measurement is read from an input or a new value is received from a downstream protocol, you need to update the corresponding
+value in the outstation. This is accomplished with the <em>UpdateBuilder</em> and corresponding <em>Updates</em> class.</p>
+<pre><code class="c++">UpdateBuilder builder;
+builder.Update(Counter(state.count), 0);
+builder.Update(Analog(state.value), 0);
+// ... update more types and indices
+
+// finalize the set of updates
+auto updates = builder.Build();
+
+// apply the updates to one or more outstations
+outstation-&gt;apply(updates);
+</code></pre>
+
+<p>The update is atomic. All of the updated values are applied to the outstation database and event buffers at the same time. The <em>Updates</em> instance
+returned from UpdateBuilder::Build() can be safely sent to any number of outstation instances. The outstation automatically decides if these updates 
+produce <em>events</em>. How events are detected are defined within the DNP3 standard, and varies from type to type. Analogs and counters can use 
+<em>deadbands</em> to ensure that unimportant changes are not reported.</p>
+<h3 id="icommandhandler">ICommandHandler</h3>
+<p>When the outstation receives a control request, it dispatches individual commands in the message to the ICommandhandler interface
+supplied when the outstation was added to the channel.</p>
+<pre><code>class ICommandHandler : public ITransactable
+{
+    virtual CommandStatus Select(const ControlRelayOutputBlock&amp; command, uint16_t index) = 0;
+    virtual CommandStatus Operate(const ControlRelayOutputBlock&amp; command, uint16_t index, OperateType opType) = 0;
+    /// ... additional methods for the 4 types of analog outputs - Group 41Var[1-4]
+}
+</code></pre>
+
+<p>You'll notice that the interface is <em>transactable</em> meaning that it has Start()/End() methods just like the <em>ISOEHandler</em> interface in the master. ASDUs
+can contain multiple controls in a single object header, and possibly multiple headers. The Start()/End() methods tell you when an ASDU containing
+commands begins and ends. Many applications probably don't care, but this knowledge is there if you need it for some reason.</p>
+<p>The <em>Select</em> operation shouldn't actually perform the command. Think of it as a question along the lines of <em>"Is this operation supported?"</em>.
+<em>Select-Before-Operate</em> (SBO) is an artifact of the days before the SCADA community really trusted CRCs. It's a 2-pass control scheme where the
+outstation verifies that the select/operate are identical. It was intended as an additional protection against data corruption on noisy networks.</p>
+<p>The <em>Operate</em> method is called from a successful SBO sequence or from a <em>DirectOperate</em> or <em>DirectOperateNoAck</em> request. Many applications don't care how the
+request came in, but the <em>OperateType optype</em> parameter provides an enumeration that can be used to reject certain operations or to forward the same mode downstream in
+gateway applications.</p>
+<pre><code>enum class OperateType : uint8_t
+{
+  /// The outstation received a valid prior SELECT followed by OPERATE
+  SelectBeforeOperate = 0x0,
+  /// The outstation received a direct operate request
+  DirectOperate = 0x1,
+  /// The outstation received a direct operate no ack request
+  DirectOperateNoAck = 0x2
+};
+</code></pre>
+
+<h3 id="commandstatus">CommandStatus</h3>
+<p>You must immediately return a <em>CommandStatus</em> enumeration value in response to each callback. This callback should never block.</p>
+<pre><code class="c++">enum class CommandStatus : uint8_t
+{
+  /// command was accepted, initiated, or queued
+  SUCCESS = 0,
+  /// command timed out before completing
+  TIMEOUT = 1,
+  /// command requires being selected before operate, configuration issue
+  NO_SELECT = 2,
+  /// more values ...
+}
+</code></pre>
+
+<p>The enumeration contains about ~18 different values, and you should refer to 1815 or the code comments for a description of each. In general,
+you'll be choosing <em>SUCCESS</em> or some kind of error code.</p>
+<p>It's important to understand that <em>SUCCESS</em> doesn't imply that the command was synchronously executed. It really just means that the command
+was received and queued. Some devices can synchronously process a command, e.g. quickly writing to memory mapped I/O, but you'd never
+want to block in a gateway application to perform a downstream Modbus transaction. You'd pass the control of to another thread or queue the operation
+in some way for subsequent processing.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <center>Copyright Automatak LLC 2015</center>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

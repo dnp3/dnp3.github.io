@@ -1,0 +1,5 @@
+<map id="opendnp3::BinaryOutputStatus" name="opendnp3::BinaryOutputStatus">
+<area shape="rect" id="node2" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="{opendnp3::TypedMeasurement\l\&lt; bool \&gt;\n|+ value\l|# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l# TypedMeasurement()\l}" alt="" coords="5,360,207,496"/>
+<area shape="rect" id="node3" href="$d6/d20/classopendnp3_1_1_measurement.html" title="Base class shared by all of the DataPoint types. " alt="" coords="49,5,214,127"/>
+<area shape="rect" id="node4" href="$df/df9/classopendnp3_1_1_typed_measurement.html" title="Common subclass to analogs and counters. " alt="" coords="123,176,356,297"/>
+</map>

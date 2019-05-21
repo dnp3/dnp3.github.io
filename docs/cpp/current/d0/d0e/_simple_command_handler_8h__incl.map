@@ -1,0 +1,10 @@
+<map id="cpp/libs/include/opendnp3/outstation/SimpleCommandHandler.h" name="cpp/libs/include/opendnp3/outstation/SimpleCommandHandler.h">
+<area shape="rect" id="node2" href="$d0/d91/_i_command_handler_8h.html" title="ICommandHandler.h" alt="" coords="367,95,510,121"/>
+<area shape="rect" id="node3" href="$df/dfe/_control_relay_output_block_8h.html" title="opendnp3/app/ControlRelay\lOutputBlock.h" alt="" coords="241,169,423,211"/>
+<area shape="rect" id="node7" href="$da/dc4/_analog_output_8h.html" title="opendnp3/app/AnalogOutput.h" alt="" coords="16,177,213,203"/>
+<area shape="rect" id="node8" href="$d8/d41/_i_transactable_8h.html" title="opendnp3/app/ITransactable.h" alt="" coords="448,177,645,203"/>
+<area shape="rect" id="node10" href="$da/df9/_operate_type_8h.html" title="opendnp3/gen/OperateType.h" alt="" coords="657,259,850,285"/>
+<area shape="rect" id="node4" href="$dc/d36/_command_status_8h.html" title="opendnp3/gen/CommandStatus.h" alt="" coords="5,259,221,285"/>
+<area shape="rect" id="node6" href="$d3/dd5/_control_code_8h.html" title="opendnp3/gen/ControlCode.h" alt="" coords="246,259,437,285"/>
+<area shape="rect" id="node9" href="$df/df8/_uncopyable_8h.html" title="openpal/util/Uncopyable.h" alt="" coords="461,259,633,285"/>
+</map>

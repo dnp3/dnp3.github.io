@@ -1,0 +1,4 @@
+<map id="opendnp3::AnalogOutputDouble64" name="opendnp3::AnalogOutputDouble64">
+<area shape="rect" id="node2" href="$de/d0e/classopendnp3_1_1_analog_output.html" title="{opendnp3::AnalogOutput\l\&lt; double \&gt;\n|+ status\l+ value\l|+ AnalogOutput()\l+ AnalogOutput()\l+ AnalogOutput()\l+ ValuesEqual()\l}" alt="" coords="33,204,198,355"/>
+<area shape="rect" id="node3" href="$de/d0e/classopendnp3_1_1_analog_output.html" title="The object to represent a setpoint request from the master. " alt="" coords="17,5,214,141"/>
+</map>

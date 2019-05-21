@@ -1,0 +1,4 @@
+<map id="opendnp3::IUpdateHandler::~IUpdateHandler" name="opendnp3::IUpdateHandler::~IUpdateHandler">
+<area shape="rect" id="node2" href="$dd/d8e/classopendnp3_1_1_i_update_handler_a5c1840112cb1ca71425ab0c755da6030.html#a5c1840112cb1ca71425ab0c755da6030" title="Update the flags of a measurement without changing it&#39;s value. " alt="" coords="231,5,408,47"/>
+<area shape="rect" id="node3" href="$dd/d8e/classopendnp3_1_1_i_update_handler_ae87c9bd95f8778eda12ceb67ca4c1dff.html#ae87c9bd95f8778eda12ceb67ca4c1dff" title="Update a Binary measurement. " alt="" coords="231,71,408,112"/>
+</map>

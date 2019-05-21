@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        
+
+	<title>Windows - opendnp3 2.2.0</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">opendnp3 2.2.0</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+                <li >
+                    <a href="../..">Home</a>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../features/features/">Features</a>
+                </li>
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Build <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../requirements/">Requirements</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../libraries/">Libraries</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../cmake/">CMake</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../linux/">Linux</a>
+                        </li>
+                    
+                        <li class="active">
+                            <a href="./">Windows</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../java/">Java</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../api/architecture/">Architecture</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../api/logging/">Logging</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../api/channels/">Channels</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../api/tls/">TLS Support</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../api/linklayer/">Link-Layer</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../api/masters/">Masters</a>
+                        </li>
+                    
+                        <li >
+                            <a href="../../api/outstations/">Outstations</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            
+                <li >
+                    <a href="../../troubleshooting/troubleshooting/">Troubleshooting</a>
+                </li>
+            
+            
+            
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        <li >
+                            <a href="../../contributing/tasks/">Common Tasks</a>
+                        </li>
+                    
+                    </ul>
+                </li>
+            
+            
+            </ul>
+
+            <!-- Search, Navigation and Repo links -->
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                <li >
+                    <a rel="next" href="../linux/">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </li>
+                <li >
+                    <a rel="prev" href="../java/">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </li>
+                
+                <li>
+                    <a href="https://github.com/automatak/dnp3">
+                        
+                            <i class="fa fa-github"></i>
+                        
+                        GitHub
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#visual-studio-sln">Visual Studio SLN</a></li>
+        
+    
+        <li class="main "><a href="#command-line">Command Line</a></li>
+        
+    
+        <li class="main "><a href="#installing">Installing</a></li>
+        
+    
+        <li class="main "><a href="#tls-support">TLS Support</a></li>
+        
+    
+        <li class="main "><a href="#net-bindings">.NET Bindings</a></li>
+        
+    
+    </ul>
+</div></div>
+            <div class="col-md-9" role="main">
+
+<h3 id="visual-studio-sln">Visual Studio SLN</h3>
+<p>On windows, CMake is used to generate a SLN and associated project files.</p>
+<pre><code class="sh">&gt; mkdir build
+&gt; cd build
+&gt; cmake .. &lt;options&gt;
+</code></pre>
+
+<p>Once you've generated your SLN, you can just open it and use Visual Studio to build the project for you just like any other project.</p>
+<h3 id="command-line">Command Line</h3>
+<p>Alternatively, you can just invoke msbuild.exe on the generated solution and build from the command line.</p>
+<pre><code class="sh">&gt; msbuild opendnp3.sln
+</code></pre>
+
+<h3 id="installing">Installing</h3>
+<p>CMake creates a special project called "install" that you can run inside Visual Studio to install the headers and libraries to
+the directory specified by CMAKE_INSTALL_PREFIX.</p>
+<h3 id="tls-support">TLS Support</h3>
+<p>If you need to build the stack w/ TLS support (or you're using the .NET bindings), then you need to install openssl on Windows.  Use the installers
+from <a href="https://slproweb.com/products/Win32OpenSSL.html">ShiningLight</a>.</p>
+<h3 id="net-bindings">.NET Bindings</h3>
+<p>By far, the easiest way to use the .NET bindings is just to install the Nuget package we publish:</p>
+<pre><code class="sh">PM&gt; Install-Package opendnp3
+</code></pre>
+
+<p>or to allow pre-release versions:</p>
+<pre><code class="sh">PM&gt; Install-Package opendnp3 -Pre
+</code></pre>
+
+<p><strong>Manually building</strong></p>
+<p>Building the .NET bindings requires linking to openssl. As a result, you need to create and install an opendnp3 build
+with -DFULL=ON set when creating the SLN.</p>
+<p>The .NET bindings use a separate SLN located in the 'dotnet' folder (bindings.sln). They treat the C++ libraries as if they were a dependency. There are a few environment variables you need to define so that the SLN can find opendnp3.</p>
+<ul>
+<li>OPENDNP3_DIR - The directory where opendnp3 was installed, e.g. your argument to CMAKE_INSTALL_PREFIX</li>
+<li>OSSL_LIB32_DIR - The directory where the 32-bit openssl libraries are installed, e.g. C:\OpenSSL-Win32\lib\VC\static</li>
+<li>OSSL_LIB64_DIR - The directory where the 64-bit openssl libraries are installed, e.g. C:\OpenSSL-Win64\lib\VC\static</li>
+</ul>
+<p>Using the "static" directory of the openssl distribution will create .NET bindings that statically link all of openssl. If you'd prefer to link dynamically use
+the "lib/VC" directory instead.</p>
+<p>You don't need to define both the 32/64 bit library locations. Just define what you plan on building.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <center>Copyright Automatak LLC 2015</center>
+            
+            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

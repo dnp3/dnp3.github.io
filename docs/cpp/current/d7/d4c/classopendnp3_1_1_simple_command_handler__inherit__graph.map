@@ -1,0 +1,5 @@
+<map id="opendnp3::SimpleCommandHandler" name="opendnp3::SimpleCommandHandler">
+<area shape="rect" id="node4" href="$d9/dea/classopendnp3_1_1_success_command_handler.html" title="A singleton command handler that always returns success. " alt="" coords="21,939,220,1045"/>
+<area shape="rect" id="node2" href="$d7/d3e/classopendnp3_1_1_i_command_handler.html" title="Interface used to dispatch SELECT / OPERATE / DIRECT OPERATE (Binary/Analog output) from the outstati..." alt="" coords="23,160,218,384"/>
+<area shape="rect" id="node3" href="$d0/d64/classopendnp3_1_1_i_transactable.html" title="Something that can be performed atomically or needing Start()/End() signals. " alt="" coords="38,5,203,112"/>
+</map>

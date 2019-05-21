@@ -1,0 +1,4 @@
+<map id="asiopal::IChannelCallbacks::~IChannelCallbacks" name="asiopal::IChannelCallbacks::~IChannelCallbacks">
+<area shape="rect" id="node2" href="$d5/d91/structasiopal_1_1_i_channel_callbacks_ab49af39974a2d312ef10c70aeebc538c.html#ab49af39974a2d312ef10c70aeebc538c" title="asiopal::IChannelCallbacks\l::OnReadComplete" alt="" coords="235,5,416,47"/>
+<area shape="rect" id="node3" href="$d5/d91/structasiopal_1_1_i_channel_callbacks_aae8c6808d4eab6ab640234676b4e5849.html#aae8c6808d4eab6ab640234676b4e5849" title="asiopal::IChannelCallbacks\l::OnWriteComplete" alt="" coords="235,71,416,112"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$df/d65/structopendnp3_1_1_index_config.html" title="opendnp3::IndexConfig" alt="" coords="5,293,161,320"/>
+<area shape="rect" id="node2" href="$d9/daf/classopendnp3_1_1_security_stat_config.html" title="opendnp3::SecurityStatConfig" alt="" coords="209,5,405,32"/>
+<area shape="rect" id="node3" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; Info \&gt;" alt="" coords="228,57,387,98"/>
+<area shape="rect" id="node6" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; AnalogInfo \&gt;" alt="" coords="228,122,387,163"/>
+<area shape="rect" id="node10" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; AnalogOutputStatusInfo \&gt;" alt="" coords="215,187,400,229"/>
+<area shape="rect" id="node14" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; BinaryInfo \&gt;" alt="" coords="228,253,387,294"/>
+<area shape="rect" id="node17" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; BinaryOutputStatusInfo \&gt;" alt="" coords="216,318,399,359"/>
+<area shape="rect" id="node20" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; CounterInfo \&gt;" alt="" coords="228,383,387,425"/>
+<area shape="rect" id="node24" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; DoubleBitBinaryInfo \&gt;" alt="" coords="226,449,389,490"/>
+<area shape="rect" id="node27" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; FrozenCounterInfo \&gt;" alt="" coords="228,514,387,555"/>
+<area shape="rect" id="node31" href="$dc/de4/structopendnp3_1_1_static_config.html" title="opendnp3::StaticConfig\l\&lt; TimeAndIntervalInfo \&gt;" alt="" coords="226,579,389,621"/>
+<area shape="rect" id="node4" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; Info \&gt;" alt="" coords="467,57,625,98"/>
+<area shape="rect" id="node5" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="opendnp3::DeadbandConfig\l\&lt; Info \&gt;" alt="" coords="688,57,871,98"/>
+<area shape="rect" id="node7" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; AnalogInfo \&gt;" alt="" coords="467,122,625,163"/>
+<area shape="rect" id="node8" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="opendnp3::DeadbandConfig\l\&lt; AnalogInfo \&gt;" alt="" coords="688,122,871,163"/>
+<area shape="rect" id="node9" href="$d5/d1e/classopendnp3_1_1_analog_config.html" title="opendnp3::AnalogConfig" alt="" coords="943,129,1107,156"/>
+<area shape="rect" id="node11" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; AnalogOutputStatusInfo \&gt;" alt="" coords="453,187,639,229"/>
+<area shape="rect" id="node12" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="opendnp3::DeadbandConfig\l\&lt; AnalogOutputStatusInfo \&gt;" alt="" coords="687,187,872,229"/>
+<area shape="rect" id="node13" href="$da/da3/classopendnp3_1_1_a_o_status_config.html" title="opendnp3::AOStatusConfig" alt="" coords="935,195,1116,221"/>
+<area shape="rect" id="node15" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; BinaryInfo \&gt;" alt="" coords="467,253,625,294"/>
+<area shape="rect" id="node16" href="$d2/d2f/classopendnp3_1_1_binary_config.html" title="opendnp3::BinaryConfig" alt="" coords="699,260,860,287"/>
+<area shape="rect" id="node18" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; BinaryOutputStatusInfo \&gt;" alt="" coords="455,318,637,359"/>
+<area shape="rect" id="node19" href="$db/d10/classopendnp3_1_1_b_o_status_config.html" title="opendnp3::BOStatusConfig" alt="" coords="689,325,870,352"/>
+<area shape="rect" id="node21" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; CounterInfo \&gt;" alt="" coords="467,383,625,425"/>
+<area shape="rect" id="node22" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="opendnp3::DeadbandConfig\l\&lt; CounterInfo \&gt;" alt="" coords="688,383,871,425"/>
+<area shape="rect" id="node23" href="$da/da4/classopendnp3_1_1_counter_config.html" title="opendnp3::CounterConfig" alt="" coords="940,391,1111,417"/>
+<area shape="rect" id="node25" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; DoubleBitBinaryInfo \&gt;" alt="" coords="465,449,627,490"/>
+<area shape="rect" id="node26" href="$d4/d8d/classopendnp3_1_1_double_bit_binary_config.html" title="opendnp3::DoubleBitBinary\lConfig" alt="" coords="689,449,869,490"/>
+<area shape="rect" id="node28" href="$d5/d6a/structopendnp3_1_1_event_config.html" title="opendnp3::EventConfig\l\&lt; FrozenCounterInfo \&gt;" alt="" coords="467,514,625,555"/>
+<area shape="rect" id="node29" href="$d0/d66/structopendnp3_1_1_deadband_config.html" title="opendnp3::DeadbandConfig\l\&lt; FrozenCounterInfo \&gt;" alt="" coords="688,514,871,555"/>
+<area shape="rect" id="node30" href="$d8/d57/classopendnp3_1_1_frozen_counter_config.html" title="opendnp3::FrozenCounterConfig" alt="" coords="920,521,1131,548"/>
+<area shape="rect" id="node32" href="$d9/da9/classopendnp3_1_1_time_and_interval_config.html" title="opendnp3::TimeAndInterval\lConfig" alt="" coords="455,579,637,621"/>
+</map>

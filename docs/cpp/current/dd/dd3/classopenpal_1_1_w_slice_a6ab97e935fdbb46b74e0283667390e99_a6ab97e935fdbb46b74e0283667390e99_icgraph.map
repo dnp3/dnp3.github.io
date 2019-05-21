@@ -1,0 +1,7 @@
+<map id="openpal::WSlice::Advance" name="openpal::WSlice::Advance">
+<area shape="rect" id="node2" href="$d0/dd1/classopenpal_1_1_ring_buffer_a4bbaa127f270968e2b79c5f659a82d6f.html#a4bbaa127f270968e2b79c5f659a82d6f" title="openpal::RingBuffer\l::GetMany" alt="" coords="258,5,395,47"/>
+<area shape="rect" id="node3" href="$df/d62/classopenpal_1_1_u_int8_simple_ac5d80966865af4dccce5b8a2bea68c7c.html#ac5d80966865af4dccce5b8a2bea68c7c" title="openpal::UInt8Simple\l::WriteBuffer" alt="" coords="253,71,400,112"/>
+<area shape="rect" id="node4" href="$d3/d0f/classopenpal_1_1_u_int48_l_e_af6d5c9205759b40e5c0d1a42546bc366.html#af6d5c9205759b40e5c0d1a42546bc366" title="openpal::UInt48LE::\lWriteBuffer" alt="" coords="257,136,396,177"/>
+<area shape="rect" id="node5" href="$d5/d32/classopenpal_1_1_bit16_l_e_a1dca6596c266020689fb7943bc8115b8.html#a1dca6596c266020689fb7943bc8115b8" title="openpal::Bit16LE::WriteBuffer" alt="" coords="229,202,424,229"/>
+<area shape="rect" id="node6" href="$dc/d5e/classopenpal_1_1_bit32_l_e_a11108e12dece83f88308858e27346742.html#a11108e12dece83f88308858e27346742" title="openpal::Bit32LE::WriteBuffer" alt="" coords="229,253,424,279"/>
+</map>
