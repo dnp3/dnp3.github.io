@@ -29,7 +29,7 @@ var searchData=
   ['iopendelaystrategy',['IOpenDelayStrategy',['../d5/dae/classasiopal_1_1_i_open_delay_strategy.html',1,'asiopal']]],
   ['ioutstation',['IOutstation',['../d5/df9/classasiodnp3_1_1_i_outstation.html',1,'asiodnp3']]],
   ['ioutstationapplication',['IOutstationApplication',['../d8/d3c/classopendnp3_1_1_i_outstation_application.html',1,'opendnp3']]],
-  ['ipendpoint',['IPEndpoint',['../d1/d98/classasiopal_1_1_i_p_endpoint.html',1,'asiopal']]],
+  ['ipendpoint',['IPEndpoint',['../d1/df2/structasiopal_1_1_i_p_endpoint.html',1,'asiopal']]],
   ['iphysicallayer',['IPhysicalLayer',['../d1/d26/classopenpal_1_1_i_physical_layer.html',1,'openpal']]],
   ['iphysicallayercallbacks',['IPhysicalLayerCallbacks',['../d7/d17/classopenpal_1_1_i_physical_layer_callbacks.html',1,'openpal']]],
   ['iresource',['IResource',['../d9/d7e/structasiopal_1_1_i_resource.html',1,'asiopal']]],

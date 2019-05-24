@@ -1,14 +1,16 @@
 var classasiodnp3_1_1_d_n_p3_manager =
 [
-    [ "DNP3Manager", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a541d90ce05912ced71ee1478e3f13174.html#a541d90ce05912ced71ee1478e3f13174", null ],
-    [ "~DNP3Manager", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a2aa8a2c91e5217744c6b461aa2ea1909.html#a2aa8a2c91e5217744c6b461aa2ea1909", null ],
-    [ "AddSerial", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a106a9b5225b5e655a72d4e9ea7de4458.html#a106a9b5225b5e655a72d4e9ea7de4458", null ],
-    [ "AddTCPClient", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a0e15d19ba5994dce3c2f3b45058e2907.html#a0e15d19ba5994dce3c2f3b45058e2907", null ],
-    [ "AddTCPServer", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_acd88156c0376699ba4ab7e23e74dff72.html#acd88156c0376699ba4ab7e23e74dff72", null ],
-    [ "AddTLSClient", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_aef62ef5e5a536df2b547dbccc2b163d6.html#aef62ef5e5a536df2b547dbccc2b163d6", null ],
-    [ "AddTLSServer", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a8cbf693701aff26fbc7477eb7e2851fc.html#a8cbf693701aff26fbc7477eb7e2851fc", null ],
-    [ "CreateListener", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_abf79d8b8bd05a74096553cc4e2acc3be.html#abf79d8b8bd05a74096553cc4e2acc3be", null ],
-    [ "CreateListener", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_aed1ec3510f7463dff04667523d7ee388.html#aed1ec3510f7463dff04667523d7ee388", null ],
-    [ "Shutdown", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a950bc8d54dd00b9b39cfc4c03029358e.html#a950bc8d54dd00b9b39cfc4c03029358e", null ],
-    [ "impl", "dd/d89/classasiodnp3_1_1_d_n_p3_manager_a7bad91671cba66997077bf369bd378a6.html#a7bad91671cba66997077bf369bd378a6", null ]
+    [ "DNP3Manager", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a8daeee0fa69ebbea78b3a1c578f0d0bd", null ],
+    [ "~DNP3Manager", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a2aa8a2c91e5217744c6b461aa2ea1909", null ],
+    [ "AddSerial", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a05f0953d0ee846e37afe407b73df842c", null ],
+    [ "AddTCPClient", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a99cf99aee8f7bf076be8195de9002dcc", null ],
+    [ "AddTCPClient", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a4c78644463c3048c2fb63866ec15177b", null ],
+    [ "AddTCPServer", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a4f1e66b8d0c55339c6412b417d61d47d", null ],
+    [ "AddTLSClient", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#ab2eee5a52ff1856cd9a7067d55296b62", null ],
+    [ "AddTLSClient", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#ace5ca31b69dd20e4f1440e6d93289c67", null ],
+    [ "AddTLSServer", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a8038c9a912cd63ac1c824c5a9796376a", null ],
+    [ "CreateListener", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#abcfb21789542a5b6ac685b71f7547d7a", null ],
+    [ "CreateListener", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a358b691e281c5417300bd2ebe8ab3964", null ],
+    [ "Shutdown", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a950bc8d54dd00b9b39cfc4c03029358e", null ],
+    [ "impl", "dd/d89/classasiodnp3_1_1_d_n_p3_manager.html#a7bad91671cba66997077bf369bd378a6", null ]
 ];

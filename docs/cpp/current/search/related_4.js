@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['measupdate',['MeasUpdate',['../d5/df9/classasiodnp3_1_1_i_outstation_acf55ff675bd1f6c35ff858b89a09a962.html#acf55ff675bd1f6c35ff858b89a09a962',1,'asiodnp3::IOutstation']]]
+  ['updatebuilder',['UpdateBuilder',['../db/d7c/classasiodnp3_1_1_updates.html#a662e21ebf0bf5b1d091c0af75ee7283c',1,'asiodnp3::Updates']]]
 ];

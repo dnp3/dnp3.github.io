@@ -54,6 +54,7 @@ var dir_3f1ec965a658223b42b01eaf419a683c =
       [ "CounterInfo", "d4/db8/structopendnp3_1_1_counter_info.html", "d4/db8/structopendnp3_1_1_counter_info" ],
       [ "DoubleBitBinaryInfo", "d5/d22/structopendnp3_1_1_double_bit_binary_info.html", "d5/d22/structopendnp3_1_1_double_bit_binary_info" ],
       [ "FrozenCounterInfo", "d8/d65/structopendnp3_1_1_frozen_counter_info.html", "d8/d65/structopendnp3_1_1_frozen_counter_info" ],
+      [ "OctetStringInfo", "d8/dc3/structopendnp3_1_1_octet_string_info.html", "d8/dc3/structopendnp3_1_1_octet_string_info" ],
       [ "SecurityStatInfo", "d6/d89/structopendnp3_1_1_security_stat_info.html", "d6/d89/structopendnp3_1_1_security_stat_info" ],
       [ "TimeAndIntervalInfo", "dd/dc0/structopendnp3_1_1_time_and_interval_info.html", "dd/dc0/structopendnp3_1_1_time_and_interval_info" ]
     ] ],
@@ -75,6 +76,7 @@ var dir_3f1ec965a658223b42b01eaf419a683c =
       [ "CounterSpec", "d3/d0f/structopendnp3_1_1_counter_spec.html", "d3/d0f/structopendnp3_1_1_counter_spec" ],
       [ "DoubleBitBinarySpec", "df/d71/structopendnp3_1_1_double_bit_binary_spec.html", "df/d71/structopendnp3_1_1_double_bit_binary_spec" ],
       [ "FrozenCounterSpec", "db/dd1/structopendnp3_1_1_frozen_counter_spec.html", "db/dd1/structopendnp3_1_1_frozen_counter_spec" ],
+      [ "OctetStringSpec", "dd/d02/structopendnp3_1_1_octet_string_spec.html", "dd/d02/structopendnp3_1_1_octet_string_spec" ],
       [ "SecurityStatSpec", "dc/db3/structopendnp3_1_1_security_stat_spec.html", "dc/db3/structopendnp3_1_1_security_stat_spec" ],
       [ "TimeAndIntervalSpec", "d1/d20/structopendnp3_1_1_time_and_interval_spec.html", "d1/d20/structopendnp3_1_1_time_and_interval_spec" ]
     ] ],

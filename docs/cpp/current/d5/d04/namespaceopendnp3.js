@@ -1,5 +1,6 @@
 var namespaceopendnp3 =
 [
+    [ "Addresses", "d6/d6f/structopendnp3_1_1_addresses.html", "d6/d6f/structopendnp3_1_1_addresses" ],
     [ "Analog", "dc/dd8/classopendnp3_1_1_analog.html", "dc/dd8/classopendnp3_1_1_analog" ],
     [ "AnalogCommandEvent", "db/d2a/classopendnp3_1_1_analog_command_event.html", "db/d2a/classopendnp3_1_1_analog_command_event" ],
     [ "AnalogConfig", "d5/d1e/classopendnp3_1_1_analog_config.html", null ],
@@ -79,6 +80,9 @@ var namespaceopendnp3 =
     [ "Measurement", "d6/d20/classopendnp3_1_1_measurement.html", "d6/d20/classopendnp3_1_1_measurement" ],
     [ "OctetData", "d3/d63/classopendnp3_1_1_octet_data.html", "d3/d63/classopendnp3_1_1_octet_data" ],
     [ "OctetString", "d2/d67/classopendnp3_1_1_octet_string.html", "d2/d67/classopendnp3_1_1_octet_string" ],
+    [ "OctetStringConfig", "d2/df0/classopendnp3_1_1_octet_string_config.html", null ],
+    [ "OctetStringInfo", "d8/dc3/structopendnp3_1_1_octet_string_info.html", "d8/dc3/structopendnp3_1_1_octet_string_info" ],
+    [ "OctetStringSpec", "dd/d02/structopendnp3_1_1_octet_string_spec.html", "dd/d02/structopendnp3_1_1_octet_string_spec" ],
     [ "OutstationConfig", "d8/d97/structopendnp3_1_1_outstation_config.html", "d8/d97/structopendnp3_1_1_outstation_config" ],
     [ "OutstationParams", "d4/d39/structopendnp3_1_1_outstation_params.html", "d4/d39/structopendnp3_1_1_outstation_params" ],
     [ "RestartOperationResult", "d3/d67/classopendnp3_1_1_restart_operation_result.html", "d3/d67/classopendnp3_1_1_restart_operation_result" ],

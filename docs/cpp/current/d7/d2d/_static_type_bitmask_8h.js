@@ -8,6 +8,7 @@ var _static_type_bitmask_8h =
       [ "AnalogInput", "d7/d2d/_static_type_bitmask_8h.html#a4d5265a12f3a75a92ea00658b4300288a04f4bd876f98b3ab1095598fcca71975", null ],
       [ "BinaryOutputStatus", "d7/d2d/_static_type_bitmask_8h.html#a4d5265a12f3a75a92ea00658b4300288a50f954638b6f3fae588add432b88780c", null ],
       [ "AnalogOutputStatus", "d7/d2d/_static_type_bitmask_8h.html#a4d5265a12f3a75a92ea00658b4300288aef4829fc819ef90c0308e3e6bb0badca", null ],
-      [ "TimeAndInterval", "d7/d2d/_static_type_bitmask_8h.html#a4d5265a12f3a75a92ea00658b4300288a705b63861be433e41aff9b9e3d62d2df", null ]
+      [ "TimeAndInterval", "d7/d2d/_static_type_bitmask_8h.html#a4d5265a12f3a75a92ea00658b4300288a705b63861be433e41aff9b9e3d62d2df", null ],
+      [ "OctetString", "d7/d2d/_static_type_bitmask_8h.html#a4d5265a12f3a75a92ea00658b4300288a326f7bd24567761f362d70162da15556", null ]
     ] ]
 ];

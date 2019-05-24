@@ -34,6 +34,7 @@ var dir_ce435fd579c1356c0787df5d2f05f6f6 =
       [ "EventConfig", "d5/d6a/structopendnp3_1_1_event_config.html", "d5/d6a/structopendnp3_1_1_event_config" ],
       [ "FrozenCounterConfig", "d8/d57/classopendnp3_1_1_frozen_counter_config.html", null ],
       [ "IndexConfig", "df/d65/structopendnp3_1_1_index_config.html", "df/d65/structopendnp3_1_1_index_config" ],
+      [ "OctetStringConfig", "d2/df0/classopendnp3_1_1_octet_string_config.html", null ],
       [ "SecurityStatConfig", "d9/daf/classopendnp3_1_1_security_stat_config.html", null ],
       [ "StaticConfig", "dc/de4/structopendnp3_1_1_static_config.html", "dc/de4/structopendnp3_1_1_static_config" ],
       [ "TimeAndIntervalConfig", "d9/da9/classopendnp3_1_1_time_and_interval_config.html", null ]

@@ -1,5 +1,8 @@
 var dir_a73101bd90f33a224cd5d87a7713e269 =
 [
+    [ "Addresses.h", "de/d1d/_addresses_8h.html", [
+      [ "Addresses", "d6/d6f/structopendnp3_1_1_addresses.html", "d6/d6f/structopendnp3_1_1_addresses" ]
+    ] ],
     [ "ILinkListener.h", "d6/d1c/_i_link_listener_8h.html", [
       [ "ILinkListener", "d9/d73/classopendnp3_1_1_i_link_listener.html", "d9/d73/classopendnp3_1_1_i_link_listener" ]
     ] ],

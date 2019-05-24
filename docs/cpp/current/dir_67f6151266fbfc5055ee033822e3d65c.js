@@ -24,7 +24,7 @@ var dir_67f6151266fbfc5055ee033822e3d65c =
       [ "IOpenDelayStrategy", "d5/dae/classasiopal_1_1_i_open_delay_strategy.html", "d5/dae/classasiopal_1_1_i_open_delay_strategy" ]
     ] ],
     [ "IPEndpoint.h", "db/db5/_i_p_endpoint_8h.html", [
-      [ "IPEndpoint", "d1/d98/classasiopal_1_1_i_p_endpoint.html", "d1/d98/classasiopal_1_1_i_p_endpoint" ]
+      [ "IPEndpoint", "d1/df2/structasiopal_1_1_i_p_endpoint.html", "d1/df2/structasiopal_1_1_i_p_endpoint" ]
     ] ],
     [ "IResourceManager.h", "df/d65/_i_resource_manager_8h.html", [
       [ "IResource", "d9/d7e/structasiopal_1_1_i_resource.html", "d9/d7e/structasiopal_1_1_i_resource" ],

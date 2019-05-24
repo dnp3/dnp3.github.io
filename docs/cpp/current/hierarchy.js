@@ -32,7 +32,7 @@ var hierarchy =
     [ "asiopal::IOpenDelayStrategy", "d5/dae/classasiopal_1_1_i_open_delay_strategy.html", [
       [ "asiopal::ExponentialBackoffStrategy", "da/dbd/classasiopal_1_1_exponential_backoff_strategy.html", null ]
     ] ],
-    [ "asiopal::IPEndpoint", "d1/d98/classasiopal_1_1_i_p_endpoint.html", null ],
+    [ "asiopal::IPEndpoint", "d1/df2/structasiopal_1_1_i_p_endpoint.html", null ],
     [ "asiopal::IResource", "d9/d7e/structasiopal_1_1_i_resource.html", [
       [ "asiodnp3::IChannel", "dd/d06/classasiodnp3_1_1_i_channel.html", null ],
       [ "asiodnp3::IStack", "d1/d61/classasiodnp3_1_1_i_stack.html", [
@@ -55,12 +55,6 @@ var hierarchy =
     [ "asiopal::TLSConfig", "d4/d27/structasiopal_1_1_t_l_s_config.html", null ],
     [ "opendnp3::Count< uint16_t >", "de/dbb/structopendnp3_1_1_count.html", null ],
     [ "opendnp3::Count< uint8_t >", "de/dbb/structopendnp3_1_1_count.html", null ],
-    [ "openpal::HasSize< IndexType >", "d4/d44/classopenpal_1_1_has_size.html", [
-      [ "openpal::Array< openpal::ListNode< ValueType >, IndexType >", "d7/d3a/classopenpal_1_1_array.html", null ],
-      [ "openpal::Array< ValueType, IndexType >", "d7/d3a/classopenpal_1_1_array.html", null ],
-      [ "openpal::ArrayView< ValueType, IndexType >", "d6/d80/classopenpal_1_1_array_view.html", null ],
-      [ "openpal::LinkedList< ValueType, IndexType >", "d6/db1/classopenpal_1_1_linked_list.html", null ]
-    ] ],
     [ "openpal::HasSize< uint16_t >", "d4/d44/classopenpal_1_1_has_size.html", [
       [ "openpal::Array< opendnp3::AnalogConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ],
       [ "openpal::Array< opendnp3::AOStatusConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ],
@@ -69,13 +63,12 @@ var hierarchy =
       [ "openpal::Array< opendnp3::CounterConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ],
       [ "openpal::Array< opendnp3::DoubleBitBinaryConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ],
       [ "openpal::Array< opendnp3::FrozenCounterConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ],
+      [ "openpal::Array< opendnp3::OctetStringConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ],
       [ "openpal::Array< opendnp3::TimeAndIntervalConfig, uint16_t >", "d7/d3a/classopenpal_1_1_array.html", null ]
     ] ],
     [ "openpal::HasSize< uint32_t >", "d4/d44/classopenpal_1_1_has_size.html", [
       [ "openpal::Array< uint8_t, uint32_t >", "d7/d3a/classopenpal_1_1_array.html", [
-        [ "openpal::Buffer", "de/db8/classopenpal_1_1_buffer.html", [
-          [ "openpal::SecureBuffer", "d6/d0e/classopenpal_1_1_secure_buffer.html", null ]
-        ] ]
+        [ "openpal::Buffer", "de/db8/classopenpal_1_1_buffer.html", null ]
       ] ],
       [ "openpal::RSlice", "df/d51/classopenpal_1_1_r_slice.html", null ],
       [ "openpal::WSlice", "dd/dd3/classopenpal_1_1_w_slice.html", null ]
@@ -83,6 +76,7 @@ var hierarchy =
     [ "opendnp3::ICollection< CommandPointResult >", "d3/dc3/classopendnp3_1_1_i_collection.html", [
       [ "opendnp3::ICommandTaskResult", "d5/d9a/classopendnp3_1_1_i_command_task_result.html", null ]
     ] ],
+    [ "opendnp3::Addresses", "d6/d6f/structopendnp3_1_1_addresses.html", null ],
     [ "opendnp3::AnalogCommandEvent", "db/d2a/classopendnp3_1_1_analog_command_event.html", null ],
     [ "opendnp3::AnalogOutput< T >", "de/d0e/classopendnp3_1_1_analog_output.html", null ],
     [ "opendnp3::ApplicationIIN", "d7/d5a/classopendnp3_1_1_application_i_i_n.html", null ],
@@ -173,6 +167,11 @@ var hierarchy =
           ] ]
         ] ]
       ] ],
+      [ "opendnp3::StaticConfig< OctetStringInfo >", "dc/de4/structopendnp3_1_1_static_config.html", [
+        [ "opendnp3::EventConfig< OctetStringInfo >", "d5/d6a/structopendnp3_1_1_event_config.html", [
+          [ "opendnp3::OctetStringConfig", "d2/df0/classopendnp3_1_1_octet_string_config.html", null ]
+        ] ]
+      ] ],
       [ "opendnp3::StaticConfig< TimeAndIntervalInfo >", "dc/de4/structopendnp3_1_1_static_config.html", [
         [ "opendnp3::TimeAndIntervalConfig", "d9/da9/classopendnp3_1_1_time_and_interval_config.html", null ]
       ] ]
@@ -239,7 +238,10 @@ var hierarchy =
     [ "opendnp3::TimeAndInterval", "d0/d82/classopendnp3_1_1_time_and_interval.html", null ],
     [ "openpal::Bit16LE< T >", "d5/d32/classopenpal_1_1_bit16_l_e.html", null ],
     [ "openpal::Bit32LE< T >", "dc/d5e/classopenpal_1_1_bit32_l_e.html", null ],
-    [ "openpal::HasSize< SizeType >", "d4/d44/classopenpal_1_1_has_size.html", null ],
+    [ "openpal::HasSize< W >", "d4/d44/classopenpal_1_1_has_size.html", [
+      [ "openpal::Array< T, W >", "d7/d3a/classopenpal_1_1_array.html", null ],
+      [ "openpal::ArrayView< T, W >", "d6/d80/classopenpal_1_1_array_view.html", null ]
+    ] ],
     [ "openpal::IChannelState", "d4/dc9/classopenpal_1_1_i_channel_state.html", [
       [ "openpal::IPhysicalLayer", "d1/d26/classopenpal_1_1_i_physical_layer.html", null ]
     ] ],
@@ -260,16 +262,12 @@ var hierarchy =
       [ "opendnp3::IMasterApplication", "d5/d64/classopendnp3_1_1_i_master_application.html", null ],
       [ "openpal::FixedUTCTimeSource", "de/d16/classopenpal_1_1_fixed_u_t_c_time_source.html", null ]
     ] ],
-    [ "openpal::LinkedListIterator< ValueType >", "d9/daa/classopenpal_1_1_linked_list_iterator.html", null ],
-    [ "openpal::ListNode< ValueType >", "d6/d75/classopenpal_1_1_list_node.html", null ],
     [ "openpal::LogFilters", "da/dbc/classopenpal_1_1_log_filters.html", null ],
     [ "openpal::Logger", "dc/df8/classopenpal_1_1_logger.html", null ],
     [ "openpal::Logger::Settings", "db/d9b/structopenpal_1_1_logger_1_1_settings.html", null ],
     [ "openpal::MonotonicTimestamp", "d2/dd5/classopenpal_1_1_monotonic_timestamp.html", null ],
     [ "openpal::Pair< A, B >", "d7/dd0/classopenpal_1_1_pair.html", null ],
-    [ "openpal::Queue< ValueType, IndexType >", "d8/d09/classopenpal_1_1_queue.html", null ],
     [ "openpal::RAII< Cleanup >", "d1/d97/classopenpal_1_1_r_a_i_i.html", null ],
-    [ "openpal::RingBuffer< N >", "d0/dd1/classopenpal_1_1_ring_buffer.html", null ],
     [ "openpal::SequenceNum< T, Modulus >", "d2/d57/classopenpal_1_1_sequence_num.html", null ],
     [ "openpal::Serializer< T >", "dc/d3a/classopenpal_1_1_serializer.html", null ],
     [ "openpal::Settable< T >", "dd/d07/classopenpal_1_1_settable.html", null ],
@@ -298,6 +296,9 @@ var hierarchy =
       ] ],
       [ "opendnp3::FrozenCounterInfo", "d8/d65/structopendnp3_1_1_frozen_counter_info.html", [
         [ "opendnp3::FrozenCounterSpec", "db/dd1/structopendnp3_1_1_frozen_counter_spec.html", null ]
+      ] ],
+      [ "opendnp3::OctetStringInfo", "d8/dc3/structopendnp3_1_1_octet_string_info.html", [
+        [ "opendnp3::OctetStringSpec", "dd/d02/structopendnp3_1_1_octet_string_spec.html", null ]
       ] ],
       [ "opendnp3::SecurityStatInfo", "d6/d89/structopendnp3_1_1_security_stat_info.html", [
         [ "opendnp3::SecurityStatSpec", "dc/db3/structopendnp3_1_1_security_stat_spec.html", null ]
@@ -355,7 +356,6 @@ var hierarchy =
     [ "double", "df/de6/classdouble.html", null ],
     [ "DoubleBit", "df/d56/class_double_bit.html", null ],
     [ "float", "d4/dc3/classfloat.html", null ],
-    [ "IndexType", "d1/dbd/class_index_type.html", null ],
     [ "int16_t", "d2/d54/classint16__t.html", null ],
     [ "int32_t", "de/d73/classint32__t.html", null ],
     [ "int64_t", "d8/d3f/classint64__t.html", null ],

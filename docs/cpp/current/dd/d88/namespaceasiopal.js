@@ -8,7 +8,7 @@ var namespaceasiopal =
     [ "IListener", "d2/d1d/classasiopal_1_1_i_listener.html", "d2/d1d/classasiopal_1_1_i_listener" ],
     [ "IO", "d5/d68/classasiopal_1_1_i_o.html", "d5/d68/classasiopal_1_1_i_o" ],
     [ "IOpenDelayStrategy", "d5/dae/classasiopal_1_1_i_open_delay_strategy.html", "d5/dae/classasiopal_1_1_i_open_delay_strategy" ],
-    [ "IPEndpoint", "d1/d98/classasiopal_1_1_i_p_endpoint.html", "d1/d98/classasiopal_1_1_i_p_endpoint" ],
+    [ "IPEndpoint", "d1/df2/structasiopal_1_1_i_p_endpoint.html", "d1/df2/structasiopal_1_1_i_p_endpoint" ],
     [ "IResource", "d9/d7e/structasiopal_1_1_i_resource.html", "d9/d7e/structasiopal_1_1_i_resource" ],
     [ "IResourceManager", "d5/d54/structasiopal_1_1_i_resource_manager.html", "d5/d54/structasiopal_1_1_i_resource_manager" ],
     [ "LoggingConnectionCondition", "df/d5f/classasiopal_1_1_logging_connection_condition.html", "df/d5f/classasiopal_1_1_logging_connection_condition" ],

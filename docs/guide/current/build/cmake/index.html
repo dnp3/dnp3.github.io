@@ -1,245 +1,681 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="dnp3 scada opendnp3 library documentation">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>CMake - opendnp3 2.3.0</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
         
         
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">
+        <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    <svg class="md-svg">
+      <defs>
         
-        <link rel="shortcut icon" href="../../img/favicon.ico">
         
-
-	<title>CMake - opendnp3 2.2.0</title>
-
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
-        <link href="../../css/base.css" rel="stylesheet">
-
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
         
-    </head>
-
-    <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!-- Main title -->
-            <a class="navbar-brand" href="../..">opendnp3 2.2.0</a>
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#cmake" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="opendnp3 2.3.0" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              opendnp3 2.3.0
+            </span>
+            <span class="md-header-nav__topic">
+              CMake
+            </span>
+          
         </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-            <!-- Main navigation -->
-            <ul class="nav navbar-nav">
-            
-            
-                <li >
-                    <a href="../..">Home</a>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="../../features/features/">Features</a>
-                </li>
-            
-            
-            
-                <li class="dropdown active">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Build <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        <li >
-                            <a href="../requirements/">Requirements</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../libraries/">Libraries</a>
-                        </li>
-                    
-                        <li class="active">
-                            <a href="./">CMake</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../linux/">Linux</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../windows/">Windows</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../java/">Java</a>
-                        </li>
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">API <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        <li >
-                            <a href="../../api/architecture/">Architecture</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../api/logging/">Logging</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../api/channels/">Channels</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../api/tls/">TLS Support</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../api/linklayer/">Link-Layer</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../api/masters/">Masters</a>
-                        </li>
-                    
-                        <li >
-                            <a href="../../api/outstations/">Outstations</a>
-                        </li>
-                    
-                    </ul>
-                </li>
-            
-            
-            
-                <li >
-                    <a href="../../troubleshooting/troubleshooting/">Troubleshooting</a>
-                </li>
-            
-            
-            
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contributing <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                    
-                        <li >
-                            <a href="../../contributing/tasks/">Common Tasks</a>
-                        </li>
-                    
-                    </ul>
-                </li>
-            
-            
-            </ul>
-
-            <!-- Search, Navigation and Repo links -->
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                <li >
-                    <a rel="next" href="../libraries/">
-                        <i class="fa fa-arrow-left"></i> Previous
-                    </a>
-                </li>
-                <li >
-                    <a rel="prev" href="../linux/">
-                        Next <i class="fa fa-arrow-right"></i>
-                    </a>
-                </li>
-                
-                <li>
-                    <a href="https://github.com/automatak/dnp3">
-                        
-                            <i class="fa fa-github"></i>
-                        
-                        GitHub
-                    </a>
-                </li>
-                
-            </ul>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
         </div>
+      </div>
     </div>
+  </div>
 </div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
 
-        <div class="container">
-            <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
+
+  
+
+<a href="https://github.com/dnp3/opendnp3/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
     
-        <li class="main active"><a href="#cmake">CMake</a></li>
+    <div class="md-container">
+      
         
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="opendnp3 2.3.0" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    opendnp3 2.3.0
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/dnp3/opendnp3/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
     
-        <li class="main "><a href="#locating-asio">Locating ASIO</a></li>
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../features/features/" title="Features" class="md-nav__link">
+      Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Build
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Build
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
         
-    
-        <li class="main "><a href="#optional-components">Optional Components</a></li>
         
-    
-        <li class="main "><a href="#build-options">Build Options</a></li>
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../requirements/" title="Requirements" class="md-nav__link">
+      Requirements
+    </a>
+  </li>
+
         
-    
-        <li class="main "><a href="#building-on-linux">Building on Linux</a></li>
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../libraries/" title="Libraries" class="md-nav__link">
+      Libraries
+    </a>
+  </li>
+
         
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
     
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        CMake
+      </label>
+    
+    <a href="./" title="CMake" class="md-nav__link md-nav__link--active">
+      CMake
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cmake" title="CMake" class="md-nav__link">
+    CMake
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-components" title="Optional Components" class="md-nav__link">
+    Optional Components
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-options" title="Build Options" class="md-nav__link">
+    Build Options
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#static-vs-dynamic-linking" title="Static vs Dynamic Linking" class="md-nav__link">
+    Static vs Dynamic Linking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-vs-release" title="Debug vs Release" class="md-nav__link">
+    Debug vs Release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-default-generators" title="Non-default generators" class="md-nav__link">
+    Non-default generators
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-the-install-prefix" title="Setting the install prefix" class="md-nav__link">
+    Setting the install prefix
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locating-asio" title="Locating ASIO" class="md-nav__link">
+    Locating ASIO
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
     </ul>
-</div></div>
-            <div class="col-md-9" role="main">
+  
+</nav>
+    
+  </li>
 
-<h3 id="cmake">CMake</h3>
-<p>Opendnp3 uses a build system generator called <a href="http://www.cmake.org/">CMake</a>.  This means that the actual build files (e.g. a Makefile or Microsfot .SLN) are generated from a
-common artifact called <strong>CMakeLists.txt</strong>. You can see what one looks like <a href="https://github.com/automatak/dnp3/blob/2.0.x/CMakeLists.txt">here</a>.</p>
-<p>This allows the opendnp3 project to maintain a build file for all platforms, and greatly reduces per-platform maintenance. CMake also integrates nicely with
-Linux C++ IDEs like <a href="https://www.kdevelop.org/">KDevelop</a> or <a href="https://www.jetbrains.com/clion/">CLion</a>.</p>
-<p>One of the more attractive parts of CMake is that it supports <a href="http://www.cmake.org/Wiki/CMake_FAQ#Out-of-source_build_trees">out-of-source builds</a>.</p>
-<h3 id="locating-asio">Locating ASIO</h3>
-<p>The include sub-folder of the ASIO distribution (the folder that contains 'asio.hpp') needs to be on your include path, but there are several ways you can do this.
-You can choose the option that makes the most sense your particular build environment. CMake will try the following things in order to locate your ASIO.</p>
-<p><strong>1) Look to see if you checked out ASIO as a git submodule when cloning opendnp3 </strong></p>
-<pre><code class="sh">&gt; git clone --recursive https://github.com/automatak/dnp3.git
-</code></pre>
+        
+          
+          
+          
 
-<p><strong>2) If 1) fails, it will look to see if the variable ASIO_HOME was defined via the cmake command line.</strong></p>
-<pre><code class="sh">&gt; cmake ../dnp3 -DASIO_HOME=C:\libs\asio-asio-1-10-8\asio\include
-</code></pre>
 
-<p><strong>3) If 1) and 2) fail, it will check to see if it is defined as an environment variable.</strong></p>
-<p>For instance, on Windows you might define your environment variable to look like this.</p>
-<pre><code class="sh">ASIO_HOME=C:\libs\asio-asio-1-10-8\asio\include
-</code></pre>
+  <li class="md-nav__item">
+    <a href="../linux/" title="Linux" class="md-nav__link">
+      Linux
+    </a>
+  </li>
 
-<p>On Ubuntu Linux, you might add a line to ~/.bashrc as follows:</p>
-<pre><code class="sh">export ASIO_HOME=~/asio-asio-1-10-8/asio/include
-</code></pre>
+        
+          
+          
+          
 
-<p><strong>Lastly, cmake will just assume the headers are installed on the system. No checks are performed, so the build will fail is this isn't true</strong></p>
+
+  <li class="md-nav__item">
+    <a href="../windows/" title="Windows" class="md-nav__link">
+      Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../java/" title="Java" class="md-nav__link">
+      Java
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      API
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/architecture/" title="Architecture" class="md-nav__link">
+      Architecture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/logging/" title="Logging" class="md-nav__link">
+      Logging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/channels/" title="Channels" class="md-nav__link">
+      Channels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/tls/" title="TLS Support" class="md-nav__link">
+      TLS Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/linklayer/" title="Link-Layer" class="md-nav__link">
+      Link-Layer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/masters/" title="Masters" class="md-nav__link">
+      Masters
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../api/outstations/" title="Outstations" class="md-nav__link">
+      Outstations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../troubleshooting/troubleshooting/" title="Troubleshooting" class="md-nav__link">
+      Troubleshooting
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#cmake" title="CMake" class="md-nav__link">
+    CMake
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#optional-components" title="Optional Components" class="md-nav__link">
+    Optional Components
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-options" title="Build Options" class="md-nav__link">
+    Build Options
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#static-vs-dynamic-linking" title="Static vs Dynamic Linking" class="md-nav__link">
+    Static vs Dynamic Linking
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#debug-vs-release" title="Debug vs Release" class="md-nav__link">
+    Debug vs Release
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#non-default-generators" title="Non-default generators" class="md-nav__link">
+    Non-default generators
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-the-install-prefix" title="Setting the install prefix" class="md-nav__link">
+    Setting the install prefix
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#locating-asio" title="Locating ASIO" class="md-nav__link">
+    Locating ASIO
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/dnp3/opendnp3/edit/master/docs/build/cmake.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>CMake</h1>
+                
+                <h3 id="cmake">CMake</h3>
+<p>Opendnp3 uses a build system generator called <a href="http://www.cmake.org/">CMake</a>.  This means that the actual build files (e.g. a Makefile or Visual Studio .SLN) are generated
+from a artifact.</p>
+<p>This allows the opendnp3 project to maintain a single project file for all platforms, minimizing per-platform maintenance. CMake also integrates nicely with
+C++ IDEs like <a href="https://www.kdevelop.org/">KDevelop</a> or <a href="https://www.jetbrains.com/clion/">CLion</a>.</p>
 <h3 id="optional-components">Optional Components</h3>
-<p>By default, cmake will not build tests, demos, or TLS support. You can enable each optional component individually by specifying
+<p>By default, CMake will not build tests, demos, or TLS support. You can enable each optional component individually by specifying
 them on the command line:</p>
-<pre><code class="sh">&gt; cmake ../dnp3 -D&lt;option&gt;=ON
-</code></pre>
+<div class="codehilite"><pre><span></span>&gt; cmake ../dnp3 -D&lt;option&gt;<span class="o">=</span>ON
+</pre></div>
+
 
 <table>
 <thead>
@@ -255,114 +691,189 @@ them on the command line:</p>
 </tr>
 <tr>
 <td>DNP3_DEMO</td>
-<td>example programs</td>
+<td>build the example programs</td>
+</tr>
+<tr>
+<td>DNP3_DOTNET</td>
+<td>build the .NET bindings (Windows only)</td>
 </tr>
 <tr>
 <td>DNP3_JAVA</td>
-<td>java bindings shared library</td>
+<td>build the java bindings</td>
 </tr>
 <tr>
 <td>DNP3_TEST</td>
-<td>unit test suites</td>
+<td>build the unit test suites</td>
 </tr>
 <tr>
 <td>DNP3_TLS</td>
-<td>support for TLS channels (requires openssl)</td>
+<td>build support for TLS channels (requires openssl)</td>
 </tr>
 <tr>
 <td>DNP3_DECODER</td>
-<td>decoder module</td>
+<td>build the decoder module</td>
+</tr>
+<tr>
+<td>DNP3_FUZZING</td>
+<td>build Google OSS-Fuzz integration</td>
 </tr>
 </tbody>
 </table>
 <p>For example, to build the demos including TLS support:</p>
-<pre><code class="sh">&gt; cmake ../dnp3 -DDNP3_DEMO=ON -DDNP3_TLS=ON
-</code></pre>
+<div class="codehilite"><pre><span></span>&gt; cmake ../dnp3 -DDNP3_DEMO<span class="o">=</span>ON -DDNP3_TLS<span class="o">=</span>ON
+</pre></div>
+
 
 <h3 id="build-options">Build Options</h3>
 <p>Most of command-line options you can feed to CMake to generate your build environment are platform-independent.  This documentation can't tell you everything that
 CMake can do. We only document some of the more common flags here for your convenience. All of the following examples assume an out-of-source build folder in a
 sibling directory to the opendnp3 distribution.</p>
-<p><strong>Static vs Dynamic Linking</strong></p>
+<h4 id="static-vs-dynamic-linking">Static vs Dynamic Linking</h4>
 <p>You can switch between building static or dynamic linking using the STATICLIBS flag. Note that this flag is provided by the project and is not a CMake flag.</p>
 <p>On Windows, static libs are the default. On Linux, dynamic libs are the default.</p>
-<pre><code>&gt; cmake ../dnp3 STATICLIBS=ON   # build static libraries
+<div class="codehilite"><pre><span></span>&gt; cmake ../dnp3 STATICLIBS=ON   # build static libraries
 &gt; cmake ../dnp3 STATICLIBS=OFF  # build dynamic libraries
-</code></pre>
+</pre></div>
 
-<p><strong>Debug vs Release</strong></p>
-<p>You can configure release vs debug builds using the CMAKE_BUILD_TYPE flag
-Note that on windows, the generated SLN contains debug and release build targets already</p>
-<pre><code class="sh">&gt; cmake ../dnp3 -DCMAKE_BUILD_TYPE=Debug
-&gt; cmake ../dnp3 -DCMAKE_BUILD_TYPE=Release
-</code></pre>
 
-<p><strong>Non-default generators</strong></p>
+<h4 id="debug-vs-release">Debug vs Release</h4>
+<p>You can configure release vs debug builds using the CMAKE_BUILD_TYPE flag.
+Note that on Windows, the generated SLN contains debug and release build targets already</p>
+<div class="codehilite"><pre><span></span>&gt; cmake ../dnp3 -DCMAKE_BUILD_TYPE<span class="o">=</span>Debug
+&gt; cmake ../dnp3 -DCMAKE_BUILD_TYPE<span class="o">=</span>Release
+</pre></div>
+
+
+<h4 id="non-default-generators">Non-default generators</h4>
 <p>By default, CMake will pick a generator to use if you don't tell it which one. You can see a list of all available generators using the help flag.</p>
-<pre><code class="sh">&gt; cmake --help
-</code></pre>
+<div class="codehilite"><pre><span></span>&gt; cmake --help
+</pre></div>
+
 
 <p>You can then specify a specific generator, e.g. to do a full 64-bit build on Windows:</p>
-<pre><code class="sh">&gt; mkdir build64
-&gt; cmake .. -DDNP3_ALL=ON -G &quot;Visual Studio 14 2015 Win64&quot;
-</code></pre>
+<div class="codehilite"><pre><span></span>&gt; mkdir build64
+&gt; cmake .. -DDNP3_ALL<span class="o">=</span>ON -G <span class="s2">&quot;Visual Studio 14 2015 Win64&quot;</span>
+</pre></div>
 
-<p><strong>Setting the install prefix</strong></p>
-<p>The default install prefix probably won't be right for your platform. You can configure it using CMAKE_INSTALL_PREFIX.</p>
+
+<h4 id="setting-the-install-prefix">Setting the install prefix</h4>
+<p>If the default install location isn't where you want it to be, you can configure it using <code>CMAKE_INSTALL_PREFIX</code>.</p>
 <p>On Debian-based systems this should probably be:</p>
-<pre><code class="sh">&gt; cmake .. -DCMAKE_INSTALL_PREFIX=/usr
-</code></pre>
+<div class="codehilite"><pre><span></span>&gt; cmake .. -DCMAKE_INSTALL_PREFIX<span class="o">=</span>/usr/lib
+</pre></div>
+
 
 <p>On windows, you might put your libraries and headers somewhere like:</p>
-<pre><code class="sh">&gt; cmake .. -DCMAKE_INSTALL_PREFIX=C:\libs\opendnp3
-</code></pre>
+<div class="codehilite"><pre><span></span>&gt; cmake .. -DCMAKE_INSTALL_PREFIX<span class="o">=</span>C:<span class="se">\l</span>ibs<span class="se">\o</span>pendnp3
+</pre></div>
 
-<h3 id="building-on-linux">Building on Linux</h3>
-<p>On Linux, the easiest way to use CMake is just to let it create a makefile for you. You can then use this makefile in the same way you normally would.</p>
-<pre><code class="sh">&gt; cmake .. &lt;options&gt;
-&gt; make
-&gt; sudo make install
-</code></pre></div>
+
+<h3 id="locating-asio">Locating ASIO</h3>
+<p>The included sub-folder of the ASIO distribution (the folder that contains 'asio.hpp') needs to be on your include path, but there are several ways you can do this.
+You can choose the option that makes the most sense your particular build environment. CMake will try the following things in order to locate your ASIO.</p>
+<p>1) Look to see if you checked out ASIO as a git submodule when cloning opendnp3</p>
+<div class="codehilite"><pre><span></span>&gt; git clone --recursive https://github.com/automatak/dnp3.git
+</pre></div>
+
+
+<p>2) look to see if the variable <code>ASIO_HOME</code> was defined via the cmake command line.</p>
+<div class="codehilite"><pre><span></span>&gt; cmake ../dnp3 -DASIO_HOME<span class="o">=</span>C:/libs/asio-asio-1-12-2/asio/include
+</pre></div>
+
+
+<p>3) Check if <code>ASIO_HOME</code> is defined as an environment variable.</p>
+<p>For instance, on Windows you might define your environment variable to look like this.</p>
+<div class="codehilite"><pre><span></span><span class="nv">ASIO_HOME</span><span class="o">=</span>C:/libs/asio-asio-1-12-2/asio/include
+</pre></div>
+
+
+<p>On Ubuntu Linux, you might add a line to ~/.bashrc as follows:</p>
+<div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">ASIO_HOME</span><span class="o">=</span>~/asio-asio-1-12-2/asio/include
+</pre></div>
+
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If CMake can't find ASIO using one of the mechanisms above, it will just assume the headers are installed on the system.
+No checks are performed, so the build will fail is this isn't true</p>
+</div>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
         </div>
-
-        <footer class="col-md-12">
-            <hr>
-            
-                <center>Copyright Automatak LLC 2015</center>
-            
-            <center>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</center>
-        </footer>
-
-        <script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            From here you can search these documents. Enter
-                            your search terms below.
-                        </p>
-                        <form role="form">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
-                            </div>
-                        </form>
-                        <div id="mkdocs-search-results"></div>
-                    </div>
-                    <div class="modal-footer">
-                    </div>
-                </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../libraries/" title="Libraries" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
-        </div>
-    </body>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Libraries
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../linux/" title="Linux" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Linux
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright Automatak LLC 2015-2019
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
 </html>

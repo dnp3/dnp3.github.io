@@ -13,7 +13,6 @@ var _event_type_8h =
       [ "DoubleBitBinary", "d4/d69/_event_type_8h.html#a370dd1426ebcfd87c896523c1b17c66ba77e730281ec36eb28fccc2c377755742", null ],
       [ "BinaryOutputStatus", "d4/d69/_event_type_8h.html#a370dd1426ebcfd87c896523c1b17c66ba50f954638b6f3fae588add432b88780c", null ],
       [ "AnalogOutputStatus", "d4/d69/_event_type_8h.html#a370dd1426ebcfd87c896523c1b17c66baef4829fc819ef90c0308e3e6bb0badca", null ],
-      [ "SecurityStat", "d4/d69/_event_type_8h.html#a370dd1426ebcfd87c896523c1b17c66ba0741836adcfa87fb65392fb02a4a8d84", null ]
-    ] ],
-    [ "NUM_OUTSTATION_EVENT_TYPES", "d4/d69/_event_type_8h.html#ac72ab59c9ca26d7ff4a31420971a6cca", null ]
+      [ "OctetString", "d4/d69/_event_type_8h.html#a370dd1426ebcfd87c896523c1b17c66ba326f7bd24567761f362d70162da15556", null ]
+    ] ]
 ];
