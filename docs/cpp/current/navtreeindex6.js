@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"d8/d3b/structopendnp3_1_1_database_sizes.html#aa0df9be063d4f6f63a072783fd347e3b":[1,0,2,35,0],
 "d8/d3b/structopendnp3_1_1_database_sizes.html#aa775d745ee728a3c9ddfb5cba4e5bd75":[1,0,2,35,18],
 "d8/d3b/structopendnp3_1_1_database_sizes.html#aae283a40446ffac0a7d4b0f3fe0a1a8b":[1,0,2,35,12],
 "d8/d3b/structopendnp3_1_1_database_sizes.html#ab45fd21c4abcd2292a8e8bcffe2668fb":[1,0,2,35,4],
@@ -35,8 +36,9 @@ var NAVTREEINDEX6 =
 "d8/d4b/_command_point_result_8h.html":[2,0,1,0,0,2,3,1],
 "d8/d4b/_command_point_result_8h_source.html":[2,0,1,0,0,2,3,1],
 "d8/d50/classasiopal_1_1_channel_retry.html":[1,0,1,0],
-"d8/d50/classasiopal_1_1_channel_retry.html#a062b18c25b336afb85fec71e4bfbfd20":[1,0,1,0,0],
-"d8/d50/classasiopal_1_1_channel_retry.html#a2fd46de66469c6b116d02369e30d28d8":[1,0,1,0,5],
+"d8/d50/classasiopal_1_1_channel_retry.html#a2fd46de66469c6b116d02369e30d28d8":[1,0,1,0,6],
+"d8/d50/classasiopal_1_1_channel_retry.html#a3874bcbca37b8e7ebbd9e6b1cc62494b":[1,0,1,0,0],
+"d8/d50/classasiopal_1_1_channel_retry.html#a418aaee133c4f8653329ff7bb200bd3c":[1,0,1,0,5],
 "d8/d50/classasiopal_1_1_channel_retry.html#a5b096206739022ebea4a095295cf54fc":[1,0,1,0,3],
 "d8/d50/classasiopal_1_1_channel_retry.html#a85a9f3989bf31c71d79133fffd205e63":[1,0,1,0,4],
 "d8/d50/classasiopal_1_1_channel_retry.html#ad767331bab3c109f0f03de96fd99111d":[1,0,1,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX6 =
 "d9/d76/_flags_type_8h.html#a55594819aff73b3831eebf381c465782ad2de98886c8190929b77bb17ea2bfcb1":[2,0,1,0,0,2,1,27,0,6],
 "d9/d76/_flags_type_8h.html#a55594819aff73b3831eebf381c465782aef4829fc819ef90c0308e3e6bb0badca":[2,0,1,0,0,2,1,27,0,5],
 "d9/d76/_flags_type_8h.html#a55594819aff73b3831eebf381c465782af159caed641eca5f95302119fdd7469f":[2,0,1,0,0,2,1,27,0,2],
-"d9/d76/_flags_type_8h.html#a9413d870b8ece3242137f18d3f27a122":[2,0,1,0,0,2,1,27,2],
-"d9/d76/_flags_type_8h.html#aca6544a6ab8dc5afddf4821c324c0fb2":[2,0,1,0,0,2,1,27,3],
-"d9/d76/_flags_type_8h_source.html":[2,0,1,0,0,2,1,27]
+"d9/d76/_flags_type_8h.html#a9413d870b8ece3242137f18d3f27a122":[2,0,1,0,0,2,1,27,2]
 };

@@ -1,18 +1,17 @@
 /*
-@ @licstart  The following is the entire license notice for the
+@licstart  The following is the entire license notice for the
 JavaScript code in this file.
 
-Copyright (C) 1997-2017 by Dimitri van Heesch
+Copyright (C) 1997-2019 by Dimitri van Heesch
 
 This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
+it under the terms of version 2 of the GNU General Public License as published by
+the Free Software Foundation
 
 This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along
 with this program; if not, write to the Free Software Foundation, Inc.,
@@ -65,12 +64,12 @@ var NAVTREEINDEX =
 "d4/d69/_event_type_8h.html#a1f6a4f85f865902f2e187e2874db34d1a81b22456f78954c460ce2f531b5e048f",
 "d6/d10/_function_code_8h.html#af8b4e0b539df09e3b79f368be6d48077a115245fa5c53661aa2be4c7896d4908a",
 "d6/db6/classasiopal_1_1_t_c_p_server.html#a05b57be1356776ad6340d27da23945a0",
-"d8/d3b/structopendnp3_1_1_database_sizes.html#aa775d745ee728a3c9ddfb5cba4e5bd75",
-"d9/d7e/structasiopal_1_1_i_resource.html",
-"db/d2a/classopendnp3_1_1_analog_command_event.html#a53971c33734fe46fd250a3f10eb589d1",
-"dc/df8/classopenpal_1_1_logger.html#a83742a7edcebbdb97cfa53418e01f871",
-"de/d1d/_addresses_8h_source.html",
-"df/df1/classopenpal_1_1_uncopyable.html#a836f7cd854126e61e7e31ad1450fb3c0"
+"d8/d3b/structopendnp3_1_1_database_sizes.html#aa0df9be063d4f6f63a072783fd347e3b",
+"d9/d76/_flags_type_8h.html#aca6544a6ab8dc5afddf4821c324c0fb2",
+"db/d2a/classopendnp3_1_1_analog_command_event.html#a316114ff3e81ba09dd4b321c4fa52821",
+"dc/df8/classopenpal_1_1_logger.html#a497268799b0f4c0bcce8fd8ef86b65ed",
+"de/d18/classasiodnp3_1_1_i_session_acceptor.html#aeb6f75f71998230f0b116ac5c3691a52",
+"df/df1/classopenpal_1_1_uncopyable.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

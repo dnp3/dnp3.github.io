@@ -5,7 +5,7 @@ var classopenpal_1_1_u_int8_simple =
     [ "ReadBuffer", "df/d62/classopenpal_1_1_u_int8_simple.html#a95faf8febcb1ad5e3bb5b56d0a472a14", null ],
     [ "Write", "df/d62/classopenpal_1_1_u_int8_simple.html#ae95ee6ec536c0d6a85dbeb68984b575a", null ],
     [ "WriteBuffer", "df/d62/classopenpal_1_1_u_int8_simple.html#ac5d80966865af4dccce5b8a2bea68c7c", null ],
-    [ "Max", "df/d62/classopenpal_1_1_u_int8_simple.html#a3346e8a4ed1eb14375f242fd197895c2", null ],
-    [ "Min", "df/d62/classopenpal_1_1_u_int8_simple.html#a3f701a742866a38d90ce9147deb3bc74", null ],
-    [ "SIZE", "df/d62/classopenpal_1_1_u_int8_simple.html#a14ce9c86665c1c89b8373990601bf64a", null ]
+    [ "Max", "df/d62/classopenpal_1_1_u_int8_simple.html#a03f2583a7ed3af1e47e9a9ed0b2a0281", null ],
+    [ "Min", "df/d62/classopenpal_1_1_u_int8_simple.html#a47624dd80bee7e334702f24cc6d326da", null ],
+    [ "SIZE", "df/d62/classopenpal_1_1_u_int8_simple.html#a5caa678dbf7ef7e85b0bf9ef838fdaac", null ]
 ];

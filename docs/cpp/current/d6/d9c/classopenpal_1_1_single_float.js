@@ -5,7 +5,7 @@ var classopenpal_1_1_single_float =
     [ "ReadBuffer", "d6/d9c/classopenpal_1_1_single_float.html#aca7d6b7679147d126a558389059ca427", null ],
     [ "Write", "d6/d9c/classopenpal_1_1_single_float.html#ae11104b5f214bc486f6af90fe309dd3d", null ],
     [ "WriteBuffer", "d6/d9c/classopenpal_1_1_single_float.html#a22b5b337eae798ddac45545de7dcb297", null ],
-    [ "Max", "d6/d9c/classopenpal_1_1_single_float.html#a233592c5112800f0a2368192ea2b0c26", null ],
-    [ "Min", "d6/d9c/classopenpal_1_1_single_float.html#a5a92d728cc6e96325157afe36572fa0f", null ],
-    [ "SIZE", "d6/d9c/classopenpal_1_1_single_float.html#addc92fd093ba2b040341bd97a43da0f7", null ]
+    [ "Max", "d6/d9c/classopenpal_1_1_single_float.html#ab1a0e424cf4354e9af8ccf8180d4a248", null ],
+    [ "Min", "d6/d9c/classopenpal_1_1_single_float.html#acc59d870ef6ea526ddbf9d65779d8e6b", null ],
+    [ "SIZE", "d6/d9c/classopenpal_1_1_single_float.html#ae487948bd9eef5a73e1b9992eb032fa8", null ]
 ];

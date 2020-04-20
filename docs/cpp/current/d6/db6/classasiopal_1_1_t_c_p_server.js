@@ -9,6 +9,7 @@ var classasiopal_1_1_t_c_p_server =
     [ "acceptor", "d6/db6/classasiopal_1_1_t_c_p_server.html#a05b57be1356776ad6340d27da23945a0", null ],
     [ "endpoint", "d6/db6/classasiopal_1_1_t_c_p_server.html#a9adf16afa660f35bb494387f2e55ab9c", null ],
     [ "executor", "d6/db6/classasiopal_1_1_t_c_p_server.html#a27d78759bddb80d8f57e1de2ef804774", null ],
+    [ "isShutdown", "d6/db6/classasiopal_1_1_t_c_p_server.html#abd19c43ee75e825e32b01ced1439d6fc", null ],
     [ "logger", "d6/db6/classasiopal_1_1_t_c_p_server.html#aa25c4fb6fd9b6bfdcd19767fe636de2a", null ],
     [ "remote_endpoint", "d6/db6/classasiopal_1_1_t_c_p_server.html#a989fb2abc9d81c753afa15ce4b9cf35d", null ],
     [ "session_id", "d6/db6/classasiopal_1_1_t_c_p_server.html#a3f34d678c55352921ac5b430e117ab37", null ],

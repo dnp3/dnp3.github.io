@@ -7,5 +7,5 @@ var classopenpal_1_1_bit16_l_e =
     [ "WriteBuffer", "d5/d32/classopenpal_1_1_bit16_l_e.html#a1dca6596c266020689fb7943bc8115b8", null ],
     [ "Max", "d5/d32/classopenpal_1_1_bit16_l_e.html#afaf1d9cc4244c343a115abdbbc97a705", null ],
     [ "Min", "d5/d32/classopenpal_1_1_bit16_l_e.html#a3a8534904b9b7917aa89a0cba04bd1e2", null ],
-    [ "SIZE", "d5/d32/classopenpal_1_1_bit16_l_e.html#a3c5f25816d2bdb164723fe032b7f0e7a", null ]
+    [ "SIZE", "d5/d32/classopenpal_1_1_bit16_l_e.html#a46be3a8b68137753ff60f16ad606a285", null ]
 ];

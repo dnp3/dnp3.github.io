@@ -35,7 +35,7 @@ var classopendnp3_1_1_i_i_n_field =
     [ "HasRequestError", "dd/db9/classopendnp3_1_1_i_i_n_field.html#adad9ef962dfec45925d5304613d450b8", null ],
     [ "IsClear", "dd/db9/classopendnp3_1_1_i_i_n_field.html#a1ca295a853d3bcfaa5ad87afdfdd27cc", null ],
     [ "IsSet", "dd/db9/classopendnp3_1_1_i_i_n_field.html#a884631eab783c116055ddce0998fa1ba", null ],
-    [ "operator &", "dd/db9/classopendnp3_1_1_i_i_n_field.html#ac45de21bc4dc826569a4a7ff6ea1a0fe", null ],
+    [ "operator&", "dd/db9/classopendnp3_1_1_i_i_n_field.html#a5cd966fa63b60f072207f31ce067059d", null ],
     [ "operator&=", "dd/db9/classopendnp3_1_1_i_i_n_field.html#a156dcb4068ec5954f14e77d803f613c5", null ],
     [ "operator==", "dd/db9/classopendnp3_1_1_i_i_n_field.html#a5d33a958fec10a8ba09927d515d3b528", null ],
     [ "operator|", "dd/db9/classopendnp3_1_1_i_i_n_field.html#adb8fd929f34054388367dcf95646e8a4", null ],
