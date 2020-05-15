@@ -1,0 +1,959 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+        <meta name="description" content="dnp3 scada opendnp3 library documentation">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.1.1">
+    
+    
+      
+        <title>Masters - OpenDNP3 3.0.0</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.3020aac5.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#2196f3">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.01ccdecf.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,400i,700|Ubuntu+Mono">
+        <style>body,input{font-family:"Ubuntu","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Ubuntu Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="blue" data-md-color-accent="orange">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448"
+    viewBox="0 0 416 448" id="__github">
+  <path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19-18.125
+        8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19 18.125-8.5
+        18.125 8.5 10.75 19 3.125 20.5zM320 304q0 10-3.125 20.5t-10.75
+        19-18.125 8.5-18.125-8.5-10.75-19-3.125-20.5 3.125-20.5 10.75-19
+        18.125-8.5 18.125 8.5 10.75 19 3.125 20.5zM360
+        304q0-30-17.25-51t-46.75-21q-10.25 0-48.75 5.25-17.75 2.75-39.25
+        2.75t-39.25-2.75q-38-5.25-48.75-5.25-29.5 0-46.75 21t-17.25 51q0 22 8
+        38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0
+        37.25-1.75t35-7.375 30.5-15 20.25-25.75 8-38.375zM416 260q0 51.75-15.25
+        82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5-41.75
+        1.125q-19.5 0-35.5-0.75t-36.875-3.125-38.125-7.5-34.25-12.875-30.25-20.25-21.5-28.75q-15.5-30.75-15.5-82.75
+        0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25
+        30.875q36.75-8.75 77.25-8.75 37 0 70 8 26.25-20.5
+        46.75-30.25t47.25-9.75q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34
+        99.5z" />
+</svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#creating-a-master" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="OpenDNP3 3.0.0" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              OpenDNP3 3.0.0
+            </span>
+            <span class="md-header-nav__topic">
+              Masters
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/dnp3/opendnp3/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="OpenDNP3 3.0.0" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    OpenDNP3 3.0.0
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/dnp3/opendnp3/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../features/features/" title="Features" class="md-nav__link">
+      Features
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../features/3.0/" title="Changes to 3.x release" class="md-nav__link">
+      Changes to 3.x release
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Build
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Build
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../build/requirements/" title="Requirements" class="md-nav__link">
+      Requirements
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../build/source/" title="Source Tree" class="md-nav__link">
+      Source Tree
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../build/cmake/" title="CMake" class="md-nav__link">
+      CMake
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../build/linux/" title="Linux" class="md-nav__link">
+      Linux
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../build/windows/" title="Windows" class="md-nav__link">
+      Windows
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../build/java/" title="Java" class="md-nav__link">
+      Java
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      API
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        API
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../architecture/" title="Architecture" class="md-nav__link">
+      Architecture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logging/" title="Logging" class="md-nav__link">
+      Logging
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../channels/" title="Channels" class="md-nav__link">
+      Channels
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tls/" title="TLS Support" class="md-nav__link">
+      TLS Support
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../linklayer/" title="Link-Layer" class="md-nav__link">
+      Link-Layer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Masters
+      </label>
+    
+    <a href="./" title="Masters" class="md-nav__link md-nav__link--active">
+      Masters
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-master" title="Creating a master" class="md-nav__link">
+    Creating a master
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isoehandler" title="ISOEHandler" class="md-nav__link">
+    ISOEHandler
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imasterapplication" title="IMasterApplication" class="md-nav__link">
+    IMasterApplication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masterstackconfig" title="MasterStackConfig" class="md-nav__link">
+    MasterStackConfig
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masterparams" title="MasterParams" class="md-nav__link">
+    MasterParams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imaster" title="IMaster" class="md-nav__link">
+    IMaster
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#icommandprocessor" title="ICommandProcessor" class="md-nav__link">
+    ICommandProcessor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up" title="Cleaning Up" class="md-nav__link">
+    Cleaning Up
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../outstations/" title="Outstations" class="md-nav__link">
+      Outstations
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../faq/faq/" title="FAQ" class="md-nav__link">
+      FAQ
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-master" title="Creating a master" class="md-nav__link">
+    Creating a master
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#isoehandler" title="ISOEHandler" class="md-nav__link">
+    ISOEHandler
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imasterapplication" title="IMasterApplication" class="md-nav__link">
+    IMasterApplication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masterstackconfig" title="MasterStackConfig" class="md-nav__link">
+    MasterStackConfig
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#masterparams" title="MasterParams" class="md-nav__link">
+    MasterParams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#imaster" title="IMaster" class="md-nav__link">
+    IMaster
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#icommandprocessor" title="ICommandProcessor" class="md-nav__link">
+    ICommandProcessor
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cleaning-up" title="Cleaning Up" class="md-nav__link">
+    Cleaning Up
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/dnp3/opendnp3/edit/master/docs/api/masters.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                  <h1>Masters</h1>
+                
+                <h3 id="creating-a-master">Creating a master</h3>
+<p>A master in opendnp3 is a component that communicates with a single outstation via a communication channel. You may see this term used in other places to refer to a
+collection of such components communicating with multiple outstations. When more than one master is bound to a single communication channel, it is called a
+<em>multi-drop</em> configuration.  This refers to the way in which an RS-485 serial network is chained from device to device. Opendnp3 will let you add multiple
+masters / outstations to any communication channel, regardless of he underlying transport. You could even bind a master to a TCP server and reverse the
+normal connection direction.</p>
+<p>To add a master to a communication channel you call the <code>AddMaster(...)</code> method on the channel interface:</p>
+<div class="codehilite"><pre><span></span><span class="c1">// Contains static configuration for the master, and transport/link layers</span>
+<span class="n">MasterStackConfig</span> <span class="n">stackConfig</span><span class="p">;</span>
+
+<span class="c1">// you can optionally override these defaults like setting the application layer response timeout</span>
+<span class="c1">// or change behaviors on the master</span>
+<span class="n">stackConfig</span><span class="p">.</span><span class="n">master</span><span class="p">.</span><span class="n">responseTimeout</span> <span class="o">=</span> <span class="n">TimeDuration</span><span class="o">::</span><span class="n">Seconds</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+<span class="n">stackConfig</span><span class="p">.</span><span class="n">master</span><span class="p">.</span><span class="n">disableUnsolOnStartup</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+
+<span class="c1">// ... or you can override the default link layer settings</span>
+<span class="n">stackConfig</span><span class="p">.</span><span class="n">link</span><span class="p">.</span><span class="n">LocalAddr</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+<span class="n">stackConfig</span><span class="p">.</span><span class="n">link</span><span class="p">.</span><span class="n">RemoteAddr</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+
+<span class="k">auto</span> <span class="n">master</span> <span class="o">=</span> <span class="n">channel</span><span class="o">-&gt;</span><span class="n">AddMaster</span><span class="p">(</span>
+  <span class="s">&quot;master&quot;</span><span class="p">,</span>                                       <span class="c1">// alias for logging</span>
+  <span class="n">PrintingSOEHandler</span><span class="o">::</span><span class="n">Create</span><span class="p">(),</span>                   <span class="c1">// ISOEHandler (interface)</span>
+  <span class="n">DefaultMasterApplication</span><span class="o">::</span><span class="n">Create</span><span class="p">(),</span>             <span class="c1">// IMasterApplication (interface)</span>
+  <span class="n">stackConfig</span>                                     <span class="c1">// static stack configuration</span>
+<span class="p">);</span>
+
+<span class="c1">// enable the master - you can also Disable() it or Shutdown() permanently</span>
+<span class="n">master</span><span class="o">-&gt;</span><span class="n">Enable</span><span class="p">();</span>
+</pre></div>
+
+
+<h3 id="isoehandler">ISOEHandler</h3>
+<p>Note the 2nd parameter in the call to <code>AddMaster(...)</code>. This is the user-defined interface used to receive measurement data
+that the master has received from the outstation. SOE stands for "Sequence of Events". SOE is a common term in SCADA circles
+that is synonymous with "the order in which things occured".</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">ISOEHandler</span>
+<span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">BeginFragment</span><span class="p">(</span><span class="k">const</span> <span class="n">ResponseInfo</span><span class="o">&amp;</span> <span class="n">info</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="nf">EndFragment</span><span class="p">(</span><span class="k">const</span> <span class="n">ResponseInfo</span><span class="o">&amp;</span> <span class="n">info</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="nf">Process</span><span class="p">(</span><span class="k">const</span> <span class="n">HeaderInfo</span><span class="o">&amp;</span> <span class="n">info</span><span class="p">,</span> <span class="k">const</span> <span class="n">ICollection</span><span class="o">&lt;</span><span class="n">Indexed</span><span class="o">&lt;</span><span class="n">Binary</span><span class="o">&gt;&gt;&amp;</span> <span class="n">values</span><span class="p">)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+
+    <span class="c1">// more Process methods for types like Analog, Counter, etc ....</span>
+<span class="p">}</span>
+</pre></div>
+
+
+<p>An ISOEHandler is just an interface with an overloaded <code>Process</code> method for every measurement type in DNP3
+It also includes <code>BeginFragment</code> and <code>EndFragment</code> methods which can be used to tell when the processing
+of a response starts and ends.</p>
+<p>The <code>PrintingSOEHandler</code> in the snippet where we added the master is just a simple instance which prints values to the console.
+You'll definitely want to write your own implementation so that you can write to file, database, or display on your application in some
+fashion. The <code>PrintingSOEHandler</code> just extracts the measurement values from the ICollection like the following:</p>
+<div class="codehilite"><pre><span></span><span class="nt">void</span> <span class="nt">Process</span><span class="o">(</span><span class="nt">const</span> <span class="nt">HeaderInfo</span><span class="o">&amp;</span> <span class="nt">info</span><span class="o">,</span> <span class="nt">const</span> <span class="nt">ICollection</span><span class="o">&lt;</span><span class="nt">Indexed</span><span class="o">&lt;</span><span class="nt">Binary</span><span class="o">&gt;&gt;&amp;</span> <span class="nt">values</span><span class="o">)</span>
+<span class="p">{</span>
+    <span class="err">auto</span> <span class="err">print</span> <span class="err">=</span> <span class="cp">[]</span><span class="err">(const</span> <span class="err">Indexed&lt;Binary&gt;&amp;</span> <span class="err">pair)</span> <span class="err">{</span>
+        <span class="n">std</span><span class="p">:</span><span class="o">:</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;</span><span class="cp">[</span><span class="s2">&quot; &lt;&lt; pair.index &lt;&lt; &quot;</span><span class="cp">]</span><span class="s2"> : &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">pair</span><span class="o">.</span><span class="n">value</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="p">}</span><span class="o">;</span>
+    <span class="nt">values</span><span class="p">.</span><span class="nc">ForeachItem</span><span class="o">(</span><span class="nt">print</span><span class="o">);</span>
+<span class="err">}</span>
+</pre></div>
+
+
+<p>There's also a wealth of information in the <code>HeaderInfo</code> object including:</p>
+<ul>
+<li>The specific group/variation associated with this ASDU header</li>
+<li>The QualifierCode associated with this header</li>
+<li>An enumeration describing the validity of the time-stamp for convenience to the programmer.</li>
+<li>The index of the header within the ASDU</li>
+</ul>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Remember that the callbacks for the ISOEHandler methods come from the thread-pool. Depending on the
+number of sessions, you may not want to block the stack in these callbacks. You might consider allocating
+some kind of object that is passed to a worker thread to actually write the data to disk/database.</p>
+</div>
+<h3 id="imasterapplication">IMasterApplication</h3>
+<p>The 3rd parameter in the call to <code>AddMaster(...)</code> is a user-defined interface called <code>IMasterApplication</code>. It
+inherits from two sub-interfaces <code>ILinkListener</code> and <code>IUTCTimeSource</code> as well as adding a number of methods that are
+master specific.</p>
+<p>You can see all the methods you can override in the code documentation, but the most important ones are:</p>
+<ul>
+<li>
+<p><code>void IOnReceiveIIN(const IINField&amp; iin)</code> - Notifies you whenever an ASDU is received containing an internal indication field
+ (IIN field). This allow you to log and react to specific error bits returned by the device.</p>
+</li>
+<li>
+<p><code>void OnTaskComplete(const TaskInfo&amp; info)</code> - Tell you about tasks that are built into the master succeeding/failing. This callback
+is usually used to assess the "health" of the session.</p>
+</li>
+</ul>
+<p>The <code>ILinkListener</code> interface is also used on IOutstationApplication and is described in its own <a href="../linklayer/#ilinklistener">section</a>.</p>
+<h3 id="masterstackconfig">MasterStackConfig</h3>
+<p>The final parameter passed into <code>AddMaster(...)</code> is a configuration struct that consists of link-layer configuration
+information and static configuration that defines the masters behavior. The link-layer config is also used for outstations,
+and is described in its own <a href="../linklayer/#configuration">section</a>.</p>
+<h3 id="masterparams">MasterParams</h3>
+<p>Each of the dozen or so fields in this struct control certain automated behaviors within the master. Refer to the code documentation
+for complete descriptions. This struct controls behaviors like:</p>
+<ul>
+<li>The default response timeout</li>
+<li>Whether to perform unsolicited disable/enable on start-up</li>
+<li>Whether to perform automatic time synchronization if requested</li>
+<li>The maximum Tx/Rx ASDU size which always default to 2K as per the DNP3 specification</li>
+</ul>
+<h3 id="imaster">IMaster</h3>
+<p>When a master is added to a channel, the channel returns an <code>IMaster</code> interface. This interface provides all access to a number of operations
+on the master. Refer to the code documentation for specifics. Some examples are:</p>
+<ul>
+<li>Add periodic scans to the master like exception (Class 1/2/3) and integrity scans (Class 1/2/3/0)</li>
+<li>Scanning for specific ranges or event counts</li>
+<li>The <code>ICommandProcessor</code> sub-interface allow you to do <code>SelectBeforeOperate</code> and <code>DirectOperate</code> requests w/ CROBs and Analog Outputs</li>
+</ul>
+<h3 id="icommandprocessor">ICommandProcessor</h3>
+<p>This is a sub-interface that allows you to perform "select-before-operate" and "direct operate" commands.</p>
+<div class="codehilite"><pre><span></span><span class="k">class</span> <span class="nc">ICommandProcessor</span>
+<span class="p">{</span>
+<span class="k">public</span><span class="o">:</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="n">SelectAndOperate</span><span class="p">(...</span><span class="n">params</span><span class="p">...)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="k">virtual</span> <span class="kt">void</span> <span class="nf">DirectOperate</span><span class="p">(...</span><span class="n">params</span><span class="p">...)</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">};</span>
+</pre></div>
+
+
+<p>Opendnp3 supports multiple commands per request on both the master and the outstation, however, for convenience there are overloaded
+methods to issue a single command of each type . You can use these overloads or build a <code>CommandSet</code>, which is a collection of headers.</p>
+<div class="codehilite"><pre><span></span><span class="n">CommandSet</span> <span class="n">commands</span><span class="p">;</span>
+</pre></div>
+
+
+<p>The easiest way to define headers is to use initializer_lists, but you can also create a specific header type
+and then add entries in a loop.</p>
+<div class="codehilite"><pre><span></span><span class="c1">// CROB to be sent to two indices</span>
+<span class="n">ControlRelayOutputBlock</span> <span class="nf">crob</span><span class="p">(</span><span class="n">ControlCode</span><span class="o">::</span><span class="n">LATCH_ON</span><span class="p">);</span>
+
+<span class="c1">// Use initializer list to create a header in a single call - Send LATCH_ON to indices 0 and 1</span>
+<span class="n">commands</span><span class="p">.</span><span class="n">Add</span><span class="o">&lt;</span><span class="n">ControlRelayOutputBlock</span><span class="o">&gt;</span><span class="p">({</span> <span class="n">WithIndex</span><span class="p">(</span><span class="n">crob</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span> <span class="n">WithIndex</span><span class="p">(</span><span class="n">crob</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span> <span class="p">});</span>
+
+<span class="c1">/// Add two analog outputs to the set using the header method.</span>
+<span class="c1">/// Note that the &#39;header&#39; is captured as a reference.</span>
+<span class="k">auto</span><span class="o">&amp;</span> <span class="n">header</span> <span class="o">=</span> <span class="n">commands</span><span class="p">.</span><span class="n">StartHeader</span><span class="o">&lt;</span><span class="n">AnalogOutputInt16</span><span class="o">&gt;</span><span class="p">();</span>
+<span class="n">header</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">AnalogOutputInt16</span><span class="p">(</span><span class="mi">7</span><span class="p">),</span> <span class="mi">3</span><span class="p">);</span>
+<span class="n">header</span><span class="p">.</span><span class="n">Add</span><span class="p">(</span><span class="n">AnalogOutputInt16</span><span class="p">(</span><span class="mi">9</span><span class="p">),</span> <span class="mi">4</span><span class="p">);</span>
+</pre></div>
+
+
+<p>You pass the command set into the master using one of the ICommandProcessor methods.</p>
+<div class="codehilite"><pre><span></span><span class="n">master</span><span class="o">-&gt;</span><span class="n">SelectAndOperate</span><span class="p">(</span><span class="n">std</span><span class="o">::</span><span class="n">move</span><span class="p">(</span><span class="n">commands</span><span class="p">),</span> <span class="n">callback</span><span class="p">);</span>
+</pre></div>
+
+
+<p>The callback is a lambda expression or <code>std::function</code> that accepts <code>ICommandTaskResult</code>
+as its single argument.</p>
+<div class="codehilite"><pre><span></span><span class="nt">auto</span> <span class="nt">callback</span> <span class="o">=</span> <span class="cp">[]</span><span class="o">(</span><span class="nt">const</span> <span class="nt">ICommandTaskResult</span><span class="o">&amp;</span> <span class="nt">result</span><span class="o">)</span> <span class="nt">-</span><span class="o">&gt;</span> <span class="nt">void</span>
+<span class="p">{</span>           
+    <span class="n">std</span><span class="p">:</span><span class="o">:</span><span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;Summary: &quot;</span> <span class="o">&lt;&lt;</span> <span class="nf">TaskCompletionToString</span><span class="p">(</span><span class="n">result</span><span class="err">.</span><span class="n">summary</span><span class="p">)</span> <span class="o">&lt;&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">endl</span><span class="p">;</span>
+    <span class="err">auto</span> <span class="err">print</span> <span class="err">=</span> <span class="cp">[]</span><span class="err">(const</span> <span class="err">CommandPointResult&amp;</span> <span class="err">res)</span>
+    <span class="err">{</span>
+        <span class="n">std</span><span class="p">:</span><span class="o">:</span><span class="n">cout</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot;Header: &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">res</span><span class="o">.</span><span class="n">headerIndex</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot; Index: &quot;</span> <span class="o">&lt;&lt;</span> <span class="n">res</span><span class="o">.</span><span class="n">index</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot; State: &quot;</span> <span class="o">&lt;&lt;</span> <span class="nf">CommandPointStateToString</span><span class="p">(</span><span class="n">res</span><span class="err">.</span><span class="n">state</span><span class="p">)</span>
+            <span class="o">&lt;&lt;</span> <span class="s2">&quot; Status: &quot;</span> <span class="o">&lt;&lt;</span> <span class="nf">CommandStatusToString</span><span class="p">(</span><span class="n">res</span><span class="err">.</span><span class="n">status</span><span class="p">);</span>
+    <span class="p">}</span><span class="o">;</span>
+    <span class="nt">result</span><span class="p">.</span><span class="nc">ForeachItem</span><span class="o">(</span><span class="nt">print</span><span class="o">);</span>
+<span class="err">}</span><span class="o">;</span>
+</pre></div>
+
+
+<p>The example above prints the summary value for the task, and information about the success or failure of each of the commands you specified in the CommandSet. Since we sent 4 individual command values, the handler would print something the following on a fully successful response:</p>
+<div class="codehilite"><pre><span></span>Summary: SUCCESS
+Header: <span class="m">0</span> Index: <span class="m">0</span> State: SUCCESS Status: SUCCESS
+Header: <span class="m">0</span> Index: <span class="m">1</span> State: SUCCESS Status: SUCCESS
+Header: <span class="m">1</span> Index: <span class="m">3</span> State: SUCCESS Status: SUCCESS
+Header: <span class="m">1</span> Index: <span class="m">4</span> State: SUCCESS Status: SUCCESS
+</pre></div>
+
+
+<div class="admonition imporant">
+<p class="admonition-title">Imporant</p>
+<p>Even if the summary <code>TaskCompletion</code> value is SUCCESS, this doesn't mean that every command you sent was successful.
+It just means that the master got back some response that was parsed successfully. You must check the result for each
+command you sent individually. DNP3 allows for truncated responses if the outstation doesn't understand everything you
+sent. A possible response might be:</p>
+</div>
+<div class="codehilite"><pre><span></span>Summary: SUCCESS
+Header: <span class="m">0</span> Index: <span class="m">0</span> State: SUCCESS Status: SUCCESS
+Header: <span class="m">0</span> Index: <span class="m">1</span> State: SUCCESS Status: SUCCESS
+Header: <span class="m">1</span> Index: <span class="m">3</span> State: SUCCESS Status: NOT_SUPPORTED
+Header: <span class="m">1</span> Index: <span class="m">4</span> State: INIT Status: UNDEFINED
+</pre></div>
+
+
+<p>Note that you always get an entry for every command you specified, even if there's no response at all because the connection is down.</p>
+<div class="codehilite"><pre><span></span>Summary: FAILURE_NO_COMMS
+Header: <span class="m">0</span> Index: <span class="m">0</span> State: INIT Status: UNDEFINED
+Header: <span class="m">0</span> Index: <span class="m">1</span> State: INIT Status: UNDEFINED
+Header: <span class="m">1</span> Index: <span class="m">3</span> State: INIT Status: UNDEFINED
+Header: <span class="m">1</span> Index: <span class="m">4</span> State: INIT Status: UNDEFINED
+</pre></div>
+
+
+<p>Refer to the Doxygen docs for detailed information about each enum type:</p>
+<ul>
+<li><code>TaskCompletion</code> - The summary value for the task</li>
+<li><code>CommandPointState</code> - The various result states for each command point.</li>
+<li><code>CommandStatus</code> - The command status enumeration defined in the spec. Only valid for some states.</li>
+</ul>
+<h3 id="cleaning-up">Cleaning Up</h3>
+<p>Calls to <code>Shutdown()</code> are idempotent. The master will be permanently deleted once all references to the <code>shared_ptr&lt;IMaster&gt;</code> have been dropped.</p>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../linklayer/" title="Link-Layer" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Link-Layer
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../outstations/" title="Outstations" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Outstations
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+          <div class="md-footer-copyright__highlight">
+            Copyright Automatak LLC 2015-2020
+          </div>
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.dc02f8ce.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
