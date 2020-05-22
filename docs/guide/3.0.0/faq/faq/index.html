@@ -506,13 +506,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#unable-to-find-asiohpp" title="Unable to find asio.hpp" class="md-nav__link">
-    Unable to find asio.hpp
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#unable-to-load-dnp3clradapter-or-one-of-its-dependencies" title="Unable to load DNP3CLRAdapter or one of its dependencies" class="md-nav__link">
     Unable to load DNP3CLRAdapter or one of its dependencies
   </a>
@@ -565,13 +558,6 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#unable-to-find-asiohpp" title="Unable to find asio.hpp" class="md-nav__link">
-    Unable to find asio.hpp
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#unable-to-load-dnp3clradapter-or-one-of-its-dependencies" title="Unable to load DNP3CLRAdapter or one of its dependencies" class="md-nav__link">
     Unable to load DNP3CLRAdapter or one of its dependencies
   </a>
@@ -612,23 +598,33 @@
                 
                 
                 <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
-<h3 id="unable-to-find-asiohpp">Unable to find <code>asio.hpp</code></h3>
-<p>You need to tell CMake where the ASIO headers are located. Please review the <a href="../../build/cmake/">CMake instructions</a>.</p>
 <h3 id="unable-to-load-dnp3clradapter-or-one-of-its-dependencies">Unable to load DNP3CLRAdapter or one of its dependencies</h3>
-<p>.NET does not provide useful error messages when an assembly can't find a native dependency. The .NET
-bindings depend on the Visual C++ Runtime library for the version of Visual Studio you used to build them.</p>
-<p>These packages can be found from Microsoft by searching for "Visual Studio C++ Runtime" in your favorite search engine.</p>
-<p>You might also see this error because CLRAdapter can't find openssl (libeay32.dll / libssl32.dll) if your bindings didn't have
-these linked statically. The solution is to make sure openssl is installed in the correct system location.</p>
+<p>.NET does not provide useful error messages when an assembly can't find a native
+dependency. The .NET bindings depend on the Visual C++ Runtime library for the
+version of Visual Studio you used to build them.</p>
+<p>These packages can be found from Microsoft by searching for "Visual Studio C++
+Runtime" in your favorite search engine.</p>
+<p>You might also see this error because CLRAdapter can't find OpenSSL
+(<code>libcrypto.dll</code> / <code>libssl.dll</code>) if your bindings didn't have these linked
+statically. The solution is to make sure OpenSSL is installed in the correct
+system location.</p>
+<p>Note that older versions of OpenSSL (&lt; 1.1.0) have DLLs with different names
+(namely <code>libeay32.dll</code> and <code>ssleay32.dll</code>). These are <strong>NOT</strong> suitable for the
+3.0 version of OpenDNP3. You need OpenSSL 1.1.1 or higher.</p>
 <h3 id="my-master-and-outstation-dont-communicate">My master and outstation don't communicate</h3>
-<p>The most common mistake when configuring a master to talk to an outstation is neglecting to set the correct addresses.
-DNP3 was originally designed to communicate on a shared serial bus, so <strong>components ignore messages sent to addresses
-other than their own</strong>. Outstations expect to receive messages from a particular master, and will only respond to that
-master if both the source and destination link-layer addresses are set correctly.</p>
+<p>The most common mistake when configuring a master to talk to an outstation is
+neglecting to set the correct addresses. DNP3 was originally designed to
+communicate on a shared serial bus, so <strong>components ignore messages sent to
+addresses other than their own</strong>. Outstations expect to receive messages from a
+particular master, and will only respond to that master if both the source and
+destination link-layer addresses are set correctly.</p>
 <h3 id="master-or-outstation-doesnt-detect-an-ethernet-cable-being-unplugged">Master or Outstation doesn't detect an ethernet cable being unplugged</h3>
-<p>There is no way through the standard socket API to detect this, other than trying to write data to the socket. This means that if
-master or outstation sessions are quiescent (meaning that they don't write data periodically), you should be using the link-layer
-<a href="../../api/linklayer/#keep-alives">keep-alive feature</a> to ensure that dead/hung connections are appropriately detected.</p>
+<p>There is no way through the standard socket API to detect this, other than
+trying to write data to the socket. This means that if master or outstation
+sessions are quiescent (meaning that they don't write data periodically), you
+should be using the link-layer <a href="../../api/linklayer/#keep-alives">keep-alive
+feature</a> to ensure that dead/hung connections
+are appropriately detected.</p>
                 
                   
                 

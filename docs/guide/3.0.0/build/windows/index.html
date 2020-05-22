@@ -635,15 +635,18 @@
                 
                   <h1>Windows</h1>
                 
-                <p>On Windows, CMake is used to generate a Visual Studio Solution (SLN) and associated project files.</p>
+                <p>On Windows, CMake is used to generate a Visual Studio Solution (SLN) and
+associated project files.</p>
 <div class="codehilite"><pre><span></span>&gt; mkdir build<span class="p">;</span> <span class="nb">cd</span> build
 &gt; cmake .. &lt;options&gt;
 </pre></div>
 
 
-<p>Once you've generated your SLN, you can just open it and use Visual Studio to build the project for you just like any other project.</p>
+<p>Once you've generated your SLN, you can just open it and use Visual Studio to
+build the project for you just like any other project.</p>
 <h3 id="command-line">Command Line</h3>
-<p>Alternatively, you can just invoke msbuild.exe on the generated solution and build from the command line.</p>
+<p>Alternatively, you can just invoke msbuild.exe on the generated solution and
+build from the command line.</p>
 <div class="codehilite"><pre><span></span>&gt; msbuild opendnp3.sln
 or
 &gt; cmake --build .
@@ -651,14 +654,19 @@ or
 
 
 <h3 id="installing">Installing</h3>
-<p>CMake creates a special project called "install" that you can run inside Visual Studio to install the headers and libraries to
-the directory specified by <code>CMAKE_INSTALL_PREFIX</code>.</p>
+<p>CMake creates a special project called "install" that you can run inside Visual
+Studio to install the headers and libraries to the directory specified by
+<code>CMAKE_INSTALL_PREFIX</code>.</p>
 <h3 id="tls-support">TLS Support</h3>
-<p>If you need to build the stack w/ TLS support (or you're using the .NET bindings), then you need to install OpenSSL on Windows. Use the full
-development pacakge installers from <a href="https://slproweb.com/products/Win32OpenSSL.html">ShiningLight</a>. Cmake is able to find the openssl libraries
-and headers in the default install locations used by the installer.</p>
+<p>If you need to build the stack w/ TLS support (or you're using the .NET
+bindings), then you need to install OpenSSL on Windows. Use the full development
+package installers from
+<a href="https://slproweb.com/products/Win32OpenSSL.html">ShiningLight</a>. CMake is able
+to find the OpenSSL libraries and headers in the default install locations used
+by the installer.</p>
 <h3 id="net-bindings">.NET Bindings</h3>
-<p>By far, the easiest way to use the .NET bindings is just to install the <a href="https://www.nuget.org/packages/opendnp3">Nuget package</a> we publish:</p>
+<p>By far, the easiest way to use the .NET bindings is just to install the <a href="https://www.nuget.org/packages/opendnp3">Nuget
+package</a> we publish:</p>
 <div class="codehilite"><pre><span></span>PM&gt; Install-Package opendnp3
 </pre></div>
 
@@ -668,8 +676,16 @@ and headers in the default install locations used by the installer.</p>
 </pre></div>
 
 
+<p>You will need to have OpenSSL 1.1.1 installed on your system and available in
+your path environment.</p>
+<p>If you have an error stating "Could not load file or assembly
+'DNP3CLRAdapter.dll' or one of its dependencies. The specified module could not
+be found.", it means that OpenSSL is not installed. Make sure that
+<code>libcrypto.dll</code> and <code>libssl.dll</code> are installed and available in your path
+environment.</p>
 <h4 id="building">Building</h4>
-<p>If you need to build them from scratch, you can enable it when configuring CMake, e.g.:</p>
+<p>If you need to build them from scratch, you can enable it when configuring
+CMake, e.g.:</p>
 <div class="codehilite"><pre><span></span>&gt; cmake .. -DDNP3_DOTNET=ON
 </pre></div>
                 

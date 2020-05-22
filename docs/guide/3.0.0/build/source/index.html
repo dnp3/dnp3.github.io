@@ -581,16 +581,19 @@
                 
                   <h1>Source Tree</h1>
                 
-                <p>The core C++ library lives in <code>cpp/lib/</code>. Public headers are in <code>cpp/lib/include/opendnp3</code>.</p>
-<p>The library has no public external dependencies. ASIO is completely hidden from the public API.</p>
-<p>When building an external application on Linux without TLS support, you need only need to link against opendnp3:</p>
+                <p>The core C++ library lives in <code>cpp/lib/</code>. Public headers are in
+<code>cpp/lib/include/opendnp3</code>.</p>
+<p>The library has no public external dependencies. ASIO is completely hidden from
+the public API.</p>
+<p>When building an external application on Linux without TLS support, you need
+only need to link against opendnp3:</p>
 <div class="codehilite"><pre><span></span>-lopendnp3
 </pre></div>
 
 
 <h3 id="clr-bindings">CLR Bindings</h3>
-<p>The .NET bindings live in the <code>dotnet</code> folder. CMake can optionally generate the projects for them as part of the
-SLN file during build configuration.</p>
+<p>The .NET bindings live in the <code>dotnet</code> folder. CMake can optionally generate the
+projects for them as part of the SLN file during build configuration.</p>
 <div class="codehilite"><pre><span></span><span class="c1"># CLR bindings built using CMake</span>
 
 /dotnet
@@ -601,8 +604,8 @@ SLN file during build configuration.</p>
 
 
 <h3 id="java-bindings">Java Bindings</h3>
-<p>The java bindings live in the <code>java</code> folder. CMake can optionally generate the projects for them as part of the
-SLN or makefile during build configuration.</p>
+<p>The java bindings live in the <code>java</code> folder. CMake can optionally generate the
+projects for them as part of the SLN or Makefile during build configuration.</p>
 <div class="codehilite"><pre><span></span><span class="c1"># Java bindings built using CMake (native) and Maven (pom.xml)</span>
 
 /java  

@@ -357,8 +357,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#locating-asio" title="Locating ASIO" class="md-nav__link">
-    Locating ASIO
+  <a href="#openssl" title="OpenSSL" class="md-nav__link">
+    OpenSSL
   </a>
   
 </li>
@@ -609,8 +609,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#locating-asio" title="Locating ASIO" class="md-nav__link">
-    Locating ASIO
+  <a href="#openssl" title="OpenSSL" class="md-nav__link">
+    OpenSSL
   </a>
   
 </li>
@@ -678,13 +678,16 @@
                   <h1>CMake</h1>
                 
                 <h3 id="cmake">CMake</h3>
-<p>Opendnp3 uses a build system generator called <a href="http://www.cmake.org/">CMake</a>.  This means that the actual build files (e.g. a Makefile or Visual Studio .SLN) are generated
-from a artifact.</p>
-<p>This allows the opendnp3 project to maintain a single project file for all platforms, minimizing per-platform maintenance. CMake also integrates nicely with
-C++ IDEs like <a href="https://www.kdevelop.org/">KDevelop</a> or <a href="https://www.jetbrains.com/clion/">CLion</a>.</p>
+<p>OpenDNP3 uses a build system generator called <a href="http://www.cmake.org/">CMake</a>.
+This means that the actual build files (e.g. a Makefile or Visual Studio .SLN)
+are generated from a artifact.</p>
+<p>This allows the opendnp3 project to maintain a single project file for all
+platforms, minimizing per-platform maintenance. CMake also integrates nicely
+with C++ IDEs like <a href="https://www.kdevelop.org/">KDevelop</a> or
+<a href="https://www.jetbrains.com/clion/">CLion</a>.</p>
 <h3 id="optional-components">Optional Components</h3>
-<p>By default, CMake will not build tests, demos, or TLS support. You can enable each optional component individually by specifying
-them on the command line:</p>
+<p>By default, CMake will not build tests, demos, or TLS support. You can enable
+each optional component individually by specifying them on the command line:</p>
 <div class="codehilite"><pre><span></span>&gt; cmake -D&lt;option&gt;<span class="o">=</span>ON
 </pre></div>
 
@@ -736,75 +739,59 @@ them on the command line:</p>
 </pre></div>
 
 
-<h3 id="locating-asio">Locating ASIO</h3>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>ASIO has made breaking changes in recent releases to tracking the emerging C++ networking API standardizations. 
-Using the version of ASIO tagged in the git submodule ensures you always are on a compatible version. OpenDNP3 is
-currently using <strong>ASIO v1.16</strong>.</p>
-</div>
-<p>The included sub-folder of the ASIO distribution (the folder that contains 'asio.hpp') needs to be on your include path, but there are several ways you can do this.
-You can choose the option that makes the most sense your particular build environment. CMake will try the following things in order to locate your ASIO.</p>
-<p>1) Look to see if you checked out ASIO as a git submodule when cloning opendnp3</p>
-<div class="codehilite"><pre><span></span>&gt; git clone --recursive https://github.com/automatak/dnp3.git
-</pre></div>
-
-
-<p>2) look to see if the variable <code>ASIO_HOME</code> was defined via the cmake command line.</p>
-<div class="codehilite"><pre><span></span>&gt; cmake -DASIO_HOME<span class="o">=</span>C:/libs/asio/include
-</pre></div>
-
-
-<p>3) Check if <code>ASIO_HOME</code> is defined as an environment variable.</p>
-<p>For instance, on Windows you might define your environment variable to look like this.</p>
-<div class="codehilite"><pre><span></span><span class="nv">ASIO_HOME</span><span class="o">=</span>C:/libs/asio/include
-</pre></div>
-
-
-<p>On Ubuntu Linux, you might add a line to ~/.bashrc as follows:</p>
-<div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">ASIO_HOME</span><span class="o">=</span>~/asio/include
-</pre></div>
-
-
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>If CMake can't find ASIO using one of the mechanisms above, it will just assume the headers are installed on the system.
-No checks are performed, so the build will fail is this isn't true</p>
-</div>
+<h3 id="openssl">OpenSSL</h3>
+<p>When compiling with <code>DNP3_TLS</code> set, you must have OpenSSL &gt;= 1.1.1 installed on
+your system. The <code>libcrypto.dll|so</code> and <code>libssl.dll|so</code> must also be available
+in your path.</p>
+<p>On Windows, the easiest way is to download the precompiled binaries available
+here at <a href="https://slproweb.com/products/Win32OpenSSL.html">ShiningLight</a>. For
+building OpenDNP3, you will need the full version of the target architecture.
+For simply executing an application, you can only download the "light" version.</p>
+<p>On Unix systems, use the package manager to install the developer version of
+OpenSSL. On Debian-based distribution, run <code>sudo apt-get install libssl-dev</code>
+(you will need <code>buster</code> or higher).</p>
 <h3 id="build-options">Build Options</h3>
-<p>Most of command-line options you can feed to CMake to generate your build environment are platform-independent.  This documentation can't tell you everything that
-CMake can do. We only document some of the more common flags here for your convenience. All of the following examples assume an out-of-source build folder in a
-sibling directory to the opendnp3 distribution.</p>
+<p>Most of command-line options you can feed to CMake to generate your build
+environment are platform-independent. This documentation can't tell you
+everything that CMake can do. We only document some of the more common flags
+here for your convenience. All of the following examples assume an out-of-source
+build folder in a sibling directory to the opendnp3 distribution.</p>
 <h4 id="static-vs-dynamic-linking">Static vs Dynamic Linking</h4>
-<p>You can switch between building static or dynamic linking using the STATICLIBS flag. Note that this flag is provided by the project and is not a CMake flag.</p>
+<p>You can switch between building static or dynamic linking using the
+<code>DNP3_STATIC_LIBS</code> flag. Note that this flag is provided by the project and is
+not a CMake flag.</p>
 <p>On Windows, static libs are the default. On Linux, dynamic libs are the default.</p>
-<div class="codehilite"><pre><span></span>&gt; cmake STATICLIBS=ON   # build static libraries
-&gt; cmake STATICLIBS=OFF  # build dynamic libraries
+<div class="codehilite"><pre><span></span>&gt; cmake DNP3_STATIC_LIBS=ON   # build static libraries
+&gt; cmake DNP3_STATIC_LIBS=OFF  # build dynamic libraries
 </pre></div>
 
 
 <h4 id="debug-vs-release">Debug vs Release</h4>
-<p>You can configure release vs debug builds using the CMAKE_BUILD_TYPE flag.
-Note that on Windows, the generated SLN contains debug and release build targets already</p>
+<p>You can configure release vs debug builds using the CMAKE_BUILD_TYPE flag. Note
+that on Windows, the generated SLN contains debug and release build targets
+already</p>
 <div class="codehilite"><pre><span></span>&gt; cmake -DCMAKE_BUILD_TYPE<span class="o">=</span>Debug
 &gt; cmake -DCMAKE_BUILD_TYPE<span class="o">=</span>Release
 </pre></div>
 
 
 <h4 id="non-default-generators">Non-default generators</h4>
-<p>By default, CMake will pick a generator to use if you don't tell it which one. You can see a list of all available generators using the help flag.</p>
+<p>By default, CMake will pick a generator to use if you don't tell it which one.
+You can see a list of all available generators using the help flag.</p>
 <div class="codehilite"><pre><span></span>&gt; cmake --help
 </pre></div>
 
 
-<p>You can then specify a specific generator, e.g. to do a full 64-bit build on Windows:</p>
+<p>You can then specify a specific generator, e.g. to do a full 64-bit build on
+Windows:</p>
 <div class="codehilite"><pre><span></span>&gt; mkdir build64
 &gt; cmake .. -DDNP3_ALL<span class="o">=</span>ON -G <span class="s2">&quot;Visual Studio 14 2015 Win64&quot;</span>
 </pre></div>
 
 
 <h4 id="setting-the-install-prefix">Setting the install prefix</h4>
-<p>If the default install location isn't where you want it to be, you can configure it using <code>CMAKE_INSTALL_PREFIX</code>.</p>
+<p>If the default install location isn't where you want it to be, you can configure
+it using <code>CMAKE_INSTALL_PREFIX</code>.</p>
 <p>On Debian-based systems this should probably be:</p>
 <div class="codehilite"><pre><span></span>&gt; cmake .. -DCMAKE_INSTALL_PREFIX<span class="o">=</span>/usr/lib
 </pre></div>

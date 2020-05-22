@@ -586,13 +586,13 @@
 <li>standard JAR file</li>
 <li>native shared library built from the C++ source</li>
 </ul>
-<div class="admonition important">
-<p class="admonition-title">Important</p>
-<p>Java 1.8 or greater is required because of features used in Java bindings</p>
-</div>
+<p>!!! important Java 1.8 or greater is required because of features used in Java
+    bindings</p>
 <h3 id="building-the-c-bindings">Building the C++ bindings</h3>
-<p>Use the '-DDNP3_JAVA=ON' option when configuring CMake. CMake will locate your JNI headers using the JAVA_HOME environment variable. The shared
-library must be installed in a system location or the path specified using the <code>system.library.path</code> JVM option.</p>
+<p>Use the '-DDNP3_JAVA=ON' option when configuring CMake. CMake will locate your
+JNI headers using the JAVA_HOME environment variable. The shared library must be
+installed in a system location or the path specified using the
+<code>system.library.path</code> JVM option.</p>
 <h3 id="building-the-jar">Building the JAR</h3>
 <p>The pure Java part of the bindings is built and installed locally using Maven:</p>
 <div class="codehilite"><pre><span></span>&gt; cd java
@@ -600,7 +600,8 @@ library must be installed in a system location or the path specified using the <
 </pre></div>
 
 
-<p>You can optionally suppress the integration tests during the build (e.g. if you don't have library installed):</p>
+<p>You can optionally suppress the integration tests during the build (e.g. if you
+don't have library installed):</p>
 <div class="codehilite"><pre><span></span>&gt; mvn install -DskipTests
 </pre></div>
 

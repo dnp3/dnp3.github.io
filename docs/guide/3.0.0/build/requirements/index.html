@@ -333,6 +333,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#cmake" title="CMake" class="md-nav__link">
+    CMake
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#asio" title="ASIO" class="md-nav__link">
     ASIO
   </a>
@@ -575,6 +582,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#cmake" title="CMake" class="md-nav__link">
+    CMake
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#asio" title="ASIO" class="md-nav__link">
     ASIO
   </a>
@@ -623,6 +637,11 @@
   steady-clock used to manage timers</li>
 <li><strong><code>variadic templates</code></strong> - used to simplify parsing routines.</li>
 </ul>
+<h3 id="cmake">CMake</h3>
+<p><a href="http://www.cmake.org/">CMake</a> is a cross-platform tool to build and test C++
+software. OpenDNP3 requires CMake 3.11 or higher to build.</p>
+<p>During the build process, it will automatically download or locate the
+dependencies required to build the library.</p>
 <h3 id="asio">ASIO</h3>
 <p><a href="https://think-async.com/Asio/">ASIO</a> is a header-only library that provides
 asynchronous I/O (ASIO). OpenDNP3 uses ASIO for several things.</p>
@@ -632,6 +651,7 @@ asynchronous I/O (ASIO). OpenDNP3 uses ASIO for several things.</p>
 <li>A multi-core event loop</li>
 <li>Abstract timers on top of <code>std::chrono</code></li>
 </ul>
+<p>This dependency is automatically fetched by CMake on compilation.</p>
 <h3 id="compilers">Compilers</h3>
 <p>The following compilers are known to work, and are tested frequently.</p>
 <ul>
