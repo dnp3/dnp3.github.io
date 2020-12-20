@@ -83,11 +83,6 @@
                       <i class="icon-white icon-book"></i>Documentation
                   </a>
               </li>
-              <li>
-                <a href="#support">
-                  <i class="icon-white icon-tag"></i> Support
-                </a>
-              </li>              
             </ul>
 
           </div>
@@ -115,37 +110,42 @@
           <div class="span9">
               <!-- Welcome
         ================================================== -->
-              <section id="welcome">
+              <section id="news">
                   <div class="page-header">
-                      <h1>
-                          Welcome
-                      </h1>
+                      <h1>News</h1>
                   </div>
-                  <div class="row-fluid">
-                      <div class="span6">
-                          <p class="lead">
-                              Opendnp3 is the de facto reference implementation of IEEE-1815 (DNP3) provided under the <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License</a>.
-                          </p>
-                      </div>
-                      <div class="span6">
-                          <p class="lead"> New: </p>
-                          <a href="https://dnp3.github.io/conformance/report.html" class="btn btn-success">Fully automated conformance tests</a>
-                      </div>
-                  </div>
-              </section>
-              <!-- Endorsements
-        ================================================== -->
-              <section id="endorsements">
-                  <div class="row-fluid">
-                      <div class="span9">
-                          <blockquote>
-                              <p class="lead blockquote" id="user-quote"></p>
-                              <a href="#" class="btn btn-primary" onclick="swapQuote()"><i class="icon-white icon-user"></i> Next Story </a>
-                          </blockquote>
 
-                      </div>
+                  <div class="row-fluid">
+                      <p class="lead">
+                          12/20/2020 - OpenDNP3 has entered a maintenance-only mode. New features are no longer being added and commercial support is only available
+                          to existing customers.
+                      </p>
+
+                      <p class="lead">
+                          Automatak has rebranded as <a href="https://stepfunc.io/">Step Function I/O</a> and is focusing on next-generation protocol libraries
+                          written in Rust. The following pages and posts explain contain useful information about this transition and our new libraries:
+                      </p>
+                      <br>
+                      <ul class="lead">
+                          <li>
+                              <a href="https://stepfunc.io/about/why-rust/">
+                                  Why Rust?
+                              </a>
+                          </li>
+                          <li>
+                              <a href="https://stepfunc.io/blog/opendnp3-retrospective/">
+                                  Blog - OpenDNP3: Retrospective
+                              </a>
+                          </li>
+                          <li>
+                              <a href="https://stepfunc.io/products/libraries/dnp3/">
+                                  DNP3 library in Rust
+                              </a>
+                          </li>
+                      </ul>
                   </div>
               </section>
+
               <!-- Features
         ================================================== -->
               <section id="features">
@@ -162,6 +162,7 @@
                       </ul>
                   </div>
               </section>
+
               <section id="quality">
                   <div class="page-header">
                       <h1>Quality</h1>
@@ -169,11 +170,8 @@
                   <div class="row-fluid">
                       <ul class="lead">
                           <li>Proven solution with many production deployments</li>
-                          <li>Unit test coverage in excess of 90%</li>
-                          <li>
-                              Industry leading <a href="http://www.automatak.com/robus">security and robustness</a>
-                          </li>
-                          <li>Type-safe API that is both safe and easy to use</li>
+                          <li>High unit test coverage</li>
+                          <li>API that is both safe and easy to use</li>
                       </ul>
                   </div>
               </section>
@@ -190,6 +188,23 @@
                   </div>
               </section>
 
+              <!-- Endorsements -->
+              <section id="endorsements">
+                  <div class="page-header">
+                      <h1>What Users Say</h1>
+                  </div>
+                  <div class="row-fluid">
+                      <div class="span9">
+                          <blockquote>
+                              <p class="lead blockquote" id="user-quote"></p>
+                              <!--<a href="#" class="btn btn-primary" onclick="swapQuote()"><i class="icon-white icon-user"></i> Next Story </a>-->
+                          </blockquote>
+
+                      </div>
+                  </div>
+              </section>
+
+              <!--
               <section id="decoder">
                   <div class="page-header">
                       <h1>Decoder</h1>
@@ -213,7 +228,9 @@ C0 C3 01 3C 02 06 3C 03 06 3C 04 06 3C 01 06 9A 12
                       </div>
                   </div>
               </section>
+              -->
 
+              <!--
                       <section id="support">
                           <div class="page-header">
                               <h1>Commercial Support</h1>
@@ -230,6 +247,7 @@ C0 C3 01 3C 02 06 3C 03 06 3C 04 06 3C 01 06 9A 12
                               </ul>
                           </div>
                       </section>
+              -->
 
                   </div>
           </div>
@@ -245,10 +263,10 @@ C0 C3 01 3C 02 06 3C 03 06 3C 04 06 3C 01 06 9A 12
             'I\'d really like to use opendnp3 instead if possible, not only because it doesn\'t cost $15k each for the master/outstation components, but because it\'s so much nicer to use!',
             'I\'m quite impressed with how robust this library is in dealing with such a horribly implemented device. It looks like I\'m going to have to have a long talk with the people that manufacture the box.',
             'From our initial prototypes our impressions are very positive; the code is well structured, easy to read and the system looks like it will scale much better.',
-            'We have found the Automatak C++ opendnp3 implementation invaluable in our DNP3 master and outstation simulations focused on cybersecurity. A single easy-to-use client can simulate either master or outstation and multiple peers can use the same compiled program to support end-to-end testing.',
+            'We have found the opendnp3 invaluable in our DNP3 master and outstation simulations focused on cybersecurity. A single easy-to-use client can simulate either master or outstation and multiple peers can use the same compiled program to support end-to-end testing.',
         ];
 
-        function swapQuote(quote) {
+        function swapQuote() {
             ++i;
             if (i >= arr.length) {
                 i = 0;
@@ -256,7 +274,10 @@ C0 C3 01 3C 02 06 3C 03 06 3C 04 06 3C 01 06 9A 12
             document.getElementById('user-quote').innerHTML = arr[i];
         };
        
-        swapQuote(arr[0]);
+        swapQuote();
+
+
+        setInterval(swapQuote, 7500);
              
     </script>
 
